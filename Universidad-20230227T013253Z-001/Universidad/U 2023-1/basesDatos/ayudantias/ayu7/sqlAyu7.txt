@@ -1,0 +1,34 @@
+--5) Mostrar todos los productos vencidos por bodega
+select bodega.codigo, count(*)
+from bodega
+inner join producto on producto.cod_bodega = bodega.cod_bodega
+where producto.fecha_vencimiento < current_date()
+
+--6) Cantidad de veces que se pidió un plato por restaurante (Y el mayor)
+select restaurante.codigo, count(*) as cantidad_platos
+from restaurante
+inner join plato on plato.cod_restaurante = restaurante.codigo
+order by cantidad_platos DESC
+limit 1;
+
+--6) Cantidad de veces que se pidió un plato por restaurante (Y el mayor)
+select *,max(veces)
+from(	
+	select *,count(*) as veces
+	from restaurante
+	inner join mesa...
+	inner join comanda...
+	inner join platos_comanda...
+	left join plato...
+	left join platos_restaurante
+	group by plato.cod_codigo, restaurante.cod_restaurante
+)
+group by restaurante.cod_restaurante
+
+--8) Productos utilizados por restaurante
+select *
+from restaurante
+inner join producto_restaurante...
+inner join producto...
+where producto.fecha_salida < current_date()
+group by restaurante.cod_restaurante, productos.cod_productos

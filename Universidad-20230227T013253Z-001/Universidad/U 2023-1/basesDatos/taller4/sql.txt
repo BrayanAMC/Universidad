@@ -1,0 +1,133 @@
+CREATE TABLE departamento(
+    id_departamento SERIAL PRIMARY KEY,
+    nombre_departamento TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE estudiante(
+    id_estudiante TEXT PRIMARY KEY,
+    nombre_estudiante TEXT NOT NULL,
+    direccion TEXT NOT NULL,
+    email TEXT NOT NULL,
+    id_departamento INT NOT NULL,
+    FOREIGN KEY (id_departamento) REFERENCES departamento(id_departamento) 
+);
+
+CREATE TABLE profesor(
+    id_profesor SERIAL PRIMARY KEY,
+    nombre_profesor TEXT NOT NULL
+);
+
+CREATE TABLE curso(
+    id_curso SERIAL PRIMARY KEY,
+    titulo TEXT NOT NULL,
+    descripcion TEXT NOT NULL,
+    duracion INT NOT NULL,
+    cupo INT NOT NULL,
+    tipo TEXT NOT NULL,
+    id_departamento INT NOT NULL,
+    id_profesor INT NOT NULL,
+    FOREIGN KEY (id_departamento) REFERENCES departamento(id_departamento), 
+    FOREIGN KEY (id_profesor) REFERENCES profesor(id_profesor) 
+);
+
+
+CREATE TABLE prerequisito(
+	id_prerequisito serial,
+	id_curso int not null,
+	id_curso_pre int not null,
+	PRIMARY KEY (id_prerequisito),
+	FOREIGN KEY (id_curso) REFERENCES curso(id_curso),
+	FOREIGN KEY (id_curso_pre) REFERENCES curso(id_curso)
+);
+
+CREATE TABLE historial(
+	id_historial serial,
+	calificacion decimal not null,
+	id_estudiante text not null,
+	id_curso int not null,
+	PRIMARY KEY (id_historial),
+	FOREIGN KEY (id_estudiante) REFERENCES estudiante(id_estudiante),
+	FOREIGN KEY (id_curso) REFERENCES curso(id_curso)
+);
+
+CREATE TABLE planestudio(
+	id_plan_estudio serial,
+	id_estudiante text not null,
+	PRIMARY KEY (id_plan_estudio),
+	FOREIGN KEY (id_estudiante) REFERENCES estudiante(id_estudiante)
+);
+
+CREATE TABLE cursoplan(
+	id_curso_plan serial,
+	id_curso int not null,
+	id_plan_estudio int not null,
+	PRIMARY KEY (id_curso_plan),
+	FOREIGN KEY (id_curso) REFERENCES curso(id_curso),
+	FOREIGN KEY (id_plan_estudio) REFERENCES planestudio(id_plan_estudio)
+);
+
+
+
+insert into departamento(nombre_departamento)
+values('ingenieria')
+insert into departamento(nombre_departamento)
+values('medicina')
+insert into departamento(nombre_departamento)
+values('ciencias empresariales')
+select * from departamento
+
+insert into estudiante(id_estudiante,nombre_estudiante, direccion,email,id_departamento)
+values('1', 'pepito', 'avenida 01', 'pepito@una.cl', 1)
+insert into estudiante(id_estudiante,nombre_estudiante, direccion,email,id_departamento)
+values('2', 'maria', 'avenida 02', 'maria@una.cl', 2)
+insert into estudiante(id_estudiante,nombre_estudiante, direccion,email,id_departamento)
+values('3', 'juan', 'avenida 03', 'juan@una.cl', 3)
+
+insert into profesor(nombre_profesor)
+values('oscar')
+insert into profesor(nombre_profesor)
+values('damian')
+insert into profesor(nombre_profesor)
+values('marcela')
+select * from profesor
+
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('calculo III', 'curso de ciclo basico', 2, 25, 1, 1, 1)
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('calculo II', 'curso de ciclo basico', 2, 30, 1, 1, 1)
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('medicina intro', 'curso de ciclo basico', 2, 30, 1, 2, 2)
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('medicina preintro', 'curso de ciclo basico', 2, 30, 1, 2, 2)
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('ingeco', 'curso de ciclo basico', 1, 20, 1, 3, 3)
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('intro ciencias economicas', 'curso de ciclo basico', 3, 24, 1, 3, 2)
+
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('base de datos', 'curso de ciclo profesional', 3, 50, 1, 1, 1)
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('estructura de datos', 'curso de ciclo profesional', 1, 33, 1, 1, 3)
+select * from curso
+
+insert into prerequisito(id_curso, id_curso_pre)
+values(1, 5)
+insert into prerequisito(id_curso, id_curso_pre)
+values(2, 6)
+insert into prerequisito(id_curso, id_curso_pre)
+values(3, 7)
+insert into prerequisito(id_curso, id_curso_pre)
+values(4, 1)
+insert into prerequisito(id_curso, id_curso_pre)
+values(4, 8)
+
+
+
+
+
+
+
+
+
+
+

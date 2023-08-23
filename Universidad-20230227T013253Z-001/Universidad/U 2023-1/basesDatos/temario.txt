@@ -1,0 +1,8 @@
+PP1
+PP2
+
+lenguaje lp
+trigger
+indices
+CTE(common table expresion)
+transacciones

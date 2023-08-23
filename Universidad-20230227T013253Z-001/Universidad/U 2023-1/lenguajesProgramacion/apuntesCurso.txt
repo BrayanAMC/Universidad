@@ -10,3 +10,54 @@ ahora que acepte (my-let (x 3)(x+5))
   |(my-let(<id> <number>)<ExpArit>)
 
 
+05/06/23
+
+1.scope
+2.bound instance(variable enlazada)
+3.binding instance(declaracion)
+4.free instance(variable not found)
+
+'{-3{with{y 2} 2}} --> (sub (num 3) (with 'x (num 2) (num 2))) 
+
+Funciones de primer orden:
+first-class function: cuando un lenguaje soporta las funciones como valores del lenguaje(ejemplo javaScript )
+first-order function: cuando un lenguaje no soporta las funciones como valores del lenguaje(ejemplo C, java)
+
+BNF de un lenguaje que soporta funciones de primer orden
+nota1: F1WAE significa WAE con funciones de primer orden
+nota2: Esta extension no soporta la declaracion de funciones en el lenguaje(first-class functions)
+
+08/06/23
+
+Repaso de interpretes
+input--->parse-->AST--->interprete--->output
+
+binding instance
+bound instance
+free instance
+scope
+
+
+toda funcion debe tener un nombre para buscarla en esta lista de funciones:
+lista Funciones:
+((name1, parameter, body)
+(name1, parameter, body))
+
+scope cuando me meto a una funcion:scope dinamico
+scope cuando no me meto a una funcion:scope lexico
+
+substitucion aplazada(enviroments):
+	conjunto de 'cajas' emula el stack
+
+first order function = toma los valores de los parametros formales
+first class function = toma los valores de los parametros formales y ademas toma el enviroment actual (clausura)
+	
+
+
+
+
+
+
+
+
+

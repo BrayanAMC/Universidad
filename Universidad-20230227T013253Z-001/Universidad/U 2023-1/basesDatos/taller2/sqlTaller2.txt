@@ -1,0 +1,111 @@
+bcdedit /set testsigning on
+--creacion de tablas.
+
+--drop table Cliente;
+create table Cliente(
+	id_cliente integer primary key,
+	nombre_cliente text not null 
+);
+
+--drop table Conductor;
+create table Conductor(
+	id_conductor integer primary key,
+	nombre_conductor text not null,
+	telefono text unique
+);
+
+--drop table Camion;
+create table Camion(
+	id_camion integer primary key,
+	disponibilidad integer not null,
+	carga_maxima integer not null,
+	id_conductor integer,
+	foreign key(id_conductor) references Conductor(id_conductor)
+);
+
+--drop table Carga
+create table Carga(
+	id_carga integer primary key,
+	estado integer not null,
+	peso integer not null,
+	plazo_entrega date not null,
+	id_cliente integer,
+	id_camion integer,
+	foreign key(id_cliente) references Cliente(id_cliente),
+	foreign key(id_camion) references Camion(id_camion)
+);
+
+--drop table Mantencion;
+create table Mantencion(
+	id_mantencion integer primary key,
+	fecha date not null,
+	id_camion integer,
+	foreign key(id_camion) references Camion(id_camion)
+);
+
+--drop table Ruta;
+create table Ruta(
+	id_ruta integer primary key,
+	origen text not null,
+	destino text not null,
+	costo_conductor integer not null,
+	costo_combustible integer not null,
+	distancia integer not null,
+	id_camion integer,
+	foreign key(id_camion) references Camion(id_camion)
+);
+
+
+
+--poblar la base de datos con datos significativos.
+
+insert into Cliente(id_cliente, nombre_cliente) values(1,'juanito');
+insert into Cliente(id_cliente, nombre_cliente) values(2,'Pepito');
+insert into Cliente(id_cliente, nombre_cliente) values(3,'Josefa');
+
+insert into Conductor(id_conductor, nombre_conductor,telefono) values(1,'Alexander','965435867');
+insert into Conductor(id_conductor, nombre_conductor,telefono) values(2,'Diego','934879865');
+
+insert into Camion(id_camion, disponibilidad,carga_maxima, id_conductor) values(1, 1, 1500, 1);--disponibilidad 1 = camion disponible.
+insert into Camion(id_camion, disponibilidad,carga_maxima, id_conductor) values(2, 1, 1900, 2);--disponibilidad 0 = camion no disponible.
+
+insert into Carga(id_carga, estado, peso, plazo_entrega, id_cliente, id_camion)
+values(1, 1, 20, '2023-04-12', 1, 1);--estado 1 = pendiente de entrega,estado 0 = estrega lista.
+insert into Carga(id_carga, estado, peso, plazo_entrega, id_cliente, id_camion)
+values(2, 1, 100, '2023-04-25', 2, 1);
+insert into Carga(id_carga, estado, peso, plazo_entrega, id_cliente, id_camion)
+values(3, 1, 500, '2023-05-14', 1, 2);
+
+insert into Mantencion(id_mantencion, fecha, id_camion) values(1,'2023-05-02', 1);
+insert into Mantencion(id_mantencion, fecha, id_camion) values(2,'2023-06-03', 1);
+insert into Mantencion(id_mantencion, fecha, id_camion) values(3,'2023-05-13', 2);
+
+insert into Ruta(id_ruta, origen, destino, costo_conductor, costo_combustible, distancia, id_camion)
+values(1, 'Santiago', 'La Serena', 400000, 70000, 450, 1);
+insert into Ruta(id_ruta, origen, destino, costo_conductor, costo_combustible, distancia, id_camion)
+values(2, 'La Serena', 'Ovalle', 100000, 25000, 110, 2);
+
+
+
+
+
+
+select * from Camion c
+inner join Carga ca on c.id_camion = ca.id_camion;
+
+select id_camion, SUM(peso) from carga ca
+group by ca.id_camion;
+
+
+--1. ¿Cuántas cargas pendientes de entrega hay actualmente para cada cliente?
+select ca.id_cliente, c.nombre_cliente, COUNT(estado) as cantidad_pendientes from Carga ca
+inner join Cliente c on c.id_cliente = ca.id_cliente 
+where ca.estado = 1
+group by ca.id_cliente, c.nombre_cliente;
+
+--2. ¿Cuáles son los camiones disponibles y cuál es su capacidad de carga actual?
+select id_camion, disponibilidad, carga_maxima from Camion
+where disponibilidad = 1;
+
+
+

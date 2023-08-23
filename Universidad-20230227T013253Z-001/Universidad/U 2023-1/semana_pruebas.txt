@@ -1,0 +1,5 @@
+base datos:
+	ayudantia 8(triggers)
+lenguajes programacion:
+	alcanzar ramo
+	F1WAE

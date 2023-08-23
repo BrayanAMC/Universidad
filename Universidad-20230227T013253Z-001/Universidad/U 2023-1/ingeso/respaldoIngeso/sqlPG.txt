@@ -1,0 +1,70 @@
+create table supplier(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(100) NOT null,
+	email VARCHAR(50) NOT null,
+	phone_number VARCHAR(50) NOT null,
+	created_at timestamp,--cambiar a datetime en phpmyadmin
+	updated_at timestamp--cambiar a datetime en phpmyadmin
+);
+
+create table marca(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(100) NOT null
+);
+
+create table usuario(
+	id SERIAL PRIMARY KEY,
+	name varchar(50) not null,
+	last_name varchar(50) not null,
+	username varchar(50) not null,
+	email varchar(50) not null unique,
+	password varchar(50) not null,
+	role varchar(50) not null,
+	status  boolean, --tinyint(1)
+	created_at timestamp,--cambiar a datetime en phpmyadmin
+	updated_at timestamp--cambiar a datetime en phpmyadmin
+);	
+
+create table product(
+	id SERIAL PRIMARY KEY,
+	nombre varchar(255) not null,
+	cantidad integer not null,
+	imagen varchar(1000),
+	descripcion varchar(100),
+	fecha_ingreso timestamp,
+	fecha_actualizada timestamp,
+	id_usuario serial,
+	id_marca serial,
+	id_proveedor serial,
+	foreign key (id_usuario) references usuario(id),
+	foreign key (id_marca) references marca(id),
+	foreign key (id_proveedor) references supplier(id)
+);
+select * from marca
+insert into marca(name)
+values ('coca')
+insert into marca(name)
+values ('pepsi')
+
+select name from marca
+
+---------php myadmin----------
+create table product(
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	name varchar(255) not null,
+	cantidad integer not null,
+	imagen varchar(1000),
+	descripcion varchar(100),
+	fecha_ingreso datetime,
+	fecha_actualizada datetime,
+	id_marca int,
+	id_proveedor int,
+	foreign key (id_marca) references marca(id),
+	foreign key (id_proveedor) references supplier(id)
+);
+
+
+create table marca(
+	id int auto_increment PRIMARY KEY,
+	name VARCHAR(100) NOT null
+);

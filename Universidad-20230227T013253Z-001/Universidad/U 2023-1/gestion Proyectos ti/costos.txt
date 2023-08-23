@@ -1,0 +1,21 @@
+1) brayan maldonado	jefe proyecto		$28.000
+2) carlos delmonte	consultor rrhh		$20.000
+3) mauricio espinoza	sysadmin		$28.000
+4) carlos tapia		desarr.frontend		$28.000
+5) daniel bassano	desarr.backend		$28.000
+6) daniel zazzali	desarr.testing		$28.000
+
+docum.con resultados de tests ($3.000.000)
+plataforma capacitacion func. en la nube (3)
+reporte seleccion definitiva docente(2) yo 17 dias
+version preliminar mockup proyecto(4) yo 8 dias
+flujo proyecto definitivo(1) yo 16 dias
+manual usuario inicial(6)
+logica sistema evaluaciones backend(5)
+diseño sistema evaluacion frontend(4)
+implementacion sistema verificacion(5)
+implementacion sistema avance porcentual(5)
+logica foro comunitario backend(5)
+diseño foro comunitario frontend(4)
+plataforma de capacitacion cargada con los cursos(3)
+contrato del servicio de la nube ($1.200.000)

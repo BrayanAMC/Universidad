@@ -1,0 +1,6 @@
+select cadena.nombre_cadena,producto.nombre_producto,marca.nombre_marca from cadena as cad 
+inner join contrato on contrato.id_cadena = cad.id_cadena
+inner join marca on marca.id_carca = contrato.id_marca
+inner join producto on producto.id_marca = marca.id_marca
+left join venta on venta.id_producto = producto.id_producto
+
