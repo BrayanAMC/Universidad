@@ -1,0 +1,8 @@
+-Proveedor por producto
+Fecha ingreso
+Fecha actualizada de ingreso de stock
+-Descripción
+-Marca
+-Búsqueda por palabra
+
+Agregar rangos de cantidad (mínima recomendada, cuando es bajo, alto, etc)

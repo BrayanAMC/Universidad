@@ -1,0 +1,116 @@
+--drop table Asistencia;
+--drop table Persona;
+--drop table Presentacion;
+--drop table Instrumento;
+
+-- 3)Generar el SQL para crear todas las tablas y sus relaciones:
+create table Persona(
+    id_persona integer Primary key,
+    nombre_persona text not null,
+    apellido text NOT NULL
+);
+
+create table Presentacion(
+    id_presentacion integer Primary Key,
+    duracion_estimada integer not null,-- la duracion es en minutos
+    duracion_real integer not null,--la duracion es en minutos
+    fecha timestamp not null unique,
+    lugar text not null,
+    publico_asistente integer not null
+);
+
+create table Instrumento(
+    id_instrumento integer Primary Key,
+    nombre_instrumento text not null
+);
+
+create table Asistencia(
+    id_presentacion integer not null,
+    id_persona integer not null,
+    id_instrumento integer,
+    primary key(id_presentacion, id_persona),
+    foreign key(id_presentacion) References Presentacion(id_presentacion),
+    foreign key(id_persona) References Persona(id_persona),
+    foreign key(id_instrumento) References Instrumento(id_instrumento)
+);
+
+--7). Generar el SQL necesario para ingresar datos representativos en su base de datos: un par de presentaciones
+--en las que participen a lo menos 5 personas, variando el instrumento de algunas de las personas.
+
+
+insert into Persona(id_persona, nombre_persona, apellido) values (1, 'Pedro', 'Tamales');
+insert into Persona(id_persona, nombre_persona, apellido) values (2, 'Juanito', 'Ortiz');
+insert into Persona(id_persona, nombre_persona, apellido) values (3, 'Maria', 'Mora');
+insert into Persona(id_persona, nombre_persona, apellido) values (4, 'Daniel', 'Carrasco');
+insert into Persona(id_persona, nombre_persona, apellido) values (5, 'Fabian', 'Maldonado');
+insert into Persona(id_persona, nombre_persona, apellido) values (6, 'Jhon', 'Lenon');
+insert into Persona(id_persona, nombre_persona, apellido) values (7, 'Mauricio', 'Copano');
+insert into Persona(id_persona, nombre_persona, apellido) values (8, 'Ricardo', 'Munizaga');
+insert into Persona(id_persona, nombre_persona, apellido) values (9, 'Alexis', 'Doro');
+
+
+
+insert into Instrumento(id_instrumento, nombre_instrumento) values (1, 'Guitarra');
+insert into Instrumento(id_instrumento, nombre_instrumento) values (2, 'Bateria');
+insert into Instrumento(id_instrumento, nombre_instrumento) values (3, 'Piano');
+insert into Instrumento(id_instrumento, nombre_instrumento) values (4, 'Contrabajo');
+
+
+insert into Presentacion(id_presentacion, duracion_estimada, duracion_real, fecha, lugar, publico_asistente) values (1, 90, 100, '2023-04-30 20:30', 'Coquimbo', 20);
+insert into Presentacion(id_presentacion, duracion_estimada, duracion_real, fecha, lugar, publico_asistente) values (2, 80, 100, '2023-04-28 20:30', 'Coquimbo', 20);
+
+drop table Asistencia;
+insert into Asistencia(id_presentacion, id_persona, id_instrumento) values (1, 1, 1);
+insert into Asistencia(id_presentacion, id_persona, id_instrumento) values (1, 2, 1);
+insert into Asistencia(id_presentacion, id_persona, id_instrumento) values (1, 3, 2);
+insert into Asistencia(id_presentacion, id_persona, id_instrumento) values (1, 4, 4);
+insert into Asistencia(id_presentacion, id_persona, id_instrumento) values (1, 5, 2);
+insert into Asistencia(id_presentacion, id_persona, id_instrumento) values (1, 6, 4);
+insert into Asistencia(id_presentacion, id_persona) values (1, 7);
+
+
+insert into Asistencia(id_presentacion, id_persona, id_instrumento) values (2, 1, 2);
+insert into Asistencia(id_presentacion, id_persona, id_instrumento) values (2, 2, 4);
+insert into Asistencia(id_presentacion, id_persona, id_instrumento) values (2, 8, 4);
+insert into Asistencia(id_presentacion, id_persona, id_instrumento) values (2, 7, 1);
+insert into Asistencia(id_presentacion, id_persona, id_instrumento) values (2, 6, 3);
+insert into Asistencia(id_presentacion, id_persona) values (2, 5);
+
+
+
+--8.a) Listar todas las presentaciones de la orquesta, indicando la fecha/hora, 
+--el lugar y su duracion real, ordenada por fecha, con la presentacion mas reciente en primer lugar.
+
+select fecha, lugar, duracion_real
+from Presentacion order by fecha desc;
+
+--8.b) Listar aquellas presentaciones en que la duracion real fue mayor a la duracion estimada en un 10%.
+select * 
+from Presentacion 
+where duracion_real > duracion_estimada *1.1;
+	
+--8.c)Listar a todas las personas, mostrando las presentaciones en las que participaron, especificando que
+--instrumento toco en cada una. Muestre incluso a las personas que son de la orquesta, pero no han
+--participado en ninguna presentacion.
+
+SELECT Persona.id_persona,Persona.nombre_persona, Asistencia.id_presentacion,Asistencia.id_instrumento
+FROM Persona
+left JOIN Asistencia ON Persona.id_persona = Asistencia.id_persona;
+
+--8.d)Listar a todas las personas que dirigieron alguna presentacion, indicando el lugar y fecha de dicha
+--presentacion.
+
+SELECT Asistencia.id_presentacion, Asistencia.id_persona,Presentacion.lugar, Presentacion.fecha
+from Asistencia 
+inner join Presentacion on Asistencia.id_presentacion = Presentacion.id_presentacion 
+and Asistencia.id_instrumento IS NULL;
+
+--8.e)Listar todos los instrumentos que participaron en la presentacion realizada el dıa 06 de Mayo de 2023
+--a las 11:30 (o alguna otra fecha/hora que si exista).
+
+select Presentacion.id_presentacion,Asistencia.id_instrumento,Instrumento.nombre_instrumento
+from Presentacion 
+--where fecha = '2023-04-30 20:30';
+inner join Asistencia on Asistencia.id_presentacion = Presentacion.id_presentacion 
+and Presentacion.fecha = '2023-04-30 20:30'
+inner join Instrumento on Instrumento.id_instrumento = Asistencia.id_instrumento;

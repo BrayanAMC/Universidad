@@ -1,0 +1,41 @@
+CREATE TABLE cliente(
+	id_cliente INTEGER PRIMARY KEY AUTOINCREMENT,
+	nombre_cliente TEXT not null
+);
+
+CREATE table conductor(
+	id_conductor INTEGER PRIMARY KEY AUTOINCREMENT,
+	nombre_conductor text not null,
+	telefono text not null
+);
+
+CREATE TABLE camion(
+	id_camion INTEGER PRIMARY key AUTOINCREMENT,
+	disponibilidad INTEGER not null,
+	carga_maxima INTEGER not null,
+	id_conductor INTEGER not null REFERENCES conductor(id_conductor)
+);
+
+CREATE TABLE carga(
+	id_carga INTEGER PRIMARY KEY AUTOINCREMENT,
+	estado INTEGER not null,
+	peso INTEGER not null,
+	plazo_entrega date not null,
+	id_cliente INTEGER not null REFERENCES cliente(id_cliente),
+	id_camion INTEGER not null REFERENCES camion(id_camion)
+);
+
+CREATE TABLE mantencion(
+	id_mantencion INTEGER PRIMARY KEY AUTOINCREMENT,
+	fecha date not null
+);
+
+CREATE TABLE ruta(
+	id_ruta INTEGER PRIMARY KEY AUTOINCREMENT,
+	origen text not null,
+	destino text not null,
+	costo_conductor INTEGER not null,
+	costo_combustible INTEGER not null,
+	distancia INTEGER not null,
+	id_camion INTEGER not null REFERENCES camion(id_camion)
+);

@@ -1,0 +1,665 @@
+-----------------------------------------
+--creacion de tablas
+-----------------------------------------
+CREATE TABLE departamento(
+    id_departamento SERIAL PRIMARY KEY,
+    nombre_departamento TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE estudiante(
+    id_estudiante TEXT PRIMARY KEY,
+    nombre_estudiante TEXT NOT NULL,
+    direccion TEXT NOT NULL,
+    email TEXT NOT NULL,
+    id_departamento INT NOT NULL,
+    FOREIGN KEY (id_departamento) REFERENCES departamento(id_departamento) 
+);
+
+CREATE TABLE profesor(
+    id_profesor SERIAL PRIMARY KEY,
+    nombre_profesor TEXT NOT NULL
+);
+
+--CON DURACIÓN SE REFIERE A LA CANTIDAD DE SEMESTRES
+CREATE TABLE curso(
+    id_curso SERIAL PRIMARY KEY,
+    titulo TEXT NOT NULL,
+    descripcion TEXT NOT NULL,
+    duracion INT NOT NULL,
+    cupo INT NOT NULL,
+    tipo TEXT NOT NULL,
+    id_departamento INT NOT NULL,
+    id_profesor INT NOT NULL,
+    FOREIGN KEY (id_departamento) REFERENCES departamento(id_departamento), 
+    FOREIGN KEY (id_profesor) REFERENCES profesor(id_profesor) 
+);
+
+
+CREATE TABLE prerequisito(
+	id_prerequisito serial,
+	id_curso int not null,
+	id_curso_pre int not null,
+	PRIMARY KEY (id_prerequisito),
+	FOREIGN KEY (id_curso) REFERENCES curso(id_curso),
+	FOREIGN KEY (id_curso_pre) REFERENCES curso(id_curso)
+);
+
+CREATE TABLE historial(
+	id_historial serial,
+	calificacion decimal not null,
+	id_estudiante text not null,
+	id_curso int not null,
+	PRIMARY KEY (id_historial),
+	FOREIGN KEY (id_estudiante) REFERENCES estudiante(id_estudiante),
+	FOREIGN KEY (id_curso) REFERENCES curso(id_curso)
+);
+
+CREATE TABLE planestudio(
+	id_plan_estudio SERIAL,
+	nombre_plan_estudio TEXT NOT NULL,
+	PRIMARY KEY (id_plan_estudio)
+);
+
+CREATE TABLE cursoplan(
+	id_curso_plan serial,
+	id_curso int not null,
+	id_plan_estudio int not null,
+	PRIMARY KEY (id_curso_plan),
+	FOREIGN KEY (id_curso) REFERENCES curso(id_curso),
+	FOREIGN KEY (id_plan_estudio) REFERENCES planestudio(id_plan_estudio)
+);
+
+CREATE TABLE planestudioestudiante(
+  id_plan_estudio_estudiante SERIAL,
+  id_planestudio INT NOT NULL,
+  id_estudiante TEXT NOT NULL,
+  PRIMARY KEY (id_plan_estudio_estudiante),
+  FOREIGN KEY (id_planestudio) REFERENCES planestudio(id_plan_estudio),
+  FOREIGN KEY (id_estudiante) REFERENCES estudiante(id_estudiante)
+  
+);
+
+--------------------------------------------
+--poblar tablas
+--------------------------------------------
+
+insert into departamento(nombre_departamento)
+values('Ingenieria');
+insert into departamento(nombre_departamento)
+values('Medicina');
+insert into departamento(nombre_departamento)
+values('Ciencias Empresariales');
+--select * from departamento;
+
+insert into estudiante(nombre_estudiante, direccion,email,id_departamento)
+values('Pepito', 'avenida 01', 'pepito@una.cl', 1);
+insert into estudiante(nombre_estudiante, direccion,email,id_departamento)
+values('Angelo', 'avenida 04', 'angelo@una.cl', 1);
+insert into estudiante(nombre_estudiante, direccion,email,id_departamento)
+values('Maria', 'avenida 02', 'maria@una.cl', 2);
+insert into estudiante(nombre_estudiante, direccion,email,id_departamento)
+values('Juan', 'avenida 03', 'juan@una.cl', 3);
+--SELECT * FROM estudiante;
+
+insert into profesor(nombre_profesor)
+values('Oscar');
+insert into profesor(nombre_profesor)
+values('Damian');
+insert into profesor(nombre_profesor)
+values('Marcela');
+--select * from profesor;
+
+
+--CON DURACIÓN SE REFIERE A LA CANTIDAD DE SEMESTRES
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('Calculo III', 'curso de ciclo basico', 2, 25, 'Regular', 1, 1);
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('Calculo II', 'curso de ciclo basico', 2, 30, 'Regular', 1, 1);
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('Medicina intro', 'curso de ciclo basico', 2, 30, 'Regular', 2, 2);
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('Medicina preintro', 'curso de ciclo basico', 2, 30, 'Regular', 2, 2);
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('Ingeco', 'curso de ciclo basico', 1, 20, 'Regular', 3, 3);
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('Intro ciencias economicas', 'curso de ciclo basico', 3, 24, 'Regular', 3, 2);
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('Base de datos', 'curso de ciclo profesional', 3, 50, 'Regular', 1, 1);
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('Estructura de datos', 'curso de ciclo profesional', 1, 33, 'Regular', 1, 3);
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('Calculo IV ', 'taller ', 1, 15, 'taller', 1, 1);
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('Preparacion fisica', 'taller ', 1, 32, 'taller', 1, 3);
+insert into curso(titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+values('Álgrabra lineal', 'curso de ciclo básico', 1, 32, 'Regular', 1, 1);
+--select * from curso;
+
+insert into prerequisito(id_curso, id_curso_pre)
+values(1, 5);
+insert into prerequisito(id_curso, id_curso_pre)
+values(2, 6);
+insert into prerequisito(id_curso, id_curso_pre)
+values(3, 7);
+insert into prerequisito(id_curso, id_curso_pre)
+values(4, 1);
+insert into prerequisito(id_curso, id_curso_pre)
+values(4, 8);
+insert into prerequisito(id_curso, id_curso_pre)
+values(9, 1);
+insert into prerequisito(id_curso, id_curso_pre)
+values(11, 1);
+
+--select * from prerequisito;
+
+
+insert into planestudio(nombre_plan_estudio)
+values('informatica_Frontend');
+insert into planestudio(nombre_plan_estudio)
+values('informatica_Backend');
+insert into planestudio(nombre_plan_estudio)
+values('medicina_Neurologia');
+insert into planestudio(nombre_plan_estudio)
+values('medicina_obtetricia');
+insert into planestudio(nombre_plan_estudio)
+values('cienciaempresariales_contador');
+insert into planestudio(nombre_plan_estudio)
+values('cienciaempresariales_asesor');
+
+--select * from planestudio;
+
+
+insert into cursoplan(id_curso, id_plan_estudio)
+values(1, 1);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(1, 2);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(2, 1);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(2, 2);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(3, 3);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(3, 4);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(4, 3);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(4, 4);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(5, 5);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(5, 6);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(6, 5);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(6, 6);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(7, 1);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(7, 2);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(8, 1);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(8, 2);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(9, 1);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(10, 1);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(11, 1);
+insert into cursoplan(id_curso, id_plan_estudio)
+values(11, 2);
+
+--select * from cursoplan;
+
+insert into planestudioestudiante(id_planestudio,id_estudiante) values(1, 'Ing-2023-1');
+insert into planestudioestudiante(id_planestudio,id_estudiante) values(1, 'CE-2023-4');
+insert into planestudioestudiante(id_planestudio,id_estudiante) values(3, 'Ing-2023-2');
+insert into planestudioestudiante(id_planestudio,id_estudiante) values(5, 'Med-2023-3');
+
+--select * from planestudioestudiante;
+
+insert into historial(calificacion, id_estudiante, id_curso) values(6.1, 'Ing-2023-1', 1);
+insert into historial(calificacion, id_estudiante, id_curso) values(5.2, 'Ing-2023-1', 2);
+insert into historial(calificacion, id_estudiante, id_curso) values(4.6, 'Ing-2023-1', 8);
+insert into historial(calificacion, id_estudiante, id_curso) values(4.4, 'Ing-2023-2', 3);
+insert into historial(calificacion, id_estudiante, id_curso) values(5.4, 'Ing-2023-2', 4);
+insert into historial(calificacion, id_estudiante, id_curso) values(4.1, 'Med-2023-3', 5);
+insert into historial(calificacion, id_estudiante, id_curso) values(5.9, 'Med-2023-3', 6);
+insert into historial(calificacion, id_estudiante, id_curso) values(7.0, 'Ing-2023-1', 9);
+insert into historial(calificacion, id_estudiante, id_curso) values(4.1, 'CE-2023-4', 1);
+insert into historial(calificacion, id_estudiante, id_curso) values(6.3, 'CE-2023-4', 2);
+insert into historial(calificacion, id_estudiante, id_curso) values(2.3, 'Ing-2023-1', 11);
+
+--select * from historial;
+
+--------------------------------------------
+---- FUNCTION OR PROCEDURES --
+--------------------------------------------
+
+
+-- //// 1  //// --
+
+-- Create a function to insert estudiante data
+CREATE OR REPLACE FUNCTION insert_estudiante_data(
+	estudiante_id TEXT,
+  estudiante_nombre TEXT,
+  estudiante_direccion TEXT,
+  estudiante_email TEXT,
+  id_departamento INT
+)
+RETURNS VOID AS $$
+BEGIN
+    INSERT INTO estudiante (id_estudiante,nombre_estudiante, direccion, email, id_departamento)
+    VALUES (estudiante_id,estudiante_nombre, estudiante_direccion, estudiante_email, id_departamento);
+    
+        
+END;
+$$ LANGUAGE plpgsql;
+
+-----prueba 1-------
+SELECT insert_estudiante_data('0','Ditta','Avenida 05','Ditta@una.cl',1);
+SELECT insert_estudiante_data('0','Ditto','Avenida 05','Ditto@una.cl',2);
+--------------------
+
+-- //// 2 //// --
+CREATE OR REPLACE FUNCTION insert_curso_data(
+    curso_titulo TEXT,
+    curso_descripcion TEXT,
+    curso_duracion INT,
+    curso_cupo INT,
+    curso_tipo TEXT,
+    id_departamento INT,
+    id_profesor INT
+)
+RETURNS VOID AS $$
+BEGIN
+    -- Insert the curso data into the curso table
+    INSERT INTO curso (titulo, descripcion, duracion, cupo, tipo, id_departamento, id_profesor)
+    VALUES (curso_titulo, curso_descripcion, curso_duracion, curso_cupo, curso_tipo, id_departamento, id_profesor);
+    
+END;
+$$ LANGUAGE plpgsql;
+
+-----prueba 2-------
+SELECT insert_curso_data('Calculo 1', 'Clase de cálculo 1 con Invernal', 1, 20, 'Regular', 1, 2);
+SELECT insert_curso_data('Álgebra 1', 'Clase de álgebra 1 con Patito', 1, 30, 'Regular', 1, 1);
+--------------------
+
+-- //// 3 //// --
+
+CREATE OR REPLACE FUNCTION get_estudiantes_calificaciones(curso_id INT)
+  RETURNS TABLE(id_estudiante TEXT, nombre_estudiante TEXT, calificacion DECIMAL) AS $$
+BEGIN
+  RETURN QUERY
+    SELECT e.id_estudiante, e.nombre_estudiante, h.calificacion
+    FROM estudiante e
+    INNER JOIN historial h ON e.id_estudiante = h.id_estudiante
+    WHERE h.id_curso = curso_id;
+    
+  RETURN QUERY
+    SELECT  'Promedio ', 'del Curso ' || c.titulo || ' es: ', AVG(h.calificacion)
+    FROM historial h
+    INNER JOIN curso c ON c.id_curso = h.id_curso
+    WHERE h.id_curso = curso_id
+    GROUP BY c.titulo;
+END;
+$$ LANGUAGE plpgsql;
+
+-----prueba 3-------
+SELECT * FROM get_estudiantes_calificaciones(1);
+--------------------
+
+-- //// 4 //// --
+CREATE OR REPLACE FUNCTION buscar_talleres_por_departamento(depto_id INT)
+  RETURNS TABLE (
+    id_curso INT,
+    titulo TEXT,
+    cupo INT,
+    tipo TEXT,
+    id_departamento int,
+    id_profesor int
+  )
+AS $$
+BEGIN
+  RETURN QUERY
+  SELECT
+    curso.id_curso,
+    curso.titulo,
+    curso.cupo,
+    curso.tipo,
+    curso.id_departamento,
+    curso.id_profesor
+  FROM
+    curso
+    INNER JOIN departamento ON curso.id_departamento = departamento.id_departamento
+    
+  WHERE
+    departamento.id_departamento = depto_id
+    AND curso.tipo = 'taller';
+
+  RETURN;
+END;
+$$ LANGUAGE plpgsql;
+-----prueba 4-------
+select * from buscar_talleres_por_departamento(1);
+------------------
+
+-- //// 5 //// --
+
+
+CREATE OR REPLACE FUNCTION get_estudiantes_en_curso(curso_id INT)
+  RETURNS TABLE(id_estudiante TEXT, nombre_estudiante TEXT, direccion TEXT, email TEXT) AS $$
+BEGIN
+  RETURN QUERY
+    SELECT e.id_estudiante, e.nombre_estudiante, e.direccion, e.email
+    FROM estudiante e
+    INNER JOIN historial h ON e.id_estudiante = h.id_estudiante
+    WHERE h.id_curso = curso_id;
+END;
+$$ LANGUAGE plpgsql;
+
+------prueba 5)------
+SELECT * FROM get_estudiantes_en_curso(1);
+
+
+
+-- //// 6 //// --
+
+
+
+-- //// 7 //// --
+
+CREATE OR REPLACE FUNCTION eliminar_curso(curso_id INT)
+  RETURNS VOID AS $$
+BEGIN
+  
+  DELETE FROM prerequisito
+  WHERE id_curso = curso_id OR id_curso_pre = curso_id;
+  
+  DELETE FROM historial
+  WHERE id_curso = curso_id;
+  
+  DELETE FROM cursoplan
+  WHERE id_curso = curso_id;
+  
+  DELETE FROM curso
+  WHERE id_curso = curso_id;
+
+  RAISE NOTICE 'Curso eliminado correctamente';
+END;
+$$ LANGUAGE plpgsql;
+
+
+------prueba 7)------
+SELECT eliminar_curso(11);
+
+-- //// 8 //// --
+----------------------
+--a)
+----------------------
+CREATE OR REPLACE FUNCTION promedio_calificaciones_departamento()
+  RETURNS TABLE (
+    departamento TEXT,
+    promedio_calificaciones NUMERIC
+  )
+AS $$
+BEGIN
+  RETURN QUERY
+  SELECT
+    d.nombre_departamento,
+    AVG(h.calificacion)
+  FROM
+    departamento d
+    INNER JOIN curso c ON d.id_departamento = c.id_departamento
+    INNER JOIN historial h ON c.id_curso = h.id_curso
+  GROUP BY
+    d.nombre_departamento;
+
+  RETURN;
+END;
+$$ LANGUAGE plpgsql;
+
+------prueba 8a)------
+SELECT * FROM promedio_calificaciones_departamento();
+----------------------------------------------------------
+
+------------------
+--b)
+------------------
+CREATE OR REPLACE FUNCTION mejor_estudiante_departamento()
+  RETURNS TABLE (
+    departamento TEXT,
+    nombre_estudiante TEXT,
+    promedio_calificaciones NUMERIC
+  )
+AS $$
+BEGIN
+  RETURN QUERY
+  SELECT DISTINCT ON (d.nombre_departamento)
+    d.nombre_departamento,
+    e.nombre_estudiante,
+    AVG(h.calificacion)
+  FROM
+    departamento d
+    INNER JOIN estudiante e ON d.id_departamento = e.id_departamento
+    INNER JOIN historial h ON e.id_estudiante = h.id_estudiante
+  WHERE
+    h.calificacion = (
+      SELECT MAX(calificacion)
+      FROM historial
+      WHERE id_estudiante = e.id_estudiante
+    )
+  GROUP BY
+    d.nombre_departamento,
+    e.nombre_estudiante
+  ORDER BY
+    d.nombre_departamento,
+    AVG(h.calificacion) DESC;
+
+  RETURN;
+END;
+$$ LANGUAGE plpgsql;
+
+-----prueba 8b)-----
+SELECT * FROM mejor_estudiante_departamento();
+----------------------------------------------------------------
+
+--c)
+------------------
+CREATE OR REPLACE FUNCTION obtener_mejor_estudiante_a()
+RETURNS TABLE(year_prefix TEXT, best_student_estudiante TEXT, best_student_nombre TEXT, best_student_avg_grade DECIMAL) AS $$
+BEGIN
+    RETURN QUERY
+    WITH student_avg_grades AS (
+        SELECT
+            SUBSTRING(estudiante.id_estudiante FROM '\d{4}') AS student_year_prefix,
+            estudiante.id_estudiante,
+            estudiante.nombre_estudiante,
+            AVG(historial.calificacion) AS average_grade
+        FROM
+            estudiante
+            JOIN historial ON estudiante.id_estudiante = historial.id_estudiante
+            JOIN curso ON historial.id_curso = curso.id_curso
+        GROUP BY
+            student_year_prefix,
+            estudiante.id_estudiante,
+            estudiante.nombre_estudiante
+    )
+    SELECT DISTINCT ON (student_year_prefix) student_year_prefix, student_avg_grades.id_estudiante, student_avg_grades.nombre_estudiante, student_avg_grades.average_grade
+    FROM student_avg_grades
+    ORDER BY student_year_prefix, average_grade DESC;
+END;
+$$ LANGUAGE plpgsql;
+
+
+------prueba 8c)------
+SELECT * FROM obtener_mejor_estudiante_a();
+------------------
+
+--d)
+------------------
+CREATE OR REPLACE FUNCTION obtener_total_estudiantes_por_departamento()
+  RETURNS TABLE (nombre_departamento TEXT, total_estudiantes BIGINT) AS $$
+BEGIN
+  RETURN QUERY
+  SELECT d.nombre_departamento, COUNT(e.id_estudiante) AS total_estudiantes
+  FROM departamento d
+  LEFT JOIN estudiante e ON d.id_departamento = e.id_departamento
+  GROUP BY d.nombre_departamento;
+END;
+$$ LANGUAGE plpgsql;
+------prueba 8d)------
+SELECT * FROM obtener_total_estudiantes_por_departamento();
+------------------
+
+--e)
+CREATE OR REPLACE FUNCTION obtener_total_estudiantes()
+  RETURNS INTEGER AS $$
+DECLARE
+  total_estudiantes INTEGER;
+BEGIN
+  SELECT COUNT(*) INTO total_estudiantes
+  FROM estudiante;
+
+  RETURN total_estudiantes;
+END;
+$$ LANGUAGE plpgsql;
+------prueba 8e)------
+SELECT obtener_total_estudiantes();
+------------------
+
+--------------------------------------------
+---- TRIGGERS ---- algunos tienen ejemplos debajo para probarlos de inmediato.
+--------------------------------------------
+
+
+-- TRIGGER 1 --
+CREATE OR REPLACE FUNCTION validar_capacidad()
+  RETURNS TRIGGER AS $$
+BEGIN
+  IF TG_OP = 'INSERT' THEN
+    IF (SELECT COUNT(*) FROM historial WHERE id_curso = NEW.id_curso) >= (SELECT cupo FROM curso WHERE id_curso = NEW.id_curso) THEN
+      RAISE EXCEPTION 'Capacidad máxima del curso alcanzada';
+    END IF;
+  ELSIF TG_OP = 'UPDATE' THEN
+    IF (SELECT COUNT(*) FROM historial WHERE id_curso = NEW.id_curso) > (SELECT cupo FROM curso WHERE id_curso = NEW.id_curso) THEN
+      RAISE EXCEPTION 'Capacidad máxima del curso alcanzada';
+    END IF;
+  END IF;
+
+  RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER validar_capacidad_trigger
+BEFORE INSERT OR UPDATE ON historial
+FOR EACH ROW
+EXECUTE FUNCTION validar_capacidad();
+
+--Para probar con un mismo estudiante muchas veces en el curso para superar el límite. --
+insert into historial(calificacion, id_estudiante, id_curso)values(3.0, 'Ing-2023-1', 9);
+insert into historial(calificacion, id_estudiante, id_curso)values(3.1, 'Ing-2023-1', 9);
+insert into historial(calificacion, id_estudiante, id_curso)values(3.2, 'Ing-2023-1', 9);
+insert into historial(calificacion, id_estudiante, id_curso)values(3.3, 'Ing-2023-1', 9);
+insert into historial(calificacion, id_estudiante, id_curso)values(3.4, 'Ing-2023-1', 9);
+insert into historial(calificacion, id_estudiante, id_curso)values(3.5, 'Ing-2023-1', 9);
+insert into historial(calificacion, id_estudiante, id_curso)values(3.6, 'Ing-2023-1', 9);
+insert into historial(calificacion, id_estudiante, id_curso)values(3.7, 'Ing-2023-1', 9);
+insert into historial(calificacion, id_estudiante, id_curso)values(3.8, 'Ing-2023-1', 9);
+insert into historial(calificacion, id_estudiante, id_curso)values(3.9, 'Ing-2023-1', 9);
+insert into historial(calificacion, id_estudiante, id_curso)values(4.0, 'Ing-2023-1', 9);
+insert into historial(calificacion, id_estudiante, id_curso)values(4.1, 'Ing-2023-1', 9);
+insert into historial(calificacion, id_estudiante, id_curso)values(4.2, 'Ing-2023-1', 9);
+insert into historial(calificacion, id_estudiante, id_curso)values(4.3, 'Ing-2023-1', 9);
+insert into historial(calificacion, id_estudiante, id_curso)values(4.5, 'Ing-2023-1', 9);
+
+-- TRIGGER 2 --
+
+
+
+
+
+
+
+
+-- TRIGGER 3 --
+CREATE OR REPLACE FUNCTION check_requisitos_previos()
+  RETURNS TRIGGER AS $$
+DECLARE
+  total_prerequisitos INT;
+  prerequisitos_cumplidos INT;
+BEGIN
+  SELECT COUNT(*)
+  INTO total_prerequisitos
+  FROM prerequisito
+  WHERE id_curso = NEW.id_curso;
+
+  SELECT COUNT(*)
+  INTO prerequisitos_cumplidos
+  FROM prerequisito p
+  INNER JOIN cursoplan cp ON p.id_curso_pre = cp.id_curso
+  WHERE cp.id_curso = NEW.id_curso
+    AND EXISTS (
+      SELECT 1
+      FROM planestudioestudiante pe
+      WHERE pe.id_planestudio = cp.id_plan_estudio
+        AND pe.id_estudiante = NEW.id_estudiante
+    );
+
+  IF prerequisitos_cumplidos = total_prerequisitos THEN
+    RETURN NEW; -- Permitir la inserción o actualización del registro
+  ELSE
+    RAISE EXCEPTION 'El estudiante no cumple con todos los requisitos previos.';
+    RETURN NULL; -- Cancelar la inserción o actualización del registro
+  END IF;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER check_requisitos_previos
+BEFORE INSERT OR UPDATE ON historial
+FOR EACH ROW
+EXECUTE FUNCTION check_requisitos_previos();
+
+--Para probar que el estudiante no cumple con los requisitos. --
+insert into prerequisito(id_curso, id_curso_pre) values(3, 4);
+insert into historial(calificacion, id_estudiante, id_curso) values(6.0, 'CE-2023-4', 3);
+----------------
+
+-- TRIGGER 4 --
+CREATE SEQUENCE estudiante_id_sequence START 1;
+
+CREATE OR REPLACE FUNCTION generate_estudiante_id()
+    RETURNS TRIGGER AS $$
+    DECLARE
+        departamento_name TEXT;
+        departamento_abbr TEXT;
+        year_part TEXT;
+        unique_part TEXT;
+        new_id TEXT;
+    BEGIN
+        SELECT nombre_departamento,
+               CASE
+                   WHEN LENGTH(nombre_departamento) - LENGTH(REPLACE(nombre_departamento, ' ', '')) = 1 THEN
+                       CONCAT(LEFT(SPLIT_PART(nombre_departamento, ' ', 1), 1), LEFT(SPLIT_PART(nombre_departamento, ' ', 2), 1))
+                   ELSE
+                       LEFT(nombre_departamento, 3)
+               END
+        INTO departamento_name, departamento_abbr
+        FROM departamento
+        WHERE id_departamento = NEW.id_departamento;
+        
+        year_part := EXTRACT(YEAR FROM current_date)::TEXT;
+        unique_part := nextval('estudiante_id_sequence')::TEXT;
+        
+        new_id := departamento_abbr || '-' || year_part || '-' || unique_part;
+        NEW.id_estudiante := new_id;
+        
+        RETURN NEW;
+    END;
+    $$ LANGUAGE plpgsql;
+
+CREATE TRIGGER generate_estudiante_id_trigger
+    BEFORE INSERT ON estudiante
+    FOR EACH ROW
+    EXECUTE FUNCTION generate_estudiante_id();

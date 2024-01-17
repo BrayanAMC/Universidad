@@ -1,0 +1,368 @@
+--drop table persona
+--drop table especialidadmedico
+--drop table diagnostico
+--drop table atencion
+--drop table centromedico
+--drop table enfermedad
+--drop table especialidad
+--drop table medico
+--drop table paciente
+--drop table costo
+-------------------------------------------------------------------
+--Creacion tablas
+-------------------------------------------------------------------
+create table paciente(
+	id integer not null,
+	rut text not null,
+	nombre text not null,
+	apellido text not null,
+	primary key (id)
+
+);
+create table medico(
+	id integer not null,
+	rut text not null,
+	nombre text not null,
+	apellido text not null,
+	primary key (id)
+
+);
+create table centromedico(
+	id integer not null,
+	nombre text not null,
+	primary key (id)
+);
+create table especialidad(
+	id integer not null,
+	nombre text not null,
+	primary key (id)
+);
+create table enfermedad(
+	id integer not null,
+	id_especialidad integer not null,
+	nombre text not null,
+	primary key (id),
+	foreign key(id_especialidad) references especialidad(id)
+);
+create table atencion(
+	id integer not null,
+	fecha date not null,
+	id_medico integer not null,
+	id_paciente integer not null,
+	id_centroMedico integer not null,
+	primary key(id),
+	foreign key(id_medico) references medico(id),
+	foreign key(id_paciente) references paciente(id),
+	foreign key(id_centroMedico) references centromedico(id)
+);
+create table especialidadmedico(
+	id integer not null,
+	id_medico integer not null,
+	id_especialidad integer not null,
+	primary key(id),
+	foreign key(id_medico) references medico(id),
+	foreign key(id_especialidad) references especialidad(id)
+);
+create table diagnostico(
+	id integer not null,
+	id_atencion integer not null,
+	id_enfermedad integer not null,
+	primary key(id),
+	foreign key(id_atencion) references atencion(id),
+	foreign key(id_enfermedad) references enfermedad(id)
+);
+create table costo(
+	id integer not null,
+	id_especialidad integer not null,
+	rango1 date not null,
+	rango2 date not null,
+	costo integer not null,
+	primary key(id),
+	foreign key(id_especialidad) references especialidad(id)
+);
+
+
+
+-------------------------------------------------------------------
+--Poblar tablas
+-------------------------------------------------------------------
+insert into paciente(id, rut, nombre, apellido) 
+values(1, '345454654', 'nico', 'jimenez');
+insert into paciente(id, rut, nombre, apellido) 
+values(2, '295649859', 'fabricio', 'carmona');
+
+insert into medico(id, rut, nombre, apellido)
+values(1, '234354332', 'bob', 'springfield');
+insert into medico(id, rut, nombre, apellido)
+values(2, '67867673', 'veron', 'colque');
+
+insert into especialidad(id,nombre)
+values(1, 'dermatologia');
+insert into especialidad(id,nombre)
+values(2, 'oftarmologia');
+insert into especialidad(id,nombre)
+values(3, 'otorrinolaringologo');
+insert into especialidad(id,nombre)
+values(4, 'Infectología');
+
+
+insert into enfermedad(id, nombre, id_especialidad)
+values(1, 'sinusitis', 3);
+insert into enfermedad(id, nombre, id_especialidad)
+values(2, 'cancer de piel',1);
+insert into enfermedad(id, nombre, id_especialidad)
+values(3, 'sarpullido',1);
+insert into enfermedad(id, nombre, id_especialidad)
+values(4, 'cataratas',2);
+insert into enfermedad(id, nombre, id_especialidad)
+values(5, 'sida',4);
+
+insert into especialidadmedico(id, id_medico, id_especialidad)
+values(1, 1, 1);--bob es dermatologo
+insert into especialidadmedico(id, id_medico, id_especialidad)
+values(2, 1, 4);--bob es infectologo
+insert into especialidadmedico(id, id_medico, id_especialidad)
+values(4, 1, 2);--bob es oftarmologo
+insert into especialidadmedico(id, id_medico, id_especialidad)
+values(3, 2, 3);--veron es otorrino
+
+insert into costo(id, id_especialidad, rango1, rango2, costo)
+values(1, 1,'2023-01-01','2023-04-15', 24000);--dermatologia tiene un precio de 24000 en ese rango de fechas
+insert into costo(id, id_especialidad, rango1, rango2, costo)
+values(2, 1,'2023-04-16','2023-12-31', 26000);--dermatologia tiene un precio de 26000 en ese rango de fechas
+insert into costo(id, id_especialidad, rango1, rango2, costo)
+values(3, 2,'2023-01-01','2023-06-01', 30000);
+insert into costo(id, id_especialidad, rango1, rango2, costo)
+values(4, 2,'2023-06-02','2023-12-31', 35000);
+insert into costo(id, id_especialidad, rango1, rango2, costo)
+values(5, 3,'2023-01-01','2023-03-15', 20000);
+insert into costo(id, id_especialidad, rango1, rango2, costo)
+values(6, 3,'2023-03-16','2023-12-31', 22000);
+insert into costo(id, id_especialidad, rango1, rango2, costo)
+values(7, 4,'2023-01-01','2023-07-12', 32000);
+insert into costo(id, id_especialidad, rango1, rango2, costo)
+values(8, 4,'2023-07-13','2023-12-31', 35000);
+
+
+insert into centromedico(id, nombre)
+values(1, 'centroMedicoCuncunita');
+insert into centromedico(id, nombre)
+values(2, 'centroMedicoAdolfoIbañez');
+
+insert into atencion(id, fecha, id_medico, id_paciente, id_centroMedico)
+values(1, '2023-01-15', 1, 1,1);--bob atiende a nico en C.M.Cuncunita
+insert into atencion(id, fecha, id_medico, id_paciente, id_centroMedico)
+values(2, '2023-05-15', 2, 2,1);--veron atiende a fabricio en C.M.Cuncunita
+insert into atencion(id, fecha, id_medico, id_paciente, id_centroMedico)
+values(3, '2023-09-21', 1, 2,1);--veron atiende a fabricio en C.M.Cuncunita
+
+insert into diagnostico(id, id_atencion, id_enfermedad)
+values(1, 1, 4);--nico tiene cataratas
+insert into diagnostico(id, id_atencion, id_enfermedad)
+values(2, 2, 1);--fabricio tiene sinusitis
+insert into diagnostico(id, id_atencion, id_enfermedad)
+values(3, 1, 4);
+
+------------------------------------------------------------------------
+--Triggers
+------------------------------------------------------------------------
+--a) Si su modelo no lo soporta de forma natural, genere un trigger que asegure que cuando a una persona
+   --se le asigna un diagnostico, el personal m ´ edico que realiz ´ o la consulta realmente tiene la especialidad ´
+   --requerida para realizar dicho diagnostico. Genere inserts y updates para demostrar que no es posible ´
+   --ingresar datos incorrectos a la base de datos.
+
+create or replace function verificar_especialidad() returns trigger
+language plpgsql
+AS $$
+DECLARE
+    _var1 RECORD;
+    _var2 RECORD;
+    _especMed int;
+    _especEnf int;
+BEGIN
+    for _var1 in
+        select especialidadmedico.id_especialidad as especialidad
+        from (atencion
+             inner join especialidadmedico on atencion.id_medico = especialidadmedico.id_medico)
+        where atencion.id = new.id_atencion
+    loop
+        _especMed := _var1.especialidad;
+    end loop;
+    for _var2 in
+        select enfermedad.id_especialidad as especialidad
+        from enfermedad
+        where enfermedad.id = new.id_enfermedad
+    loop
+        _especEnf := _var2.especialidad;
+    end loop;
+    if(_especEnf = _especMed) THEN
+        return new;
+    else
+		RAISE EXCEPTION 'La inserción ha sido rechazada debido a diferencias de especialidades.';
+        return null;
+    end if;
+END; $$;
+
+create or replace trigger t_verificar_especialidad
+BEFORE INSERT OR UPDATE
+ON diagnostico
+for each row
+execute procedure verificar_especialidad();
+
+
+-----------ejemplo para trigger a)------------------
+insert into diagnostico(id, id_atencion, id_enfermedad)
+values(3, 2, 2);
+-------------------------------------------------   
+
+--b)Si su modelo no lo soporta de forma natural, genere un triger que impida que los montos del pago de las
+  --especialidades se solapen. Por ejemplo, si ya existe un registro que indica que del 1 de enero de 2023
+  --hasta el 15 de abril de 2023 el valor de la atencion de oftalmolog ´ ´ıa es de $24.000, entonces no se puede
+  --agregar un nuevo registro en el rango 10 de enero de 2023 hasta el 20 de marzo de 2023. Genere inserts
+  --y updates para demostrar que no es posible ingresar datos incorrectos a la base de datos.
+
+create or replace function verificar_fecha_costo() returns trigger
+language plpgsql
+AS $$
+DECLARE
+    _cont int := 0;
+BEGIN
+    select count(*) into _cont
+    from costo
+    where costo.id_especialidad = NEW.id_especialidad and NEW.rango1 BETWEEN costo.rango1 and costo.rango2 or NEW.rango2 BETWEEN costo.rango1 and costo.rango2;
+    if(_cont = 0) then
+        return new;
+    else
+		RAISE EXCEPTION 'La inserción ha sido rechazada debido a fecha ya tomada.';
+        return null;
+    end if;
+END; $$;
+
+create or replace trigger t_verificar_fecha_costo
+BEFORE INSERT OR UPDATE
+ON costo
+for each row
+execute procedure verificar_fecha_costo();
+
+-----------ejemplo para trigger b)------------------
+insert into costo(id, id_especialidad, rango1, rango2, costo)
+values(10, 1,'2024-03-02','2024-05-14', 25000);
+------------------------------------------------- 
+
+
+
+------------------------------------------------------------------------
+--Funciones
+------------------------------------------------------------------------
+--c)  Construya una funcion que retorne el valor del pago por la atenci ´ on de una especialidad en cierta fecha. ´
+    --O sea, este SQL debe funcionar:
+    --select valor_pago(’MEDICINA INTERNA’, ’2023-07-01’) as monto
+
+create or replace function valor_pago(_especialidad text, _fecha date) returns text
+language plpgsql
+AS $$
+DECLARE
+    _var RECORD;
+    _costo int;
+    _existe bool := False;
+    _res text;
+BEGIN
+    for _var in
+        select costo.costo as costo
+        from(especialidad 
+            inner join costo on especialidad.id = costo.id_especialidad)
+        where especialidad.nombre = _especialidad and costo.rango1 <= _fecha and costo.rango2 >= _fecha
+    loop
+        _existe := True;
+        _costo := _var.costo;
+    end loop;
+    if(_existe) then
+        _res := 'La especialidad '||_especialidad||' tiene un monto de $'||_costo||'';
+    else
+        _res := 'La especialidad no existe o fecha incorrecta';
+    end if;
+    return _res;
+END; $$; 
+
+-----------ejemplo para funcion------------------
+select valor_pago('dermatologia', '2023-07-02');
+-------------------------------------------------
+------------------------------------------------------------------------
+--Preguntas
+------------------------------------------------------------------------
+
+
+--d) Construya una consulta que indique la cantidad de atenciones que se realizaron en cierto rango de fechas
+--para todas las especialidades, incluyendo aquellas especialidades que no generaron ninguna atencion.
+
+SELECT especialidad.nombre AS nombre_especialidad, COUNT(atencion.id) AS cantidad_de_atenciones
+FROM especialidad
+LEFT JOIN enfermedad ON especialidad.id = enfermedad.id_especialidad
+LEFT JOIN diagnostico ON enfermedad.id = diagnostico.id_enfermedad
+LEFT JOIN atencion ON diagnostico.id_atencion = atencion.id AND atencion.fecha BETWEEN '2023-01-01' AND '2023-12-20'
+GROUP BY especialidad.nombre;
+
+--e)Por cada especialidad, muestre el personal medico que m ´ as atenciones tuvo. N ´ otese que pueden existir ´
+--varios que compartan ese maximo.
+
+WITH contador_medicos AS (
+    SELECT especialidad.nombre AS nombre_especialidad, medico.nombre AS nombre_medico, COUNT(atencion.id) AS max_cantidad_de_atenciones,
+           ROW_NUMBER() OVER (PARTITION BY especialidad.id ORDER BY COUNT(atencion.id) DESC) AS ranking
+    FROM especialidad
+    LEFT JOIN enfermedad ON especialidad.id = enfermedad.id_especialidad
+    LEFT JOIN diagnostico ON enfermedad.id = diagnostico.id_enfermedad
+    LEFT JOIN atencion ON diagnostico.id_atencion = atencion.id
+    LEFT JOIN medico ON atencion.id_medico = medico.id
+    GROUP BY especialidad.nombre, medico.nombre, especialidad.id
+)
+SELECT nombre_especialidad, nombre_medico, max_cantidad_de_atenciones
+FROM contador_medicos
+WHERE ranking = 1;
+
+--f)Construya una consulta que entregue el total de dinero pagado al personal medico, en cierto rango de ´
+--fechas determinado.
+SELECT
+  SUM(c.costo) AS total_pagado_en_rango
+FROM
+  atencion ate
+  INNER JOIN costo c ON ate.id_medico = c.id_especialidad
+WHERE
+  ate.fecha BETWEEN '2023-01-01' AND '2023-10-25';
+
+
+--g) Indique la o las personas que tuvieron la mayor cantidad de atenciones
+select *
+from (
+    select paciente.nombre as nombre, count(*) as cant_atencion
+    from atencion
+    inner join paciente on atencion.id_paciente = paciente.id
+    GROUP BY paciente.nombre
+) as tabla
+where cant_atencion = (
+    select max(cant_atencion) 
+    from (
+    select paciente.nombre as nombre, count(*) as cant_atencion
+    from atencion
+    inner join paciente on atencion.id_paciente = paciente.id
+    GROUP BY paciente.nombre) as maximo
+)
+
+--h) Indique la o las personas que tuvieron la mayor cantidad de diagnosticos.
+
+WITH contador_diagnosticos AS (
+    SELECT atencion.id_paciente, paciente.nombre AS nombre_paciente, COUNT(diagnostico.id) AS cantidad_diagnosticos,
+           RANK() OVER (ORDER BY COUNT(diagnostico.id) DESC) AS ranking
+    FROM atencion
+    LEFT JOIN diagnostico ON atencion.id = diagnostico.id_atencion
+    LEFT JOIN paciente ON atencion.id_paciente = paciente.id
+    GROUP BY atencion.id_paciente, paciente.nombre
+)
+SELECT id_paciente, nombre_paciente, cantidad_diagnosticos
+FROM contador_diagnosticos
+WHERE ranking = 1;
+
+
+
+
+
+

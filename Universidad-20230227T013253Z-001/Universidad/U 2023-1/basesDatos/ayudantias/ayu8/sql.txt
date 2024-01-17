@@ -1,0 +1,82 @@
+create or replace function actualizar_medico_area(rut text, areaTrabajo text)
+returns text
+LANGUAGE plpgsql AS $function$
+DECLARE 
+--se declaran todas las variables
+	existe boolean;
+	existe_rut text;--rut del medico
+BEGIN
+--se comienza a hacer la logica
+select rut_medico into existe_rut from usuario_medico = rut	
+if existe_rut != '' then
+	update usuario_medico set
+	nombre_area_trabajo = areaTrabajo
+	where rut_medico = rut;
+	return TRUE;
+else
+	return FAlSE;
+END IF;	
+END;
+$function$;
+
+SELECT actualizar_medico_area(rut text, areaTrabajo text)
+----------------------------------------------------------------------------
+
+CREATE OR REPLACE FUNCTION pacienteProblematico(rut varchar(20))
+RETURNS boolean
+LANGUAGE plpgsql AS $function$
+DECLARE
+--se declaran todas las variables
+	existe boolean;
+	existe_paciente text;--rut paciente
+	cantidad integer;
+	
+BEGIN
+--se comienza a hacer la logica
+select rut_paciente into existe_paciente from paciente = rut
+if existe_paciente != '' then
+	select count(*) into cantidad from atencion
+	inner join bodega on bodega.cod_medicamento = atencion.cod_medicamento
+	where rut_paciente = rutPaciente and cantidad_restante = 0;
+ 	
+
+
+
+END;
+$function$;
+-----------------------------------------------------------------------------
+create or replace function trigger_obtener_rol_admin()
+return trigger
+LANGUAGE plpgsql AS s$
+DECLARE
+	cant int;
+BEGIN
+	select count(*) into cant from usuario_medico where NEW.rut_admin = rut_medico;
+	if cant = 1 then
+		delete from atencion where rut_medico = NEW.rut_admin;
+		
+		--insert nuevo_administrador
+		return new;
+	
+	
+RETURN OLD;
+END;
+s$
+
+create trigger verificar_medico_administrador
+before insert on usuario_administrador
+for each row execute procedure trigger_obtener_rol_admin();
+
+insert into usuario_administrador('123', 'tomas', '1232', 'urgencia')
+
+
+
+
+
+
+
+
+
+
+
+

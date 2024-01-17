@@ -1,0 +1,48 @@
+select * from administrador
+insert into administrador( nombre, correo, contraseña)
+values('Carlos', 'gimnasiocarlos@gmail.com', 'CNaRa11Z');
+select * from miembro
+select * from administrador
+CREATE TABLE Administrador (
+	id SERIAL PRIMARY KEY,
+	nombre TEXT not null,
+    	correo TEXT UNIQUE,
+	contraseña TEXT not null
+);
+
+create table Clase(
+	id serial primary key,
+	nombre text not null,
+	horario text not null,
+	instructor text not null
+	
+);
+
+CREATE TABLE Miembro(
+	id SERIAL PRIMARY KEY,
+	nombre TEXT not null,
+	correo TEXT UNIQUE,
+	contraseña TEXT not null,
+	edad INT not null,
+	direccion TEXT not null,
+	telefono TEXT not null
+);
+
+create table Membresia(
+  id serial primary key,
+  tipo text not null,
+  fecha_vencimiento date not null,
+  id_Miembro serial ,
+  foreign key(id_Miembro) references Miembro(id)
+);
+
+CREATE TABLE Asistencia(
+	id SERIAL PRIMARY KEY,
+	fecha DATE not null,
+	id_miembro serial,
+	id_clase serial,
+	foreign key(id_miembro) references Miembro(id),
+	FOREIGN KEY(id_clase) references Clase(id)	
+);
+
+

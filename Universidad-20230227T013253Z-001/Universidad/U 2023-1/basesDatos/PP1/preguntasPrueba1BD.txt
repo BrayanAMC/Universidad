@@ -1,0 +1,28 @@
+
+
+
+
+4) Indique (con palabras) como su modelo no permite que una persona toque 
+mas de un instrumento en una
+presentacion.
+
+R. esto se consigue en la tabla de asistencia, se utiliza una primary key compuesta 
+con id_presentacion y id_persona para restringir y asegurar que 
+la combinacion(id_presentacion y id_persona) solo este una unica vez en la tabla 
+
+5). Indique (con palabras) como su modelo no permite que la orquesta tenga m ´ as de una presentaci ´ on al mismo ´
+tiempo.
+
+R. utilizando "Unique" en la tabla Presentacion en su atributo "fecha" 
+, con esto cada presentacion tendra una fecha unica por lo tanto no podran haber
+presentaciones en la misma fecha (entiendase fecha como año-mes-dia hora:minuto:segundo)
+
+6) ¿Es posible que su modelo no permita que la persona que esta dirigiendo la orquesta
+en una presentacion no este a la vez tocando un instrumento? ¿Como?
+
+R.Esto se consigue con la Primary Key compuesta en la tabla Asistencia al igual que en la pregunta 
+4. ya que no se puede repetir una persona en una presentacion por lo tanto la persona 
+que esta orquestando no puede repetirse en la instancia de una presentacion.
+
+nota: Para identificar quien es la persona que esta orquestando en una presentacion
+su instrumento es nulo(entiendase su id_instrumento que tiene asociado en la tabla asistencia). 

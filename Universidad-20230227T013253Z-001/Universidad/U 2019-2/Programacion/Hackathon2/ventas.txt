@@ -1,0 +1,100 @@
+valparaiso,90,16:42,septiembre
+santiago,41,11:41,noviembre
+coquimbo,16,22:3,octubre
+iquique,29,21:23,agosto
+concepcion,11,11:0,abril
+concepcion,56,14:34,agosto
+santiago,30,12:7,mayo
+temuco,77,17:41,mayo
+temuco,39,18:16,julio
+la serena,66,23:20,marzo
+santiago,100,16:16,abril
+concepcion,16,17:10,octubre
+santiago,94,21:43,noviembre
+iquique,16,10:0,junio
+santiago,100,18:8,abril
+iquique,69,8:19,septiembre
+valdivia,13,12:48,octubre
+iquique,60,21:40,agosto
+coquimbo,95,11:22,abril
+concepcion,19,11:3,marzo
+temuco,20,17:6,enero
+santiago,25,9:59,noviembre
+valdivia,58,16:33,julio
+valdivia,5,22:15,febrero
+santiago,23,20:20,mayo
+coquimbo,5,12:8,abril
+temuco,18,16:34,octubre
+valdivia,56,22:30,febrero
+valparaiso,91,18:59,enero
+concepcion,55,17:49,abril
+coquimbo,6,23:6,noviembre
+iquique,99,18:46,enero
+iquique,64,23:59,septiembre
+valparaiso,47,10:38,agosto
+concepcion,26,23:53,marzo
+valparaiso,9,19:24,enero
+temuco,52,22:28,febrero
+concepcion,27,9:25,septiembre
+temuco,61,18:57,mayo
+santiago,27,17:6,marzo
+la serena,44,12:39,mayo
+temuco,33,19:44,septiembre
+valparaiso,97,22:36,mayo
+concepcion,90,10:35,octubre
+valdivia,30,14:24,noviembre
+la serena,43,17:49,octubre
+la serena,44,11:24,agosto
+valparaiso,93,12:33,marzo
+la serena,82,23:51,mayo
+la serena,72,17:46,junio
+coquimbo,52,9:3,junio
+valdivia,50,14:38,junio
+concepcion,81,22:26,diciembre
+valdivia,12,15:57,mayo
+concepcion,59,23:13,junio
+la serena,30,8:21,abril
+temuco,39,23:10,marzo
+concepcion,35,21:33,abril
+concepcion,55,12:58,octubre
+iquique,65,23:20,diciembre
+valparaiso,62,18:51,agosto
+coquimbo,36,14:4,mayo
+valparaiso,51,11:2,diciembre
+concepcion,93,9:34,julio
+valdivia,3,12:28,julio
+santiago,37,11:56,septiembre
+coquimbo,16,16:43,diciembre
+iquique,40,15:34,mayo
+santiago,80,8:38,junio
+valparaiso,53,13:2,julio
+iquique,87,12:17,octubre
+concepcion,55,23:21,mayo
+coquimbo,77,13:10,junio
+la serena,37,18:21,diciembre
+coquimbo,42,15:44,septiembre
+concepcion,92,21:27,mayo
+concepcion,1,12:24,diciembre
+temuco,94,12:10,agosto
+valparaiso,98,17:59,octubre
+la serena,49,8:8,agosto
+iquique,96,19:42,noviembre
+valdivia,22,10:59,noviembre
+santiago,38,18:26,septiembre
+temuco,48,16:1,julio
+coquimbo,55,16:9,marzo
+valparaiso,35,10:3,agosto
+temuco,62,17:34,febrero
+valdivia,91,15:9,octubre
+temuco,76,23:58,febrero
+la serena,37,20:5,octubre
+coquimbo,70,22:29,junio
+coquimbo,60,9:17,octubre
+santiago,83,22:25,marzo
+valparaiso,76,17:23,noviembre
+iquique,29,20:24,mayo
+valdivia,49,20:1,enero
+temuco,43,13:48,abril
+temuco,35,12:5,marzo
+valdivia,59,20:3,noviembre
+coquimbo,94,9:58,enero

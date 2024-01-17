@@ -1,0 +1,67 @@
+[Caracteristicas]
+  Titulo: preparando pp
+  Tipo: Mealy
+  Nº Estados: 4
+  Nº Trans: 8
+  Vars Entrada: 1
+      E0
+  Vars Salida: 1
+      S0
+[Estados]
+  [E0]
+    Nombre: Q0
+    Coord X: 175
+    Coord Y: 118
+  [E1]
+    Nombre: Q1
+    Coord X: 386
+    Coord Y: 140
+  [E2]
+    Nombre: Q2
+    Coord X: 182
+    Coord Y: 275
+  [E3]
+    Nombre: Q3
+    Coord X: 393
+    Coord Y: 284
+[Transiciones]
+  [E0 - E1]
+    Coord X: 278
+    Coord Y: 89
+    Entrada: 1
+    Salida: 0
+  [E1 - E3]
+    Coord X: 424
+    Coord Y: 199
+    Entrada: 1
+    Salida: 0
+  [E3 - E2]
+    Coord X: 292
+    Coord Y: 315
+    Entrada: 1
+    Salida: 0
+  [E2 - E0]
+    Coord X: 126
+    Coord Y: 223
+    Entrada: 1
+    Salida: 1
+  [E1 - E0]
+    Coord X: 294
+    Coord Y: 142
+    Entrada: 0
+    Salida: 1
+  [E3 - E1]
+    Coord X: 385
+    Coord Y: 215
+    Entrada: 0
+    Salida: 0
+  [E2 - E3]
+    Coord X: 285
+    Coord Y: 274
+    Entrada: 0
+    Salida: 0
+  [E0 - E2]
+    Coord X: 182
+    Coord Y: 199
+    Entrada: 0
+    Salida: 0

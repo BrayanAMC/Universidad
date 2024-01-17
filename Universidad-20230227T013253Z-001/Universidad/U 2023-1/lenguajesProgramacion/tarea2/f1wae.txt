@@ -1,0 +1,87 @@
+#lang plai
+
+(define-type F1WAE
+  [num (n number?)]
+  [add (l F1WAE?) (r F1WAE?)]
+  [sub (l F1WAE?) (r F1WAE?)]
+  [with (name symbol?) (value F1WAE?) (body F1WAE?)]
+  [id (name symbol?)]
+  [struct (name symbol?) (fields (listof (listof symbol? F1WAE?)))]
+  [struct-field (name symbol?) (field symbol?)])
+  
+(define-type FunDef
+  [fundef (fun-name symbol?) (arg-name symbol?) (body F1WAE?)])
+
+(define struct-defs
+  (list (list "Scarlet" (list (list 'edad 25) (list 'salary 2000000)))
+        (list "MyAuto" (list (list 'antiguedad 3)))))
+
+(define (parse program)
+  (cond
+    [(number? program) (num program)]
+    [(symbol? program) (id program)]
+    [(list? program)
+     (case (first program)
+       [(+) (add (parse (second program))
+                 (parse (third program)))]
+       [(-) (sub (parse (second program))
+                 (parse (third program)))]
+       [(with) (with (first (second program))
+                     (parse (second (second program)))
+                     (parse (third program)))]
+       [(-s) (struct-field (parse (second program))
+                           (parse (third program)))]
+       [(struct) (struct (parse (second program))
+                         (parse-fields (third program)))]
+       [else (app (first program) (parse (second program)))]))])
+
+(define (parse-fields fields)
+  (cond
+    [(empty? fields) '()]
+    [else (cons (list (first (first fields))
+                      (parse (second (first fields))))
+                (parse-fields (rest fields)))]))
+
+(define (lookup-fundef fun-name fundefs)
+  (cond
+    [(empty? fundefs) (error fun-name "function not found")]
+    [else (if (symbol=? fun-name (fundef-fun-name (first fundefs)))
+              (first fundefs)
+              (lookup-fundef fun-name (rest fundefs)))]))
+
+(define (lookup-struct struct-name struct-defs)
+  (cond
+    [(empty? struct-defs) (error struct-name "structure not found")]
+    [else (if (symbol=? struct-name (first (first struct-defs)))
+              (first struct-defs)
+              (lookup-struct struct-name (rest struct-defs)))]))
+
+(define (interp ast fundefs struct-defs)
+  (type-case F1WAE ast
+    [num (n) n]
+    [add (l r) (+ (interp l fundefs struct-defs)
+                  (interp r fundefs struct-defs))]
+    [sub (l r) (- (interp l fundefs struct-defs)
+                  (interp r fundefs struct-defs))]
+    [with (name value body)
+          (interp body
+                  fundefs
+                  (cons (list name (interp value fundefs struct-defs)) struct-defs))]
+    [id (name) (cdr (assoc name struct-defs))]
+    [struct (name fields)
+            (let ([struct-def (lookup-struct name struct-defs)])
+              (interp-fields fields struct-def))]
+    [struct-field (name field)
+                  (let* ([struct-value (interp name fundefs struct-defs)]
+                         [field-value (cdr (assoc field struct-value))])
+                    (if (pair? field-value)
+                        (cdr field-value)
+                        field-value))]))
+
+(define (interp-fields fields struct-def)
+  (cond
+    [(empty? fields) '()]
+    [else (let* ([field (first (first fields))]
+                 [value (interp (second (first fields)) fundefs struct-defs)])
+            (cons (list field value)
+                  (interp-fields (rest fields) struct-def)))]))

@@ -1,0 +1,54 @@
+--drop table Cliente;
+create table Cliente(
+	id_cliente integer primary key,
+	nombre_cliente text not null 
+);
+
+--drop table Conductor;
+create table Conductor(
+	id_conductor integer primary key,
+	nombre_conductor text not null,
+	telefono text
+);
+
+--drop table Camion;
+create table Camion(
+	id_camion integer primary key,
+	disponibilidad integer not null,
+	carga_maxima integer not null,
+	id_conductor integer,
+	foreign key(id_conductor) references Conductor(id_conductor)
+);
+
+--drop table Carga
+create table Carga(
+	id_carga integer primary key,
+	estado integer not null,
+	peso integer not null,
+	plazo_entrega date not null,
+	id_cliente integer,
+	id_camion integer,
+	foreign key(id_cliente) references Cliente(id_cliente),
+	foreign key(id_camion) references Camion(id_camion)
+);
+
+--drop table Mantecion;
+create table Mantencion(
+	id_mantencion integer primary key,
+	fecha date not null,
+	id_camion integer,
+	foreign key(id_camion) references Camion(id_camion)
+);
+
+--drop table Ruta;
+create table Ruta(
+	id_ruta integer primary key,
+	origen text not null,
+	destino text not null,
+	costo_conductor integer not null,
+	costo_combustible integer not null,
+	distancia integer not null,
+	id_camion integer,
+	foreign key(id_camion) references Camion(id_camion)
+);
+

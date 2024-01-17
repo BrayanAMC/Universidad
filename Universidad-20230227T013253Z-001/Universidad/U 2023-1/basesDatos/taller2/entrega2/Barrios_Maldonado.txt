@@ -1,0 +1,149 @@
+--creacion de tablas.
+
+--drop table Cliente;
+create table Cliente(
+	id_cliente integer primary key,
+	nombre_cliente text not null 
+);
+
+--drop table Conductor;
+create table Conductor(
+	id_conductor integer primary key,
+	nombre_conductor text not null,
+	telefono text unique
+);
+
+--drop table Camion;
+create table Camion(
+	id_camion integer primary key,
+	disponibilidad integer not null,
+	carga_maxima integer not null,
+	id_conductor integer,
+	foreign key(id_conductor) references Conductor(id_conductor)
+);
+
+
+
+--drop table Mantencion;
+create table Mantencion(
+	id_mantencion integer primary key,
+	fecha date not null,
+	id_camion integer,
+	foreign key(id_camion) references Camion(id_camion)
+);
+
+--drop table Ruta;
+create table Ruta(
+	id_ruta integer primary key,
+	origen text not null,
+	destino text not null,
+	costo_conductor integer not null,
+	costo_combustible integer not null,
+	distancia integer not null,
+	id_camion integer,
+	fecha_salida date not null,
+	fecha_llegada date not null,
+	foreign key(id_camion) references Camion(id_camion)
+);
+
+--drop table Carga
+create table Carga(
+	id_carga integer primary key,
+	estado integer not null,
+	peso integer not null,
+	plazo_entrega date not null,
+	id_cliente integer,
+	id_camion integer,
+	id_ruta integer,
+	foreign key(id_cliente) references Cliente(id_cliente),
+	foreign key(id_camion) references Camion(id_camion),
+	foreign key(id_ruta) references Ruta(id_ruta)
+);
+
+
+--poblar la base de datos con datos significativos.
+
+insert into Cliente(id_cliente, nombre_cliente) values(1,'juanito');
+insert into Cliente(id_cliente, nombre_cliente) values(2,'Pepito');
+insert into Cliente(id_cliente, nombre_cliente) values(3,'Josefa');
+
+insert into Conductor(id_conductor, nombre_conductor,telefono) values(1,'Alexander','965435867');
+insert into Conductor(id_conductor, nombre_conductor,telefono) values(2,'Diego','934879865');
+
+insert into Camion(id_camion, disponibilidad,carga_maxima, id_conductor) values(1, 1, 1500, 1);--disponibilidad 1 = camion disponible.
+insert into Camion(id_camion, disponibilidad,carga_maxima, id_conductor) values(2, 1, 1900, 2);--disponibilidad 0 = camion no disponible.
+
+insert into Mantencion(id_mantencion, fecha, id_camion) values(1,'2023-05-02', 1);
+insert into Mantencion(id_mantencion, fecha, id_camion) values(2,'2023-06-03', 1);
+insert into Mantencion(id_mantencion, fecha, id_camion) values(3,'2023-05-13', 2);
+
+insert into Ruta(id_ruta, origen, destino, costo_conductor, costo_combustible, distancia, id_camion, fecha_salida,fecha_llegada)
+values(1, 'Santiago', 'La Serena', 400000, 70000, 450, 1, '2023-04-09', '2023-04-15');
+insert into Ruta(id_ruta, origen, destino, costo_conductor, costo_combustible, distancia, id_camion, fecha_salida, fecha_llegada)
+values(2, 'La Serena', 'Ovalle', 100000, 25000, 110, 2, '2023-05-10', '2023-05-13');
+insert into Ruta(id_ruta, origen, destino, costo_conductor, costo_combustible, distancia, id_camion, fecha_salida, fecha_llegada)
+values(3, 'La Serena', 'Copiapo', 300000, 78000, 470, 2, '2023-06-12', '2023-06-14');
+
+insert into Carga(id_carga, estado, peso, plazo_entrega, id_cliente, id_camion, id_ruta)
+values(1, 1, 20, '2023-04-12', 1, 1,1);--estado 1 = pendiente de entrega,estado 0 = estrega lista.
+insert into Carga(id_carga, estado, peso, plazo_entrega, id_cliente, id_camion, id_ruta)
+values(2, 1, 100, '2023-04-25', 2, 1,1);
+insert into Carga(id_carga, estado, peso, plazo_entrega, id_cliente, id_camion, id_ruta)
+values(3, 1, 200, '2023-05-14', 1, 2,2);
+insert into Carga(id_carga, estado, peso, plazo_entrega, id_cliente, id_camion, id_ruta)
+values(4, 1, 300, '2023-06-15', 1, 2,3);
+insert into Carga(id_carga, estado, peso, plazo_entrega, id_cliente, id_camion, id_ruta)
+values(5, 1, 300, '2023-06-15', 1, 2,3);
+
+
+
+--1. ¿Cuántas cargas pendientes de entrega hay actualmente para cada cliente?
+select ca.id_cliente, c.nombre_cliente, COUNT(estado) as cantidad_pendientes from Carga ca
+inner join Cliente c on c.id_cliente = ca.id_cliente 
+where ca.estado = 1
+group by ca.id_cliente, c.nombre_cliente;
+
+--2. ¿Cuáles son los camiones disponibles y cuál es su capacidad de carga actual?
+select id_camion, disponibilidad, carga_maxima from Camion
+where disponibilidad = 1;
+
+--3. ¿Cuáles son las rutas planificadas para cada camión, junto con las fechas de salida y llegada previstas?
+
+select ru.id_camion, id_ruta, fecha_salida, fecha_llegada from Ruta ru;
+--inner join camion t on t.id_camion = ru.id_camion;
+
+--4. ¿Qué conductores están asignados a cada ruta y cuál es su información de contacto?
+select d.nombre_conductor,d.id_conductor,d.telefono, ru.id_camion, id_ruta, fecha_salida, fecha_llegada from Ruta ru
+inner join camion t on t.id_camion = ru.id_camion
+inner join conductor d on d.id_conductor = t.id_conductor;
+
+--5. ¿Cuál es el peso total de las cargas asignadas a cada camión para una ruta específica?
+
+select ru.id_ruta as id_de_la_ruta, ru.origen,ru.destino,sum(peso) as peso_total from ruta ru
+inner join carga c on c.id_ruta = ru.id_ruta
+group by ru.id_ruta;
+--usar compuesta entre camion-ruta para mejorar
+
+--6. ¿Cuál es la distancia total recorrida por cada camión en una ruta específica?
+select t.id_camion as camion, ru.id_ruta as ruta,ru.distancia as distancia_en_kms from camion t
+inner join ruta ru on ru.id_camion = t.id_camion;
+
+--7. ¿Cuáles son las cargas que se entregaron tarde?
+select c.id_carga,c.plazo_entrega,ru.fecha_llegada from carga c
+inner join ruta ru on ru.id_ruta = c.id_ruta
+where c.plazo_entrega < ru.fecha_llegada;
+
+--8. ¿Cuándo se programó el último mantenimiento para cada camión?
+
+select t.id_camion, max(DATE(m.fecha)) from camion t
+inner join mantencion m on m.id_camion = t.id_camion
+group by t.id_camion;
+
+--9. ¿Cuál es el historial de entregas para un cliente específico y qué cargas se entregaron en cada entrega?
+select cl.id_cliente, c.id_carga, c.peso as peso_en_kilos from cliente cl
+inner join carga c on c.id_cliente = cl.id_cliente;
+
+--10. ¿Cuál es el costo total de transporte para cada ruta planificada, incluyendo el costo de 
+--combustible, el costo del conductor y cualquier otro costo adicional?
+
+select ru.id_ruta, (ru.costo_conductor + ru.costo_combustible) as costo_total from ruta ru;

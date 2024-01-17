@@ -1,0 +1,1000 @@
+AU Optronics Corp;$3.9B;Technology;Finance
+iPath US Treasury Steepener ETN;$3.25M;Finance;Consumer Services
+NextEra Energy, Inc.;$66.87B;Public Utilities;Consumer Non-Durables
+Silver Run Acquisition Corporation II;n/a;Finance;Miscellaneous
+Sutherland Asset Management Corporation;$471.62M;Consumer Services;n/a
+Ultrapar Participacoes S.A.;$13.07B;Public Utilities;Health Care
+Seritage Growth Properties;$2.34B;Finance;Consumer Services
+Iron Mountain Incorporated;$9.04B;Consumer Services;Finance
+TE Connectivity Ltd.;$27.94B;Consumer Non-Durables;Finance
+Acasti Pharma, Inc.;$18.98M;Health Care;Capital Goods
+Liberty Global plc;$3.5B;Consumer Services;n/a
+MarineMax, Inc.;$475.88M;Consumer Services;Health Care
+Kayne Anderson Acquisition Corp.;n/a;Finance;Consumer Services
+Odyssey Marine Exploration, Inc.;$25.92M;Consumer Services;Health Care
+Immune Design Corp.;$184.11M;Health Care;Consumer Services
+Banc of California, Inc.;n/a;n/a;Health Care
+Vanguard Total International Stock ETF;$8.57B;n/a;n/a
+Invesco Value Municipal Income Trust;$713.38M;n/a;Technology
+Blackrock Enhanced Government Fund, Inc;$86.58M;n/a;Consumer Services
+ESSA Pharma Inc.;$19.79M;Health Care;Finance
+Sonic Corp.;$1.2B;Consumer Services;Finance
+Avnet, Inc.;$4.82B;Consumer Non-Durables;n/a
+Horizons NASDAQ-100 Covered Call ETF;$19.06M;n/a;Consumer Services
+Redwood Trust, Inc.;$1.34B;Consumer Services;n/a
+Exelon Corporation;$34.34B;Public Utilities;Miscellaneous
+Norfolk Souther Corporation;$34.52B;Transportation;Consumer Non-Durables
+NAPCO Security Technologies, Inc.;$175.26M;Consumer Durables;Finance
+ProShares UltraPro Short NASDAQ Biotechnology;$6.58M;n/a;Finance
+Fortive Corporation;$22.2B;Capital Goods;Basic Industries
+Porter Bancorp, Inc.;$62.59M;Finance;Basic Industries
+Information Services Group, Inc.;$167.89M;Consumer Services;Finance
+Petroquest Energy Inc;$46.9M;Energy;Capital Goods
+FinTech Acquisition Corp. II;n/a;Finance;Finance
+Rogers Communication, Inc.;$18.93B;Consumer Services;Consumer Durables
+Civista Bancshares, Inc. ;n/a;Finance;Basic Industries
+The Gabelli Healthcare & Wellness Trust;n/a;n/a;Finance
+Taubman Centers, Inc.;$3.51B;Consumer Services;Public Utilities
+Navistar International Corporation;$2.61B;Capital Goods;n/a
+SeaChange International, Inc.;$95.04M;Technology;Technology
+Newell Brands Inc.;$26.5B;Consumer Non-Durables;Health Care
+Square, Inc.;$8.81B;Technology;Consumer Services
+BlackLine, Inc.;$1.81B;n/a;Consumer Services
+Colony NorthStar, Inc.;$7.93B;Consumer Services;n/a
+MainStay DefinedTerm Municipal Opportunities Fund;$546.13M;n/a;n/a
+Zynga Inc.;$3.17B;Technology;Consumer Services
+UFP Technologies, Inc.;$200.32M;Capital Goods;n/a
+Capitala Finance Corp.;n/a;n/a;n/a
+Magic Software Enterprises Ltd.;$349.22M;Technology;Basic Industries
+Aimmune Therapeutics, Inc.;$829.14M;Health Care;Finance
+First Trust BICK Index Fund;$153.66M;n/a;Public Utilities
+Tenet Healthcare Corporation;$1.83B;Health Care;Consumer Services
+Kimco Realty Corporation;n/a;n/a;Energy
+Sensus Healthcare, Inc.;$52.75M;Health Care;Health Care
+Alexander & Baldwin Holdings, Inc.;$2.05B;Finance;n/a
+KBR, Inc.;$2.13B;Basic Industries;n/a
+Westmoreland Coal Company;$94.06M;Energy;n/a
+GSI Technology, Inc.;$164.06M;Technology;Miscellaneous
+Modern Media Acquisition Corp.;n/a;Finance;Basic Industries
+Viking Therapeutics, Inc.;$25.84M;Health Care;Basic Industries
+Special Opportunities Fund Inc.;n/a;n/a;Finance
+Coastway Bancorp, Inc.;$91.14M;Finance;Public Utilities
+Vermillion, Inc.;$95.91M;Health Care;Public Utilities
+Constellium N.V.;$702.12M;Basic Industries;Transportation
+Ares Commercial Real Estate Corporation;$394.2M;Consumer Services;n/a
+Sotherly Hotels LP;n/a;Consumer Services;Finance
+Security National Financial Corporation;$101.28M;Finance;Health Care
+Medtronic plc;$120.57B;Health Care;Technology
+Wheeler Real Estate Investment Trust, Inc.;n/a;Consumer Services;Miscellaneous
+Cemtrex Inc.;n/a;Capital Goods;n/a
+Gabelli Utility Trust (The);n/a;n/a;Consumer Non-Durables
+OMNOVA Solutions Inc.;$393.18M;Basic Industries;Technology
+Onconova Therapeutics, Inc.;n/a;Health Care;Energy
+One Horizon Group, Inc.;$5.79M;Public Utilities;Finance
+Morgan Stanley China A Share Fund Inc.;$474.83M;n/a;n/a
+Long Island Iced Tea Corp.;$48.2M;Consumer Non-Durables;Basic Industries
+Federal Agricultural Mortgage Corporation;n/a;n/a;n/a
+Quotient Limited;$276.7M;Health Care;Energy
+CBAK Energy Technology, Inc.;$25.63M;Miscellaneous;Health Care
+Value Line, Inc.;$176.62M;Finance;Capital Goods
+Noah Holdings Ltd.;$1.51B;Finance;Finance
+Polar Power, Inc.;$47.06M;n/a;n/a
+STARWOOD PROPERTY TRUST, INC.;$5.87B;Consumer Services;Miscellaneous
+DSW Inc.;$1.4B;Consumer Services;Consumer Durables
+Syros Pharmaceuticals, Inc.;$460.25M;Health Care;Technology
+J. W. Mays, Inc.;$70.35M;Consumer Services;Energy
+Bemis Company, Inc.;$4.19B;Consumer Durables;n/a
+DXP Enterprises, Inc.;$630.7M;Capital Goods;Transportation
+Bazaarvoice, Inc.;$397.33M;Technology;n/a
+Eagle Point Credit Company Inc.;n/a;n/a;Technology
+Entergy Mississippi, Inc.;n/a;Public Utilities;Capital Goods
+Global X S&P 500 Catholic Values ETF;n/a;n/a;n/a
+Ingredion Incorporated;$8.52B;Consumer Non-Durables;Public Utilities
+Xenith Bankshares, Inc.;$738.12M;Finance;Miscellaneous
+Invesco Pennsylvania Value Municipal Income Trust;$296.68M;n/a;n/a
+SVB Financial Group;$9.39B;Finance;Finance
+Loews Corporation;$16.21B;Finance;Capital Goods
+REX American Resources Corporation;$631.93M;Basic Industries;Technology
+Global Ship Lease, Inc.;$70.38M;Transportation;Basic Industries
+Superior Industries International, Inc.;$479.46M;Capital Goods;n/a
+GGP Inc.;$21.32B;Consumer Services;Technology
+Mack-Cali Realty Corporation;$2.54B;Consumer Services;Public Utilities
+American Equity Investment Life Holding Company;$2.22B;Finance;Energy
+ABIOMED, Inc.;$6.28B;Health Care;n/a
+ProPetro Holding Corp.;$1.12B;Energy;Finance
+Lazard World Dividend & Income Fund, Inc.;$76.04M;n/a;Energy
+Pampa Energia S.A.;$4.61B;Public Utilities;Capital Goods
+SpartanNash Company;$1.03B;Consumer Non-Durables;Capital Goods
+ICICI Bank Limited;$28.43B;Finance;Finance
+Sabra Healthcare REIT, Inc.;$146.63M;Consumer Services;n/a
+Retail Properties of America, Inc.;n/a;n/a;Energy
+Ventas, Inc.;$24.67B;Consumer Services;Health Care
+Calix, Inc;$359.11M;Consumer Services;Energy
+Capital One Financial Corporation;n/a;n/a;Consumer Services
+UNIVERSAL INSURANCE HOLDINGS INC;$882.08M;Finance;Miscellaneous
+Akorn, Inc.;$4.17B;Health Care;Finance
+Bank of America Corporation;n/a;n/a;n/a
+Cabot Corporation;$3.38B;Basic Industries;Finance
+Star Gas Partners, L.P.;$596.88M;Consumer Services;Finance
+TerraForm Global, Inc.;$871.78M;Public Utilities;n/a
+ClearBridge Dividend Strategy ESG ETF;n/a;n/a;Energy
+BalckRock Taxable Municipal Bond Trust;$1.32B;n/a;Finance
+Cara Therapeutics, Inc.;$556.53M;Health Care;Consumer Durables
+Barrick Gold Corporation;$18.29B;Basic Industries;Finance
+Royal Bancshares of Pennsylvania, Inc.;$126.83M;Finance;Finance
+Telenav, Inc.;$356.44M;Capital Goods;Finance
+NOW Inc.;$1.86B;Energy;n/a
+Paratek Pharmaceuticals, Inc. ;$618.42M;Health Care;Finance
+Reliance Steel & Aluminum Co.;$5.28B;Basic Industries;Finance
+Liberty Global plc;$3.47B;Consumer Services;Consumer Services
+CIRCOR International, Inc.;$1.08B;Capital Goods;n/a
+Kimco Realty Corporation;n/a;n/a;Finance
+First Trust Nasdaq Bank ETF;$1.03B;n/a;n/a
+Vishay Precision Group, Inc.;$229.33M;Capital Goods;Health Care
+SITO Mobile, Ltd.;$71.56M;Miscellaneous;Health Care
+Principal Shareholder Yield Index ETF;$7.21M;n/a;n/a
+Chemours Company (The);$6.77B;Basic Industries;Finance
+Goldman Sachs Group, Inc. (The);n/a;n/a;Energy
+First Trust NASDAQ-100 Ex-Technology Sector Index Fund;$101.07M;n/a;Basic Industries
+RPM International Inc.;$7.43B;Basic Industries;Health Care
+Fiduciary/Claymore MLP Opportunity Fund;$446.85M;n/a;Consumer Services
+VASCO Data Security International, Inc.;$526.59M;Technology;Technology
+Ashford Hospitality Prime, Inc.;$313.01M;Consumer Services;Finance
+iShares PHLX SOX Semiconductor Sector Index Fund;$1.11B;n/a;Capital Goods
+First Trust Senior Floating Rate Income Fund II;$359.34M;n/a;Health Care
+Logitech International S.A.;$6B;Technology;Transportation
+VelocityShares Daily Inverse VIX Medium-Term ETN;$112.63M;Finance;Consumer Services
+Barrett Business Services, Inc.;$417.92M;Technology;Consumer Non-Durables
+Skyworks Solutions, Inc.;$18.8B;Technology;Public Utilities
+Essent Group Ltd.;$3.4B;Finance;n/a
+Rambus, Inc.;$1.32B;Technology;Health Care
+Bioanalytical Systems, Inc.;$13.02M;Health Care;n/a
+First Trust Asia Pacific Ex-Japan AlphaDEX Fund;$45.77M;n/a;Public Utilities
+Principal U.S. Small Cap Index ETF;$277.12M;n/a;Finance
+Argos Therapeutics, Inc.;$16.14M;Health Care;Miscellaneous
+United Bancshares, Inc.;$69.91M;Finance;Consumer Services
+Pembina Pipeline Corp.;$13.23B;Energy;Public Utilities
+Tellurian Inc.;$2.05B;Energy;Finance
+EPR Properties;$5.48B;Consumer Services;Miscellaneous
+California Water  Service Group Holding;$1.8B;Public Utilities;Health Care
+Liberty Media Corporation;$7.44B;Consumer Services;Health Care
+Waddell & Reed Financial, Inc.;$1.56B;Finance;n/a
+iPath US Treasury Long Bond Bull ETN;$5.4M;Finance;Health Care
+Workday, Inc.;$20.37B;Technology;Capital Goods
+PowerShares DWA Energy Momentum Portfolio;$94.83M;n/a;Finance
+TCF Financial Corporation;$2.72B;Finance;Consumer Services
+IPG Photonics Corporation;$7.53B;Technology;Basic Industries
+J P Morgan Chase & Co;n/a;n/a;n/a
+Nuveen Preferred and Income Term Fund;$560.06M;n/a;Consumer Services
+Therapix Biosciences Ltd.;$21.62M;Health Care;Consumer Services
+Royal Gold, Inc.;$4.9B;Basic Industries;Basic Industries
+Lifetime Brands, Inc.;$261.63M;Capital Goods;Consumer Services
+Matlin & Partners Acquisition Corporation;n/a;Finance;Basic Industries
+W.P. Carey Inc.;$7.24B;Consumer Services;Consumer Services
+Innodata Inc.;$41.4M;Technology;Finance
+Magal Security Systems Ltd.;$116.83M;Consumer Durables;Energy
+Banco Santander, S.A.;n/a;n/a;Consumer Services
+Senior Housing Properties Trust;$5.12B;Consumer Services;Health Care
+LSI Industries Inc.;$230.63M;Consumer Durables;n/a
+Approach Resources Inc.;$233.83M;Energy;Health Care
+Ability Inc.;$31.94M;Finance;Energy
+Affimed N.V.;$87.88M;Health Care;Energy
+Alaska Communications Systems Group, Inc.;$112.53M;Public Utilities;Health Care
+Azul S.A.;$6.42B;Transportation;n/a
+Park Electrochemical Corporation;$369.08M;Technology;Technology
+Nuveen Floating Rate Income Opportuntiy Fund;$461.83M;n/a;Consumer Services
+Essent Group Ltd.;$3.4B;Finance;Public Utilities
+United Rentals, Inc.;$8.89B;Technology;Consumer Services
+Virtus Global Dividend & Income Fund Inc.;$320.21M;n/a;Consumer Durables
+Capitol Federal Financial, Inc.;$1.97B;Finance;Consumer Services
+Nustar Energy L.P.;$4.21B;Energy;n/a
+Cass Information Systems, Inc;$738.7M;Miscellaneous;Finance
+Equitable Financial Corp.;$35.01M;Finance;Public Utilities
+Sohu.com Inc.;$1.77B;Technology;Consumer Services
+Nomura Holdings Inc ADR;$21.91B;Finance;Consumer Services
+Stratus Properties Inc.;$227.14M;Consumer Services;Health Care
+B Communications Ltd.;$636.64M;Consumer Services;Finance
+US Ecology, Inc.;$1.11B;Public Utilities;Consumer Services
+Comfort Systems USA, Inc.;$1.33B;Capital Goods;Basic Industries
+Hertz Global Holdings, Inc;$782.71M;Consumer Services;Health Care
+Gabelli Dividend;$1.81B;n/a;n/a
+Nucor Corporation;$17.52B;Basic Industries;Health Care
+China Natural Resources, Inc.;$51.07M;Basic Industries;Energy
+Apple Inc.;$741.77B;Technology;Basic Industries
+The First Bancshares, Inc.;$257.87M;Finance;n/a
+Total S.A.;$122.85B;Energy;Energy
+First Merchants Corporation;$1.67B;Finance;n/a
+One Horizon Group, Inc.;$5.79M;Public Utilities;n/a
+HollyFrontier Corporation;$4.66B;Energy;Miscellaneous
+Acasti Pharma, Inc.;$18.98M;Health Care;Consumer Services
+Walt Disney Company (The);$165.11B;Consumer Services;Technology
+Capricor Therapeutics, Inc.;$15.82M;Health Care;Finance
+AC Immune SA;$484.41M;Health Care;Finance
+Ever-Glory International Group, Inc.;$39.94M;Consumer Non-Durables;Consumer Services
+State Street Corporation;n/a;n/a;n/a
+JetPay Corporation;$32.74M;Finance;Finance
+Yum China Holdings, Inc.;$15.33B;Consumer Services;Consumer Services
+Planet Payment, Inc.;$164.19M;Miscellaneous;n/a
+CF Corporation;n/a;Finance;Capital Goods
+GigaMedia Limited;$33.71M;Technology;Finance
+Boingo Wireless, Inc.;$631.55M;Consumer Services;Consumer Durables
+Ion Geophysical Corporation;$50.45M;Energy;Consumer Non-Durables
+Griffin Industrial Realty, Inc.;$157.67M;Finance;Public Utilities
+Hovnanian Enterprises Inc;$340.42M;Capital Goods;Capital Goods
+Chatham Lodging Trust (REIT);$776.55M;Consumer Services;Health Care
+First Trust Latin America AlphaDEX Fund;$35.14M;n/a;n/a
+Alliance One International, Inc.;$134.83M;Consumer Services;Consumer Durables
+Pathfinder Bancorp, Inc.;$63.94M;Finance;Health Care
+Omnicell, Inc.;$1.61B;Technology;Health Care
+First Trust Multi Cap Growth AlphaDEX Fund;$98.94M;n/a;Transportation
+ASV Holdings, Inc.;$79.18M;Capital Goods;Finance
+Cellectar Biosciences, Inc.;n/a;Health Care;Basic Industries
+Albemarle Corporation;$11.97B;Basic Industries;n/a
+Boston Beer Company, Inc. (The);$1.64B;Consumer Non-Durables;n/a
+Hewlett Packard Enterprise Company;$27.09B;Technology;Finance
+Sierra Oncology, Inc.;$59.59M;Health Care;n/a
+Noah Holdings Ltd.;$1.51B;Finance;n/a
+WisdomTree Germany Hedged Equity Fund;$129.61M;n/a;Health Care
+Craft Brew Alliance, Inc.;$320.72M;Consumer Non-Durables;Consumer Non-Durables
+Capstead Mortgage Corporation;$1.06B;Consumer Services;Consumer Services
+Plumas Bancorp;$95.92M;Finance;n/a
+SeaChange International, Inc.;$95.04M;Technology;n/a
+Gladstone Land Corporation;n/a;Consumer Services;Miscellaneous
+Apple Inc.;$741.77B;Technology;Technology
+Virtus Investment Partners, Inc.;n/a;Finance;n/a
+Southern California Edison Company;n/a;n/a;Public Utilities
+Bitauto Holdings Limited;$1.91B;Technology;Health Care
+Akebia Therapeutics, Inc.;$548.36M;Health Care;Technology
+Etsy, Inc.;$1.59B;Miscellaneous;Technology
+Penumbra, Inc.;$2.84B;Health Care;n/a
+World Acceptance Corporation;$648.9M;Finance;Consumer Services
+SMTC Corporation;$22.36M;Technology;Basic Industries
+Bank of America Corporation;n/a;Finance;Consumer Services
+CONSOL Energy Inc.;$3.33B;Energy;Basic Industries
+Tsakos Energy Navigation Ltd;$366.58M;Transportation;Basic Industries
+Envestnet, Inc;$1.67B;Miscellaneous;Technology
+Triple-S Management Corporation;$403.79M;Finance;Consumer Services
+The Joint Corp.;$48.27M;Miscellaneous;n/a
+Ingles Markets, Incorporated;$687.82M;Consumer Services;Finance
+RGC Resources Inc.;$195.08M;Public Utilities;Technology
+TriCo Bancshares;$821.61M;Finance;n/a
+Seadrill Partners LLC;$301.17M;Energy;Consumer Services
+Cutera, Inc.;$323.6M;Health Care;Finance
+Qwest Corporation;n/a;Public Utilities;Technology
+DelMar Pharmaceuticals, Inc.;$24.23M;Health Care;Health Care
+Central Garden & Pet Company;$1.51B;Consumer Durables;Health Care
+First Trust;$59.41M;n/a;Consumer Services
+Bank of the Ozarks;$6.2B;Finance;Consumer Non-Durables
+Enterprise Financial Services Corporation;$965.1M;Finance;n/a
+Recon Technology, Ltd.;$10.99M;Energy;Technology
+ESSA Pharma Inc.;$19.79M;Health Care;n/a
+Apollo Commercial Real Estate Finance;$2B;Consumer Services;n/a
+WisdomTree Emerging Markets Corporate Bond Fund;$50.49M;n/a;Consumer Services
+United Bancshares, Inc.;$69.91M;Finance;Finance
+Post Holdings, Inc.;$5.25B;Consumer Non-Durables;Health Care
+Ionis Pharmaceuticals, Inc.;$6.16B;Health Care;Consumer Services
+Envision Healthcare Corporation;n/a;n/a;n/a
+Flowers Foods, Inc.;$3.7B;Consumer Non-Durables;Technology
+Renren Inc.;$420.27M;Technology;Consumer Services
+KeyCorp;n/a;n/a;Consumer Services
+Stericycle, Inc.;n/a;Basic Industries;Finance
+CABCO Series 2004-101 Trust;n/a;Finance;Technology
+Qwest Corporation;n/a;Public Utilities;n/a
+Banco Bradesco Sa;$50.2B;Finance;n/a
+CVR Partners, LP;$437.27M;Basic Industries;n/a
+Regal Beloit Corporation;$3.65B;Consumer Durables;Capital Goods
+Adtalem Global Education Inc.;$2.32B;Consumer Services;n/a
+First Trust Nasdaq Retail ETF;$1.93M;n/a;Basic Industries
+Global X Social Media ETF;$115.54M;n/a;Energy
+A. Schulman, Inc.;$855.12M;Basic Industries;Public Utilities
+Aircastle Limited;$1.73B;Technology;Finance
+First Trust High Income Long Short Fund;$607.04M;n/a;n/a
+TCW Strategic Income Fund, Inc.;$271.82M;n/a;Consumer Services
+Applied DNA Sciences Inc;$26.32M;Consumer Services;Technology
+SPAR Group, Inc.;$21.07M;Miscellaneous;Consumer Durables
+LEAP THERAPEUTICS, INC.;$54.95M;Health Care;Public Utilities
+Tetraphase Pharmaceuticals, Inc.;$275.95M;Health Care;n/a
+FuelCell Energy, Inc.;$65.53M;Miscellaneous;Consumer Services
+Marine Petroleum Trust;$6.92M;Energy;n/a
+Natural Resource Partners LP;$336.38M;Energy;Capital Goods
+Trinity Industries, Inc.;$4.07B;Capital Goods;Technology
+ClubCorp Holdings, Inc.;$871.53M;Consumer Services;Consumer Services
+Sino-Global Shipping America, Ltd.;$27.99M;Transportation;n/a
+Templeton Emerging Markets Fund;$266.9M;n/a;n/a
+Shaw Communications Inc.;$10.72B;Consumer Services;Finance
+Global X Guru Activist ETF;n/a;n/a;n/a
+Eaton Vance Enhance Equity Income Fund;$534.71M;n/a;Finance
+PIMCO New York Municipal Income Fund;$99.42M;n/a;Consumer Services
+Calix, Inc;$359.11M;Consumer Services;Technology
+iPath US Treasury 5-year Bear ETN;$1.25M;Finance;Health Care
+Ampco-Pittsburgh Corporation;$175.48M;Capital Goods;n/a
+Equity Lifestyle Properties, Inc.;$7.49B;Consumer Services;Consumer Services
+Airgain, Inc.;$136.04M;Technology;Finance
+Quest Diagnostics Incorporated;$14.73B;Health Care;Consumer Services
+The Herzfeld Caribbean Basin Fund, Inc.;$43.73M;n/a;Consumer Services
+BioLineRx Ltd.;$83.27M;Health Care;Technology
+Inventure Foods, Inc.;$83.67M;Consumer Non-Durables;Transportation
+Scorpio Tankers Inc.;n/a;Transportation;Consumer Services
+Ingles Markets, Incorporated;$687.82M;Consumer Services;Finance
+VictoryShares Dividend Accelerator ETF;n/a;n/a;Consumer Services
+STERIS plc;$6.96B;Health Care;Health Care
+Kilroy Realty Corporation;n/a;n/a;Technology
+Nuveen High Income December 2019 Target Term Fund;$277.1M;n/a;Finance
+Nuveen High Income December 2019 Target Term Fund;$277.1M;n/a;Technology
+Global X Internet of Things ETF;n/a;n/a;Health Care
+TG Therapeutics, Inc.;$741.2M;Health Care;Consumer Services
+Independent Bank Corp.;$1.79B;Finance;Consumer Non-Durables
+Canon, Inc.;$38.48B;Miscellaneous;Health Care
+ABIOMED, Inc.;$6.28B;Health Care;Consumer Services
+CBS Corporation;$25.26B;Consumer Services;Consumer Services
+Fibria Celulose S.A.;$6.18B;Basic Industries;Miscellaneous
+Retail Properties of America, Inc.;$2.9B;Consumer Services;Consumer Non-Durables
+ARMOUR Residential REIT, Inc.;$1B;Consumer Services;n/a
+Flaherty & Crumrine Dynamic Preferred and Income Fund Inc.;$496.77M;n/a;Finance
+Avadel Pharmaceuticals plc;$439.45M;Health Care;Health Care
+BlackRock Multi-Sector Income Trust;$685.06M;n/a;Consumer Services
+Bank of America Corporation;n/a;n/a;Technology
+Old Line Bancshares, Inc.;$315.92M;Finance;n/a
+INC Research Holdings, Inc.;$3.23B;Health Care;Finance
+Eagle Point Credit Company Inc.;n/a;n/a;Capital Goods
+Armada Hoffler Properties, Inc.;$643.63M;Finance;n/a
+Interpace Diagnostics Group, Inc.;$8.17M;Health Care;n/a
+Patterson-UTI Energy, Inc.;$4.33B;Energy;Finance
+Precision Drilling Corporation;$985.28M;Energy;Health Care
+MediciNova, Inc.;$188.59M;Health Care;Finance
+Lawson Products, Inc.;$197.92M;Consumer Durables;Technology
+MedEquities Realty Trust, Inc.;$389.56M;Consumer Services;Health Care
+Gabelli Convertible and Income Securities Fund, Inc. (The);$71.34M;n/a;Consumer Durables
+21Vianet Group, Inc.;$617.53M;Technology;Consumer Services
+Amplify Online Retail ETF;n/a;n/a;n/a
+CONSOL Energy Inc.;$3.33B;Energy;Technology
+United Fire Group, Inc;$1.15B;Finance;n/a
+Celestica, Inc.;$1.69B;Technology;Technology
+Graham Holdings Company;$3.35B;Consumer Services;n/a
+PIMCO California Municipal Income Fund III;$283.89M;n/a;Technology
+Humana Inc.;$33.84B;Health Care;Technology
+TICC Capital Corp.;n/a;n/a;Health Care
+U S Concrete, Inc.;$1.14B;Capital Goods;Finance
+Mazor Robotics Ltd.;$811.57M;Health Care;Health Care
+Bloomin&#39: Brands, Inc.;$2.12B;Consumer Services;Energy
+Voya Emerging Markets High Income Dividend Equity Fund;$165.72M;n/a;Health Care
+TFS Financial Corporation;$4.45B;Finance;Consumer Services
+Columbia Banking System, Inc.;$2.35B;Finance;Public Utilities
+El Paso Electric Company;$2.17B;Public Utilities;n/a
+Citizens Financial Group, Inc.;$18.42B;Finance;Finance
+Boston Omaha Corporation;n/a;n/a;Finance
+Tellurian Inc.;$2.05B;Energy;Health Care
+ROBO Global Robotics and Automation Index ETF;$158.98M;n/a;Technology
+Amarin Corporation plc;$797.81M;Health Care;Finance
+CBL & Associates Properties, Inc.;$1.45B;Consumer Services;Consumer Non-Durables
+City Office REIT, Inc.;n/a;n/a;n/a
+Omega Flex, Inc.;$652.54M;Capital Goods;Technology
+Gaming and Leisure Properties, Inc.;$7.66B;Consumer Services;Finance
+Chesapeake Lodging Trust;$1.51B;Consumer Services;Consumer Services
+MRC Global Inc.;$1.63B;Capital Goods;Energy
+First Trust Small Cap Growth AlphaDEX Fund;$104.39M;n/a;n/a
+First United Corporation;$106.49M;Finance;n/a
+Graphic Packaging Holding Company;$4.08B;Consumer Durables;Finance
+Clifton Bancorp Inc.;$374.4M;Finance;Capital Goods
+AC Immune SA;$484.41M;Health Care;Capital Goods
+MannKind Corporation;$156.56M;Health Care;Technology
+CUI Global, Inc.;$68.75M;Consumer Non-Durables;Technology
+LTC Properties, Inc.;$1.98B;Consumer Services;n/a
+Global X Guru Activist ETF;n/a;n/a;Transportation
+TESSCO Technologies Incorporated;$110.38M;Consumer Non-Durables;Consumer Services
+CareDx, Inc.;$23.56M;Health Care;Consumer Services
+Granite Construction Incorporated;$1.97B;Basic Industries;n/a
+Owens Corning Inc;$7.18B;Capital Goods;n/a
+ANSYS, Inc.;$10.41B;Technology;Miscellaneous
+Plantronics, Inc.;$1.8B;Public Utilities;n/a
+iShares MSCI Global Impact ETF;$22.24M;n/a;n/a
+Sunesis Pharmaceuticals, Inc.;$59.23M;Health Care;n/a
+Flushing Financial Corporation;$826.02M;Finance;n/a
+PolyOne Corporation;$3.08B;Basic Industries;Technology
+Lawson Products, Inc.;$197.92M;Consumer Durables;Public Utilities
+Arrowhead Pharmaceuticals, Inc.;$118.89M;Health Care;Finance
+Turtle Beach Corporation;$36.94M;Consumer Durables;n/a
+Belden Inc;$3.23B;Basic Industries;Finance
+Central Valley Community Bancorp;$277.95M;Finance;n/a
+HopFed Bancorp, Inc.;$100.76M;Finance;Energy
+Archer-Daniels-Midland Company;$24.19B;Consumer Non-Durables;Technology
+Global X Internet of Things ETF;n/a;n/a;Transportation
+Gaming Partners International Corporation;$87.17M;Consumer Non-Durables;Health Care
+CTS Corporation;$704.65M;Technology;Public Utilities
+Crossroads Systems, Inc.;$2.32M;Technology;Consumer Services
+Houghton Mifflin Harcourt Company;$1.63B;Consumer Services;Finance
+Digiliti Money Group, Inc.;$31.11M;Technology;Health Care
+Liberty Global plc;$3.5B;Consumer Services;Finance
+Pitney Bowes Inc.;$2.84B;Miscellaneous;Miscellaneous
+AtriCure, Inc.;$741.39M;Health Care;Health Care
+Solaris Oilfield Infrastructure, Inc.;$485.04M;Energy;Finance
+Wells Fargo & Company;n/a;n/a;Consumer Services
+Advanced Emissions Solutions, Inc.;$215.37M;Basic Industries;Finance
+Callon Petroleum Company;n/a;Energy;Capital Goods
+Ally Financial Inc.;$9.35B;Finance;Basic Industries
+Kaiser Aluminum Corporation;$1.47B;Capital Goods;n/a
+UMH Properties, Inc.;$575.54M;Consumer Services;Consumer Services
+Entergy Arkansas, Inc.;n/a;Public Utilities;Health Care
+AquaBounty Technologies, Inc.;$69.92M;n/a;Energy
+Nordstrom, Inc.;$7.89B;Consumer Services;Technology
+Scudder Strategic Municiple Income Trust;$139.99M;n/a;Health Care
+Zix Corporation;$315.81M;Technology;Finance
+Southern California Edison Company;n/a;n/a;Health Care
+Prudential Global Short Duration High Yield Fund, Inc.;$610.58M;n/a;n/a
+Office Depot, Inc.;$2.81B;Consumer Services;Technology
+Guggenheim Credit Allocation Fund;$161.51M;n/a;n/a
+Old Second Bancorp, Inc.;$354.97M;Finance;Finance
+Five Oaks Investment Corp.;n/a;n/a;n/a
+Howard Hughes Corporation (The);$5.06B;Consumer Services;Technology
+Safety Insurance Group, Inc.;$1.06B;Finance;Health Care
+FinTech Acquisition Corp. II;n/a;Finance;n/a
+Surmodics, Inc.;$333.24M;Health Care;Energy
+Arc Logistic Partners LP;$287.08M;Energy;n/a
+Chegg, Inc.;$1.1B;Consumer Services;Finance
+Invacare Corporation;$399.95M;Health Care;n/a
+Bank of Marin Bancorp;$391.38M;Finance;Finance
+Intelsat S.A.;$378.97M;Consumer Services;Health Care
+First Mid-Illinois Bancshares, Inc.;$462.71M;Finance;Technology
+Four Corners Property Trust, Inc.;$1.53B;Consumer Services;Finance
+Actua Corporation;$468.65M;Technology;n/a
+NewJersey Resources Corporation;$3.72B;Public Utilities;Finance
+ABAXIS, Inc.;$1.15B;Capital Goods;n/a
+First Trust Mid Cap Core AlphaDEX Fund;$699.62M;n/a;Health Care
+CMS Energy Corporation;$13.53B;Public Utilities;Finance
+Canada Goose Holdings Inc.;$475.23M;Consumer Non-Durables;n/a
+Nuveen Municipal High Income Opportunity Fund;$794.98M;n/a;Finance
+KKR Real Estate Finance Trust Inc.;$1.14B;Consumer Services;Health Care
+Proofpoint, Inc.;$3.82B;Technology;n/a
+Vanguard Total International Stock ETF;$8.57B;n/a;n/a
+Cohen & Steers Reit and Preferred Income Fund Inc;$998.43M;n/a;Capital Goods
+Putnam Municipal Opportunities Trust;$481M;n/a;n/a
+CareDx, Inc.;$23.56M;Health Care;Consumer Services
+Horizon Technology Finance Corporation;$129.45M;n/a;Finance
+Aralez Pharmaceuticals Inc.;$79.48M;Health Care;Health Care
+First Community Bancshares, Inc.;$473.38M;Finance;n/a
+Phillips 66 Partners LP;$5.04B;Energy;Capital Goods
+Gabelli Dividend;n/a;n/a;n/a
+Daseke, Inc.;$378.29M;Consumer Services;n/a
+Alabama Power Company;n/a;Public Utilities;Finance
+Amarin Corporation plc;$797.81M;Health Care;Finance
+Esterline Technologies Corporation;$2.92B;Capital Goods;Consumer Services
+IBERIABANK Corporation;$4.16B;Finance;Finance
+Inseego Corp.;$59.33M;Consumer Durables;Finance
+Nuveen AMT-Free Municipal Value Fund;$250.05M;n/a;Consumer Durables
+Matlin & Partners Acquisition Corporation;$393.25M;Finance;Consumer Services
+USG Corporation;$4.17B;Capital Goods;Public Utilities
+Two Harbors Investments Corp;$3.62B;Consumer Services;Capital Goods
+Clifton Bancorp Inc.;$374.4M;Finance;n/a
+PowerShares Golden Dragon China Portfolio;$171.81M;n/a;Finance
+Hubbell Inc;$6.47B;Capital Goods;n/a
+Legg Mason Developed EX-US Diversified Core ETF;$5.54M;n/a;Health Care
+Aerie Pharmaceuticals, Inc.;$1.8B;Health Care;Consumer Durables
+Ultrapar Participacoes S.A.;$13.07B;Public Utilities;n/a
+Patriot Transportation Holding, Inc.;$58.87M;Transportation;Technology
+Quarterhill Inc.;$175.49M;Miscellaneous;Technology
+Barnes Group, Inc.;$3.16B;Capital Goods;n/a
+Hurco Companies, Inc.;$219.92M;Capital Goods;Transportation
+Quotient Limited;$276.7M;Health Care;Health Care
+Kansas City Southern;n/a;Transportation;Finance
+Chicago Bridge & Iron Company N.V.;$1.55B;Basic Industries;Energy
+First Trust Mega Cap AlphaDEX Fund;$14.95M;n/a;n/a
+Allstate Corporation (The);n/a;n/a;Energy
+Orange;$43.94B;Public Utilities;Technology
+Senior Housing Properties Trust;n/a;Consumer Services;Technology
+Mercury General Corporation;$3.11B;Finance;Health Care
+J P Morgan Chase & Co;n/a;n/a;n/a
+NASDAQ TEST STOCK;n/a;n/a;Finance
+SORL Auto Parts, Inc.;$134.75M;Capital Goods;Finance
+Epizyme, Inc.;$796.59M;Health Care;Consumer Services
+John Wiley & Sons, Inc.;n/a;n/a;n/a
+Rosetta Genomics Ltd.;$5.05M;Health Care;n/a
+Old Republic International Corporation;$5.38B;Finance;n/a
+International Seaways, Inc.;$580.97M;Consumer Services;n/a
+China Mobile (Hong Kong) Ltd.;$220.68B;Public Utilities;Finance
+Fortress Biotech, Inc.;$222.97M;Health Care;Energy
+PartnerRe Ltd.;n/a;n/a;Health Care
+Quorum Health Corporation;$119.09M;Health Care;Public Utilities
+Univar Inc.;$4.11B;Consumer Durables;n/a
+AquaVenture Holdings Limited;$410.12M;Public Utilities;n/a
+Piper Jaffray Companies;$923.44M;Finance;Health Care
+REV Group, Inc.;$1.92B;Capital Goods;Health Care
+Wells Fargo & Company;n/a;n/a;Finance
+Eaton Vance Floating Rate Income Trust;$605.93M;n/a;Technology
+Allstate Corporation (The);n/a;n/a;Energy
+EchoStar Corporation;$5.8B;Technology;Public Utilities
+Dynasil Corporation of America;$20.92M;Capital Goods;Health Care
+KBS Fashion Group Limited;$4.62M;Consumer Non-Durables;Miscellaneous
+CGI Group, Inc.;$13.16B;Consumer Services;Consumer Non-Durables
+Community West Bancshares;$81.44M;Finance;Technology
+Kindred Biosciences, Inc.;$165.5M;Health Care;Consumer Non-Durables
+Canada Goose Holdings Inc.;$475.23M;Consumer Non-Durables;Capital Goods
+Finisar Corporation;$3.1B;Technology;n/a
+SMART Global Holdings, Inc.;$316.82M;Technology;Technology
+Gaming and Leisure Properties, Inc.;$7.66B;Consumer Services;Consumer Services
+Semiconductor  Manufacturing International Corporation;$5.28B;Technology;Consumer Services
+WESCO International, Inc.;$2.79B;Consumer Non-Durables;Finance
+Fair Isaac Corporation;$4.19B;Miscellaneous;Capital Goods
+Wellesley Bancorp, Inc.;$65.48M;Finance;Finance
+Syntel, Inc.;$1.37B;Technology;Health Care
+Central Valley Community Bancorp;$277.95M;Finance;n/a
+Old Dominion Freight Line, Inc.;$7.81B;Transportation;Capital Goods
+Antero Midstream GP LP;$3.98B;Public Utilities;n/a
+Cigna Corporation;$43.29B;Health Care;n/a
+Echo Global Logistics, Inc.;$594.58M;Transportation;Consumer Services
+Medley Capital Corporation;n/a;n/a;n/a
+iShares S&P Emerging Markets Infrastructure Index Fund;$47.7M;n/a;Technology
+SVB Financial Group;n/a;Finance;Energy
+LM Funding America, Inc.;$13.56M;Finance;n/a
+Shiloh Industries, Inc.;$243.62M;Capital Goods;Health Care
+VanEck Vectors Generic Drugs ETF;$3.33M;n/a;Energy
+QAD Inc.;$498.57M;Technology;Consumer Services
+LMI Aerospace, Inc.;$191.03M;Capital Goods;Finance
+Gray Television, Inc.;$1.02B;Consumer Services;n/a
+Kinder Morgan, Inc.;n/a;n/a;n/a
+Hawaiian Electric Industries, Inc.;n/a;n/a;n/a
+Randolph Bancorp, Inc.;$91.85M;Finance;n/a
+Transportadora De Gas Sa Ord B;$2.53B;Public Utilities;Basic Industries
+PowerShares DWA Emerging Markets Momentum Portfolio;$176.16M;n/a;Energy
+NanoString Technologies, Inc.;$379.12M;Health Care;n/a
+First Trust Nasdaq Food & Beverage ETF;$6.11M;n/a;Finance
+Atento S.A.;$772.35M;Public Utilities;n/a
+Bellicum Pharmaceuticals, Inc.;$375.06M;Health Care;n/a
+Principal Healthcare Innovators Index ETF;$6.68M;n/a;n/a
+Salient Midstream & MLP Fund;$199.02M;n/a;Finance
+Zogenix, Inc.;$362.28M;Health Care;Consumer Non-Durables
+Cowen Inc.;$475.98M;Finance;Health Care
+PowerShares Variable Rate Investment Grade Portfolio;$69.29M;n/a;Technology
+ENDRA Life Sciences Inc.;n/a;n/a;Consumer Services
+Jason Industries, Inc.;n/a;Consumer Durables;Energy
+Synnex Corporation;$4.72B;Technology;Capital Goods
+First Trust Low Duration Opportunities ETF;$582.59M;n/a;Health Care
+Ohio Valley Banc Corp.;$162.19M;Finance;Technology
+Cabela&#39:s Inc;$3.94B;Consumer Services;n/a
+DXP Enterprises, Inc.;$630.7M;Capital Goods;Capital Goods
+Citigroup Inc.;n/a;Finance;n/a
+Rapid7, Inc.;$739.26M;Technology;n/a
+Ctrip.com International, Ltd.;$27.17B;Miscellaneous;Basic Industries
+Alpine Global Dynamic Dividend Fund;$128.88M;n/a;Health Care
+America Movil, S.A.B. de C.V.;$52.47B;Public Utilities;n/a
+Alexander&#39:s, Inc.;$2.2B;Consumer Services;Technology
+iShares S&P Global Timber & Forestry Index Fund;$264.23M;n/a;Miscellaneous
+Otonomy, Inc.;$441.75M;Health Care;n/a
+Atlantic Alliance Partnership Corp.;$37.43M;Consumer Services;Basic Industries
+QCR Holdings, Inc.;$629.54M;Finance;Consumer Services
+First Acceptance Corporation;$49.8M;Finance;Finance
+Legg Mason, Inc.;$3.81B;Finance;Finance
+Cohu, Inc.;$474.73M;Capital Goods;Technology
+Marriott International;$39.59B;Consumer Services;Consumer Services
+Tandy Leather Factory, Inc.;$76.52M;Consumer Non-Durables;n/a
+PowerShares S&P SmallCap Materials Portfolio;$55.25M;n/a;Finance
+Astoria Financial Corporation;n/a;n/a;Finance
+Second Sight Medical Products, Inc.;n/a;Health Care;n/a
+VSE Corporation;$480.47M;Consumer Services;Miscellaneous
+Allstate Corporation (The);n/a;n/a;Health Care
+Ross Stores, Inc.;$23.38B;Consumer Services;n/a
+Royal Bank Scotland plc (The);n/a;n/a;Finance
+iRhythm Technologies, Inc.;$861.13M;Health Care;Energy
+LTC Properties, Inc.;$1.98B;Consumer Services;Technology
+Fibria Celulose S.A.;$6.18B;Basic Industries;n/a
+HCA Healthcare, Inc.;$30.6B;Health Care;Health Care
+Sears Hometown and Outlet Stores, Inc.;$64.7M;Consumer Services;Consumer Services
+SmartFinancial, Inc.;$201.19M;Finance;Energy
+Cerner Corporation;$21.82B;Technology;Consumer Services
+Univest Corporation of Pennsylvania;$793.18M;Finance;Consumer Services
+Central Europe, Russia and Turkey Fund, Inc. (The);$164.46M;n/a;Consumer Services
+AmerisourceBergen Corporation (Holding Co);$20.2B;Health Care;n/a
+AmTrust Financial Services, Inc.;n/a;n/a;Basic Industries
+Electrum Special Acquisition Corporation;$260.75M;Finance;Basic Industries
+CMS Energy Corporation;$13.53B;Public Utilities;n/a
+Guess?, Inc.;$974.73M;Consumer Non-Durables;Capital Goods
+MoSys, Inc.;$14.15M;Technology;n/a
+Cardiome Pharma Corporation;$125.47M;Health Care;Health Care
+Heico Corporation;$6.15B;Capital Goods;Health Care
+trivago N.V.;$4.38B;n/a;n/a
+Gibraltar Industries, Inc.;$1.1B;Capital Goods;Finance
+Westar Energy, Inc.;$7.62B;Public Utilities;Finance
+Knoll, Inc.;$1.04B;Consumer Durables;n/a
+General Motors Company;$51.8B;Capital Goods;n/a
+Cincinnati Bell Inc;n/a;n/a;Technology
+VelocityShares VIX Medium-Term ETN;$1.14M;Finance;Health Care
+Onconova Therapeutics, Inc.;$18.6M;Health Care;Finance
+Inpixon ;$3.85M;Technology;Basic Industries
+Medallion Financial Corp.;n/a;Finance;Technology
+Morgan Stanley China A Share Fund Inc.;$474.83M;n/a;Finance
+Ivy NextShares;n/a;n/a;n/a
+Astoria Financial Corporation;n/a;n/a;Basic Industries
+MIDSTATES PETROLEUM COMPANY, INC.;$364.19M;Energy;n/a
+Nuveen Maryland Quality Municipal Income Fund;$304.81M;n/a;n/a
+MetLife, Inc.;$57.58B;Finance;Technology
+The Charles Schwab Corporation;$56.05B;Finance;Consumer Services
+Amira Nature Foods Ltd;$141.43M;Consumer Non-Durables;Health Care
+IRSA Inversiones Y Representaciones S.A.;$1.38B;Consumer Services;Basic Industries
+Cempra, Inc.;$204.76M;Health Care;Consumer Services
+ImmunoGen, Inc.;$409.22M;Health Care;Capital Goods
+Infosys Limited;$33.53B;Technology;Health Care
+Allscripts Healthcare Solutions, Inc.;$2.26B;Technology;Finance
+Perrigo Company;$10.47B;Health Care;n/a
+Cytori Therapeutics Inc;$31.83M;Health Care;Capital Goods
+Marriot Vacations Worldwide Corporation;$3.28B;Finance;Health Care
+InnerWorkings, Inc.;$583.72M;Consumer Durables;n/a
+Rice Energy Inc.;$4.04B;Energy;Finance
+Woodward, Inc.;$4.24B;Energy;Energy
+Validus Holdings, Ltd.;$4.21B;Finance;Finance
+Celgene Corporation;$95.54B;Health Care;Transportation
+Ferroglobe PLC;$1.8B;Capital Goods;Consumer Services
+Avista Healthcare Public Acquisition Corp.;n/a;Finance;Technology
+BankUnited, Inc.;$3.65B;Finance;Technology
+Comstock Resources, Inc.;$105.45M;Energy;Consumer Non-Durables
+Mitel Networks Corporation;$905.69M;Technology;n/a
+IHS Markit Ltd.;$19.34B;Technology;Technology
+Dynex Capital, Inc.;n/a;n/a;Finance
+Universal Electronics Inc.;$959.07M;Consumer Non-Durables;Consumer Services
+DCT Industrial Trust Inc;$5.04B;Consumer Services;n/a
+Sensata Technologies Holding N.V.;$7.21B;Capital Goods;Finance
+Apollo Commercial Real Estate Finance;n/a;n/a;n/a
+Kadmon Holdings, Inc.;$142.06M;Health Care;Health Care
+Neurocrine Biosciences, Inc.;$3.87B;Health Care;Public Utilities
+Engility Holdings, Inc.;$1.05B;Consumer Services;Capital Goods
+WisdomTree Barclays Interest Rate Hedged U.S. Aggregate Bond F;$23.97M;n/a;n/a
+NCI, Inc.;$276.46M;Technology;Basic Industries
+Nevro Corp.;$2.16B;Health Care;n/a
+Enbridge Energy, L.P.;$6.76B;Energy;n/a
+China Eastern Airlines Corporation Ltd.;$8.42B;Transportation;Health Care
+Xcel Energy Inc.;$24.27B;Public Utilities;Consumer Services
+TrueBlue, Inc.;$1.11B;Technology;Consumer Durables
+Trinity Biotech plc;$142.56M;Health Care;Consumer Services
+Morgan Stanley;n/a;n/a;Technology
+Pimco High Income Fund;$1.11B;n/a;Technology
+Hercules Capital, Inc.;n/a;n/a;Consumer Services
+Rice Midstream Partners LP;$2.49B;Public Utilities;Consumer Non-Durables
+Microbot Medical Inc. ;$54.29M;Health Care;Consumer Services
+Vina Concha Y Toro;$1.16B;Consumer Non-Durables;Public Utilities
+Scorpio Tankers Inc.;$658.35M;Transportation;Health Care
+Blackrock MuniYield Michigan Quality Fund, Inc.;$415.87M;n/a;n/a
+Medley Capital Corporation;n/a;n/a;Public Utilities
+Drive Shack Inc.;n/a;n/a;n/a
+Builders FirstSource, Inc.;$1.72B;Consumer Services;Basic Industries
+Teradata Corporation;$3.66B;Technology;Consumer Services
+Ekso Bionics Holdings, Inc.;$49.22M;Capital Goods;Capital Goods
+Owens Corning Inc;$7.18B;Capital Goods;Consumer Services
+Westinghouse Air Brake Technologies Corporation;$8.53B;Capital Goods;Finance
+Hamilton Lane Incorporated;$956.82M;Finance;Health Care
+Gramercy Property Trust;$4.59B;Consumer Services;Finance
+Chesapeake Energy Corporation;n/a;n/a;Miscellaneous
+Worthington Industries, Inc.;$2.78B;Capital Goods;Energy
+Boyd Gaming Corporation;$2.85B;Consumer Services;Health Care
+Southern First Bancshares, Inc.;$261.9M;Finance;Finance
+RAIT Financial Trust;n/a;n/a;Public Utilities
+Presbia PLC;$53.93M;Health Care;Energy
+First Interstate BancSystem, Inc.;$2.13B;Finance;Technology
+Petrobras Argentina S.A.;$2.59B;Energy;Technology
+Carrizo Oil & Gas, Inc.;$1.23B;Energy;Energy
+Ennis, Inc.;$417.14M;Consumer Services;Energy
+Apptio, Inc.;$654.41M;Technology;n/a
+Mattersight Corporation;$84.98M;Technology;Consumer Services
+Bank of America Corporation;n/a;Finance;Consumer Non-Durables
+Gray Television, Inc.;n/a;n/a;Finance
+Crown Holdings, Inc.;$7.76B;Consumer Durables;Technology
+Hancock Holding Company;n/a;Finance;Health Care
+ConnectOne Bancorp, Inc.;$744.13M;Finance;Consumer Services
+RiverNorth/DoubleLine Strategic Opportunity Fund, Inc.;$210.14M;n/a;Consumer Services
+Diodes Incorporated;$1.22B;Technology;Capital Goods
+Sandy Spring Bancorp, Inc.;$970.14M;Finance;Basic Industries
+Paylocity Holding Corporation;$2.43B;Technology;Consumer Services
+Equinix, Inc.;$33.29B;Consumer Services;Health Care
+Hyster-Yale Materials Handling, Inc.;$1.23B;Capital Goods;Capital Goods
+Whole Foods Market, Inc.;$13.64B;Consumer Services;n/a
+Brown Forman Corporation;n/a;n/a;Consumer Services
+Hercules Capital, Inc.;n/a;n/a;Capital Goods
+Arista Networks, Inc.;$10.91B;Technology;n/a
+Sierra Wireless, Inc.;$940.61M;Technology;Finance
+PowerShares Global Agriculture Portfolio;$22.37M;n/a;n/a
+United Rentals, Inc.;$8.89B;Technology;Health Care
+China Customer Relations Centers, Inc.;$276.59M;Miscellaneous;Basic Industries
+Nova Lifestyle, Inc;$37.75M;Consumer Durables;Consumer Services
+Navigant Consulting, Inc.;$938.83M;Consumer Services;Consumer Services
+PRA Health Sciences, Inc.;$4.54B;Health Care;n/a
+Dover Downs Gaming & Entertainment Inc;$36.8M;Consumer Services;Health Care
+Vanguard Long-Term Government Bond ETF;$491.64M;n/a;Technology
+Liberty Broadband Corporation;$16B;Consumer Services;Transportation
+BroadVision, Inc.;$21.6M;Technology;Transportation
+Costamare Inc.;n/a;n/a;n/a
+Emclaire Financial Corp;$59.2M;Finance;Finance
+The AES Corporation;$7.87B;Basic Industries;Technology
+M&T Bank Corporation;n/a;n/a;Consumer Non-Durables
+Hancock Holding Company;n/a;Finance;Consumer Services
+Boston Private Financial Holdings, Inc.;n/a;Finance;Finance
+Q2 Holdings, Inc.;$1.56B;Technology;Consumer Services
+Kirby Corporation;$3.48B;Consumer Services;Consumer Non-Durables
+Chimera Investment Corporation;n/a;n/a;Technology
+ProShares UltraPro QQQ;$1.72B;n/a;Finance
+Sunrun Inc.;$605.25M;Capital Goods;n/a
+Auburn National Bancorporation, Inc.;$126.61M;Finance;Basic Industries
+Blueprint Medicines Corporation;$1.56B;Health Care;Consumer Durables
+Principal Price Setters Index ETF;$7.24M;n/a;Basic Industries
+Protagonist Therapeutics, Inc.;$177.84M;Health Care;Finance
+Southern California Edison Company;n/a;n/a;Capital Goods
+Starbucks Corporation;$87.09B;Consumer Services;Energy
+Blackrock MuniYield Investment Fund;$217.64M;n/a;Finance
+Internet Initiative Japan, Inc.;$814.69M;Technology;Transportation
+KT Corporation;$7.89B;Public Utilities;Finance
+Trustmark Corporation;$2.24B;Finance;Finance
+Universal Electronics Inc.;$959.07M;Consumer Non-Durables;Health Care
+Pier 1 Imports, Inc.;$468.42M;Consumer Services;Consumer Services
+Ciena Corporation;$3.61B;Public Utilities;Basic Industries
+OUTFRONT Media Inc.;$3.27B;Consumer Services;Capital Goods
+Copart, Inc.;$7.2B;Consumer Durables;Consumer Services
+First Trust Mid Cap Growth AlphaDEX Fund;$93.37M;n/a;n/a
+People&#39:s Utah Bancorp;$474.2M;Finance;Technology
+Bob Evans Farms, Inc.;$1.38B;Consumer Services;Consumer Services
+Navios Maritime Acquisition Corporation;$226.45M;Transportation;Technology
+Enviva Partners, LP;$742.14M;Basic Industries;Consumer Services
+Eaton Vance Tax-Managed Diversified Equity Income Fund;$1.73B;n/a;n/a
+Hanmi Financial Corporation;$947.69M;Finance;Health Care
+FlexShares Disciplined Duration MBS Index Fund;$34.86M;n/a;n/a
+Harmony Merger Corp.;n/a;Public Utilities;Finance
+Inseego Corp.;$59.33M;Consumer Durables;Miscellaneous
+Nuveen AMT-Free Municipal Value Fund;$2.09B;n/a;Consumer Services
+Ashford Hospitality Trust Inc;n/a;n/a;Public Utilities
+First Data Corporation;$16.65B;Miscellaneous;Technology
+Forrester Research, Inc.;$700.65M;Consumer Services;Consumer Services
+FCB Financial Holdings, Inc.;$2.01B;Finance;Public Utilities
+Seritage Growth Properties;$2.34B;Finance;Consumer Non-Durables
+OFG Bancorp;n/a;Finance;Technology
+iShares FTSE EPRA/NAREIT Global Real Estate ex-U.S. Index Fund;$532.8M;n/a;Consumer Services
+CSP Inc.;$42.78M;Technology;Public Utilities
+General Finance Corporation;n/a;Technology;Health Care
+Wells Fargo & Company;n/a;n/a;Health Care
+RE/MAX Holdings, Inc.;$968.03M;Finance;Finance
+United Microelectronics Corporation;$4.95B;Technology;Capital Goods
+Kona Grill, Inc.;$33.83M;Consumer Services;Consumer Services
+Chesapeake Energy Corporation;$4.63B;Energy;n/a
+JELD-WEN Holding, Inc.;$3.6B;Basic Industries;Finance
+Gladstone Land Corporation;n/a;Consumer Services;n/a
+The Herzfeld Caribbean Basin Fund, Inc.;$43.73M;n/a;n/a
+BorgWarner Inc.;$8.7B;Capital Goods;Finance
+Western Alliance Bancorporation;$5.2B;Finance;Technology
+Triumph Group, Inc.;$1.58B;Capital Goods;Technology
+Jacksonville Bancorp Inc.;$53.85M;Finance;n/a
+Oxford Lane Capital Corp.;$229.56M;n/a;Technology
+Apollo Commercial Real Estate Finance;$2B;Consumer Services;Health Care
+China Lodging Group, Limited;$5.31B;Consumer Services;n/a
+BSQUARE Corporation;$62.85M;Miscellaneous;Finance
+Citigroup Inc.;n/a;n/a;Consumer Services
+MOCON, Inc.;$176.6M;Capital Goods;Technology
+L3 Technologies, Inc.;$13B;Technology;n/a
+FARO Technologies, Inc.;$599.24M;Capital Goods;Technology
+Astoria Financial Corporation;n/a;n/a;Finance
+Ardelyx, Inc.;$206.13M;Health Care;Finance
+iPath US Treasury 10-year Bear ETN;$44.61M;Finance;Transportation
+John Hancock Premium Dividend Fund;$802.93M;n/a;Finance
+Biostage, Inc.;$12.03M;Health Care;Finance
+HD Supply Holdings, Inc.;$6.43B;Consumer Services;Capital Goods
+ChinaNet Online Holdings, Inc.;$15.58M;Technology;Capital Goods
+Textron Inc.;$12.7B;Capital Goods;Finance
+C.R. Bard, Inc.;$22.71B;Health Care;Consumer Services
+Vanguard Russell 1000 Growth ETF;$1.18B;n/a;Health Care
+First Connecticut Bancorp, Inc.;$412.44M;Finance;Finance
+Ally Financial Inc.;n/a;n/a;Finance
+RAIT Financial Trust;n/a;n/a;Consumer Services
+Liberty Expedia Holdings, Inc.;$3.06B;Consumer Services;n/a
+WMIH Corp.;$247.66M;Finance;n/a
+West Marine, Inc.;$245.88M;Consumer Durables;Health Care
+Agile Therapeutics, Inc.;$105.72M;Health Care;Health Care
+Planet Fitness, Inc.;$2.24B;Consumer Services;Technology
+Mastercard Incorporated;$135.24B;Miscellaneous;Finance
+NRG Yield, Inc.;$3.22B;Public Utilities;n/a
+SLM Corporation;$289.76M;Finance;Health Care
+ObsEva SA;$161.49M;Health Care;Consumer Services
+Badger Meter, Inc.;$1.16B;Capital Goods;Consumer Non-Durables
+United Insurance Holdings Corp.;$702.78M;Finance;Public Utilities
+Inventure Foods, Inc.;$83.67M;Consumer Non-Durables;Technology
+Apollo Investment Corporation;n/a;n/a;Health Care
+Financial Engines, Inc.;$2.41B;Finance;n/a
+Corium International, Inc.;$267.54M;Health Care;Consumer Durables
+ANSYS, Inc.;$10.41B;Technology;Consumer Services
+Nuveen Insured New York Select Tax-Free Income Portfolio;$54.36M;n/a;n/a
+Warrior Met Coal, Inc.;$847.88M;Energy;n/a
+Vishay Intertechnology, Inc.;$2.42B;Capital Goods;n/a
+Everest Re Group, Ltd.;$10.5B;Finance;Health Care
+Cantel Medical Corp.;$3.17B;Health Care;Energy
+Momenta Pharmaceuticals, Inc.;$1.24B;Health Care;Health Care
+Vmware, Inc.;$35.98B;Technology;Transportation
+JM Global Holding Company;$65.43M;Finance;n/a
+New America High Income Fund, Inc. (The);$224.11M;n/a;n/a
+Blackrock MuniYield California Fund, Inc.;$326.9M;n/a;Finance
+Tilly&#39:s, Inc.;$288.73M;Consumer Services;Capital Goods
+Ryerson Holding Corporation;$332.73M;Basic Industries;Basic Industries
+Compugen Ltd.;$189.19M;Health Care;n/a
+Clean Harbors, Inc.;$3.24B;Basic Industries;Finance
+Hub Group, Inc.;$1.28B;Transportation;Finance
+Avista Healthcare Public Acquisition Corp.;n/a;Finance;n/a
+Gentherm Inc;$1.39B;Capital Goods;Finance
+First Trust South Korea AlphaDEX Fund;$5.41M;n/a;Consumer Durables
+AAR Corp.;$1.21B;Capital Goods;Finance
+Baker Hughes Incorporated;$24.37B;Energy;Health Care
+CBOE Holdings, Inc.;$9.92B;Finance;n/a
+Capital City Bank Group;$350.95M;Finance;n/a
+Cedar Realty Trust, Inc.;n/a;n/a;Finance
+Qorvo, Inc.;$9.12B;Technology;Public Utilities
+Summit Hotel Properties, Inc.;n/a;n/a;n/a
+PowerShares DWA Consumer Cyclicals Momentum Portfolio;$58.53M;n/a;Capital Goods
+AngloGold Ashanti Limited;$4.21B;Basic Industries;Capital Goods
+First BanCorp.;$1.26B;Finance;n/a
+Abercrombie & Fitch Company;$852.24M;Consumer Services;n/a
+Diageo plc;$76.6B;Consumer Non-Durables;Consumer Durables
+Analog Devices, Inc.;$29.38B;Technology;Health Care
+Alexander&#39:s, Inc.;$2.2B;Consumer Services;n/a
+Capital One Financial Corporation;n/a;Finance;Technology
+WisdomTree Barclays Negative Duration U.S. Aggregate Bond Fund;$12.99M;n/a;Finance
+Summit Materials, Inc.;$3.01B;Basic Industries;n/a
+Armada Hoffler Properties, Inc.;$643.63M;Finance;Consumer Services
+Vanguard Russell 1000 Growth ETF;$1.18B;n/a;n/a
+Camtek Ltd.;$197.24M;Capital Goods;n/a
+Ophthotech Corporation;$93.93M;Health Care;n/a
+Dicerna Pharmaceuticals, Inc.;$124.4M;Health Care;Consumer Services
+ProShares Ultra Nasdaq Biotechnology;$343.37M;n/a;Technology
+Biohaven Pharmaceutical Holding Company Ltd.;$875.62M;Health Care;Technology
+Bemis Company, Inc.;$4.19B;Consumer Durables;n/a
+Hawaiian Telcom Holdco, Inc.;$301.17M;Consumer Services;n/a
+AdvisorShares Market Adaptive Unconstrained Income ETF;$1.23M;n/a;Finance
+Vident Core U.S. Bond Strategy Fund;$428.97M;n/a;Consumer Services
+Cirrus Logic, Inc.;$3.99B;Technology;Health Care
+Goldman Sachs Group, Inc. (The);n/a;n/a;Miscellaneous
+Global Payments Inc.;$13.65B;Miscellaneous;Public Utilities
+Impinj, Inc.;$1.15B;Capital Goods;n/a
+Public Storage;n/a;n/a;Public Utilities
+Canadian Imperial Bank of Commerce;$32.39B;Finance;Health Care
+Brookfield Infrastructure Partners LP;$10.77B;Consumer Services;Basic Industries
+Angie&#39:s List, Inc.;$730.37M;Consumer Services;Consumer Services
+Quality Care Properties, Inc.;$1.65B;Consumer Services;n/a
+SL Green Realty Corporation;n/a;n/a;Public Utilities
+Equitable Financial Corp.;$35.01M;Finance;Consumer Services
+ManpowerGroup;$7.22B;Technology;Finance
+Alexander&#39:s, Inc.;$2.2B;Consumer Services;Health Care
+Ellington Financial LLC;$536.92M;Finance;Consumer Durables
+Allstate Corporation (The);n/a;n/a;Technology
+BLDRS Developed Markets 100 ADR Index Fund;$60.17M;n/a;Consumer Durables
+Fifth Third Bancorp;$19.11B;Finance;Capital Goods
+PowerShares DWA Momentum & Low Volatility Rotation Portfolio;$4.2M;n/a;Consumer Durables
+PS Business Parks, Inc.;n/a;n/a;Public Utilities
+Star Bulk Carriers Corp.;$516.53M;Transportation;Consumer Services
+Veeva Systems Inc.;$8.33B;Technology;Consumer Services
+The Priceline Group Inc. ;$88.58B;Miscellaneous;n/a
+PowerShares DWA Financial Momentum Portfolio;$78.45M;n/a;Miscellaneous
+Blackrock MuniYield Quality Fund III, Inc.;$975.82M;n/a;Finance
+Vanguard Russell 2000 Growth ETF;$184.64M;n/a;Capital Goods
+American Public Education, Inc.;$387.99M;Consumer Services;Public Utilities
+Hunter Maritime Acquisition Corp.;n/a;Transportation;Finance
+Resource Capital Corp.;n/a;n/a;n/a
+A-Mark Precious Metals, Inc.;$112.5M;Basic Industries;Consumer Non-Durables
+Annaly Capital Management Inc;n/a;n/a;n/a
+Enable Midstream Partners, LP;$6.43B;Public Utilities;Finance
+The Charles Schwab Corporation;n/a;n/a;Capital Goods
+Tocagen Inc.;$296.12M;Health Care;Energy
+Weingarten Realty Investors;$3.95B;Consumer Services;n/a
+Walgreens Boots Alliance, Inc.;$84.79B;Health Care;n/a
+Civista Bancshares, Inc. ;n/a;Finance;Basic Industries
+BlackLine, Inc.;$1.81B;n/a;Transportation
+Allot Communications Ltd.;$159.61M;Technology;n/a
+New York Community Bancorp, Inc.;n/a;n/a;Technology
+Affimed N.V.;$87.88M;Health Care;Health Care
+Apple Hospitality REIT, Inc.;$4.32B;Consumer Services;Health Care
+Western Alliance Bancorporation;$5.2B;Finance;Public Utilities
+Adobe Systems Incorporated;$68.19B;Technology;Finance
+P.A.M. Transportation Services, Inc.;$129.34M;Transportation;Consumer Services
+Central Garden & Pet Company;$1.51B;Consumer Durables;Capital Goods
+Teekay Offshore Partners L.P.;$293.41M;Consumer Services;Finance
+Republic Services, Inc.;$21.91B;Public Utilities;Finance
+Genius Brands International, Inc.;$21.76M;Consumer Services;Public Utilities
+HealthEquity, Inc.;$3.07B;Miscellaneous;Transportation
+HealthStream, Inc.;$952.64M;Technology;Finance
+DHT Holdings, Inc.;$490.61M;Transportation;n/a
+Seaspan Corporation;$649.92M;Transportation;n/a
+j2 Global, Inc.;$4.23B;Technology;Finance
+California Water  Service Group Holding;$1.8B;Public Utilities;n/a
+SharpSpring, Inc.;$37.65M;Technology;Consumer Services
+Kimball Electronics, Inc.;$496.43M;Technology;Health Care
+PAVmed Inc.;n/a;Health Care;Health Care
+Taitron Components Incorporated;$8.4M;Consumer Non-Durables;Basic Industries
+PowerShares QQQ Trust, Series 1;$50.09B;n/a;Health Care
+iShares FTSE EPRA/NAREIT Global Real Estate ex-U.S. Index Fund;$532.8M;n/a;Health Care
+FinTech Acquisition Corp. II;n/a;Finance;Consumer Durables
+Asia Pacific Fund, Inc. (The);$130.23M;n/a;Energy
+National Western Life Group, Inc.;$1.18B;Finance;Technology
+Avenue Income Credit Strategies Fund;$185.39M;n/a;n/a
+DAVIDsTEA Inc.;$166.11M;Consumer Non-Durables;Consumer Non-Durables
+Fenix Parts, Inc.;$29.61M;Consumer Services;Finance
+Barclays Inverse US Treasury Composite ETN;$14.79M;Finance;Basic Industries
+Vanguard International Dividend Appreciation ETF;$408.55M;n/a;Basic Industries
+Kandi Technologies Group, Inc.;$187.28M;Capital Goods;Finance
+Oshkosh Corporation;$5.07B;Capital Goods;n/a
+Liberty Expedia Holdings, Inc.;$3.06B;Consumer Services;Consumer Non-Durables
+Independent Bank Corp.;$1.79B;Finance;Finance
+Big 5 Sporting Goods Corporation;$316.8M;Consumer Services;Miscellaneous
+Scorpio Tankers Inc.;n/a;Transportation;Consumer Services
+Teekay Offshore Partners L.P.;n/a;n/a;Transportation
+SPDR Dorsey Wright Fixed Income Allocation ETF;$58.13M;n/a;Consumer Services
+Avista Corporation;$2.86B;Public Utilities;Basic Industries
+Nordstrom, Inc.;$7.89B;Consumer Services;Technology
+Technical Communications Corporation;$7.36M;Technology;n/a
+Aspen Insurance Holdings Limited;$3.07B;Finance;Technology
+Exactech, Inc.;$438.67M;Health Care;n/a
+First Trust Large Cap Growth AlphaDEX Fund;$646.76M;n/a;Health Care
+IES Holdings, Inc.;$343.54M;Capital Goods;Finance
+Mercantile Bank Corporation;$544.37M;Finance;n/a
+RPM International Inc.;$7.43B;Basic Industries;Public Utilities
+Potlatch Corporation;$1.92B;Consumer Services;Transportation
+Scholastic Corporation;$1.58B;Consumer Services;Consumer Services
+MER Telemanagement Solutions Ltd.;$5.27M;Public Utilities;Consumer Services
+First Trust Nasdaq Transportation ETF;$2.4M;n/a;n/a
+Telecom Italia S.P.A.;$19.89B;Consumer Services;Finance
+Astrotech Corporation;$21.18M;Capital Goods;Consumer Services
+Impinj, Inc.;$1.15B;Capital Goods;Consumer Services
+Ryman Hospitality Properties, Inc.;$3.39B;Consumer Services;n/a
+Endurance International Group Holdings, Inc.;$1.21B;Technology;Technology
+Tri Continental Corporation;n/a;n/a;Energy
+Granite Real Estate Inc.;n/a;n/a;Finance
+New York Mortgage Trust, Inc.;n/a;Consumer Services;Public Utilities
+Eli Lilly and Company;$90.35B;Health Care;Energy
+Reinsurance Group of America, Incorporated;n/a;Finance;n/a
+Audentes Therapeutics, Inc.;$463.59M;Health Care;Health Care
+Textron Inc.;$12.7B;Capital Goods;Finance
+West Bancorporation;$383.64M;Finance;n/a
+B. Riley Financial, Inc.;n/a;Miscellaneous;Technology
+Vishay Intertechnology, Inc.;$2.42B;Capital Goods;Finance
+Team, Inc.;$751.34M;Consumer Services;Technology
+Wheaton Precious Metals Corp.;$8.45B;Basic Industries;Basic Industries
+Encana Corporation;$8.55B;Energy;Technology
+Matson, Inc.;$1.3B;Consumer Services;Consumer Services
+Cimarex Energy Co;$8.92B;Energy;n/a
+California First National Bancorp;$179.38M;Finance;Finance
+US Foods Holding Corp.;$6.33B;Consumer Non-Durables;Finance
+Liberty Broadband Corporation;$16B;Consumer Services;Consumer Non-Durables
+Hartford Financial Services Group, Inc. (The);$19.25B;Finance;Finance
+CorEnergy Infrastructure Trust, Inc.;n/a;n/a;Finance
+Ashford Hospitality Trust Inc;n/a;n/a;Health Care
+Glaukos Corporation;$1.39B;Health Care;Capital Goods
+DWS High Income Opportunities Fund, Inc.;$226.66M;n/a;Technology
+First Trust NASDAQ ABA Community Bank Index Fund;$388.89M;n/a;n/a
+MasTec, Inc.;$3.69B;Basic Industries;n/a
+MGIC Investment Corporation;$4.14B;Finance;Health Care
+Regeneron Pharmaceuticals, Inc.;$48.88B;Health Care;n/a
+Nuveen Municipal 2021 Target Term Fund;$84.71M;n/a;Miscellaneous
+EP Energy Corporation;$1.02B;Energy;n/a
+3D Systems Corporation;$2.39B;Technology;n/a
+Ducommun Incorporated;$365.69M;Capital Goods;Technology
+Toyota Motor Corp Ltd Ord;$156.02B;Capital Goods;Consumer Non-Durables
+PartnerRe Ltd.;n/a;n/a;n/a
+Sajan, Inc.;$27.68M;Miscellaneous;Technology
+Tsakos Energy Navigation Ltd;$366.58M;Transportation;Consumer Services
+Firsthand Technology Value Fund, Inc.;$63.46M;n/a;Finance
+Pioneer Natural Resources Company;$27.01B;Energy;Finance
+Lions Gate Entertainment Corporation;n/a;n/a;n/a
+Cinemark Holdings Inc;$4.82B;Consumer Services;Energy
+ResMed Inc.;$10.93B;Health Care;n/a
+Kingsway Financial Services, Inc.;$143.39M;Finance;Consumer Non-Durables
+PowerShares DWA Financial Momentum Portfolio;$78.45M;n/a;Health Care
+PowerShares International Dividend Achievers Portfolio;$802.72M;n/a;n/a
+Douglas Emmett, Inc.;$6.03B;Consumer Services;Basic Industries
+KCG Holdings, Inc.;$1.35B;Finance;Consumer Durables
+Invacare Corporation;$399.95M;Health Care;Consumer Services
+Willis Towers Watson Public Limited Company;$20.23B;Finance;n/a
+XG Technology, Inc;$21.96M;Consumer Durables;Consumer Services
+Franklin Electric Co., Inc.;$1.88B;Consumer Durables;Consumer Durables
+Forum Energy Technologies, Inc.;$1.66B;Energy;Energy
+Enanta Pharmaceuticals, Inc.;$647.69M;Health Care;Health Care
+Public Storage;n/a;Consumer Services;n/a
+Ryman Hospitality Properties, Inc.;$3.39B;Consumer Services;Finance
+National Research Corporation;$672.9M;Health Care;n/a
+Carpenter Technology Corporation;$1.68B;Basic Industries;Consumer Durables
+Global X FinTech ETF;n/a;n/a;Finance
+Zion Oil & Gas Inc;n/a;Energy;Consumer Services
+American Financial Group, Inc.;$8.98B;Finance;Transportation
+Kimball International, Inc.;$629.83M;Consumer Durables;Consumer Services
+Weatherford International plc;$4.03B;Energy;Consumer Non-Durables
+ITUS Corporation;$14.36M;Miscellaneous;Technology
+Popular, Inc.;$3.98B;Finance;Capital Goods
+Myovant Sciences Ltd.;$683.9M;Health Care;Health Care
+Legg Mason BW Global Income Opportunities Fund Inc.;$283.57M;n/a;Health Care
+PolyOne Corporation;$3.08B;Basic Industries;Technology

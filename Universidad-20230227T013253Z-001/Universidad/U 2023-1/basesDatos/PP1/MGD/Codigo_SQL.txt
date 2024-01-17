@@ -1,0 +1,192 @@
+--Creacion de Tablas
+create table entrenador(
+  rut text primary key,
+  nombre text,
+  apellido text,
+  correo text,
+  sexo text,
+  fecha_nacimiento date
+);
+
+create table jugador(
+  rut text primary key,
+  nombre text,
+  apellido text,
+  correo text,
+  sexo text,
+  fecha_nacimiento date,
+  division integer
+);
+
+create table parejas(
+  id_pareja integer primary key,
+  rut1 text,
+  rut2 text,
+  foreign key (rut1) references jugador(rut),
+  foreign key (rut2) references jugador(rut)
+);
+
+create table cancha(
+  numero integer primary key,
+  nombre text,
+  fecha_instalacion date
+);
+
+create table clases(
+  id_clase integer primary key,
+  fecha date,
+  hora time,
+  rut_entrenador text,
+  rut_jugador text,
+  numero_cancha integer,
+  foreign key (rut_entrenador) references entrenador(rut),
+  foreign key (rut_jugador) references jugador(rut),
+  foreign key (numero_cancha) references cancha(numero)
+);
+
+create table pago(
+  numero_boleta integer primary key,
+  fecha date,
+  hora time,
+  monto integer,
+  rut_jugador text,
+  foreign key (rut_jugador) references jugador(rut)
+);
+
+create table reserva(
+  id_reserva integer primary key,
+  fecha text,
+  hora time,
+  estado text,
+  numero_cancha integer,
+  rut_jugador text,
+  numero_boleta_reserva integer,
+  foreign key (numero_cancha) references cancha(numero),
+  foreign key (rut_jugador) references jugador(rut),
+  foreign key (numero_boleta_reserva) references pago(numero_boleta)
+);
+
+create table division(
+  id_division integer primary key,
+  nombre text,
+  sexo text,
+  finales_ascenso integer,
+  division_asociada text
+);
+
+create table torneo(
+  nombre text primary key,
+  fecha date,
+  tipo text,
+  id_division_torneo integer,
+  numero_cancha integer,
+  foreign key (id_division_torneo) references division(id_division),
+  foreign key (numero_cancha) references cancha(numero)
+);
+
+create table historial(
+  id_historial integer primary key,
+  posicion int,
+  fecha_subida date,
+  fecha_bajada date,
+  id_pareja_historial integer,
+  nombre_torneo text,
+  foreign key (id_pareja_historial) references parejas(id_pareja),
+  foreign key (nombre_torneo) references torneo(nombre)
+);
+
+--Ingreso de datos
+
+--Datos de entrenador
+insert into entrenador (rut, nombre, apellido, correo, sexo, fecha_nacimiento) values ('18491179-4', 'Andros', 'Hazelgrove', 'ahazelgrove0@aboutads.info', 'Bigender', '09/08/1998');
+insert into entrenador (rut, nombre, apellido, correo, sexo, fecha_nacimiento) values ('19738392-3', 'Biddie', 'Dreus', 'bdreus1@wikipedia.org', 'Genderqueer', '20/07/1999');
+insert into entrenador (rut, nombre, apellido, correo, sexo, fecha_nacimiento) values ('20402202-8', 'Khalil', 'McQuilty', 'kmcquilty2@sohu.com', 'Genderqueer', '31/05/2000');
+insert into entrenador (rut, nombre, apellido, correo, sexo, fecha_nacimiento) values ('20289845-5', 'Vasili', 'Luxon', 'vluxon3@wikia.com', 'Genderqueer', '11/11/2000');
+insert into entrenador (rut, nombre, apellido, correo, sexo, fecha_nacimiento) values ('20067854-5', 'Curran', 'Cockshutt', 'ccockshutt4@sciencedaily.com', 'Female', '01/05/2000');
+
+--Datos de jugador
+insert into jugador (rut, nombre, apellido, correo, sexo, fecha_nacimiento) values ('19153342-5', 'Ranique', 'Derisley', 'rderisley0@ed.gov', 'Masculino', '24/04/2000');
+insert into jugador (rut, nombre, apellido, correo, sexo, fecha_nacimiento, division) values ('19989134-2', 'Delores', 'Parks', 'dparks1@mlb.com', 'Femenino', '25/05/1999', 2);
+insert into jugador (rut, nombre, apellido, correo, sexo, fecha_nacimiento, division) values ('20324948-2', 'Arvy', 'Chenery', 'achenery2@macromedia.com', 'Femenino', '26/06/2020', 3);
+insert into jugador (rut, nombre, apellido, correo, sexo, fecha_nacimiento, division) values ('19730309-9', 'Darell', 'Skokoe', 'dskokoe3@unesco.org', 'Masculino', '28/06/1999', 2);
+insert into jugador (rut, nombre, apellido, correo, sexo, fecha_nacimiento) values ('20982229-1', 'Anastasie', 'Odhams', 'aodhams4@delicious.com', 'Femenino', '19/10/2000');
+insert into jugador (rut, nombre, apellido, correo, sexo, fecha_nacimiento, division) values ('20159855-6', 'Hashim', 'Simonou', 'hsimonou0@engadget.com', 'Masculino', '07/07/2000', 4);
+insert into jugador (rut, nombre, apellido, correo, sexo, fecha_nacimiento, division) values ('20141380-6', 'Trudi', 'Vanacci', 'tvanacci1@ocn.ne.jp', 'Femenino', '31/01/2000', 1);
+insert into jugador (rut, nombre, apellido, correo, sexo, fecha_nacimiento, division) values ('19179975-3', 'Felicdad', 'Porter', 'fporter2@reverbnation.com', 'Masculino', '20/08/1999', 4);
+
+--Datos de parejas
+insert into parejas (id_pareja, rut1, rut2) values (203, '19153342-5', '19730309-9');
+insert into parejas (id_pareja, rut1, rut2) values (191, '19989134-2', '20324948-2');
+insert into parejas (id_pareja, rut1, rut2) values (195, '20159855-6', '19179975-3');
+
+--Datos de cancha 
+insert into cancha (numero, nombre, fecha_instalacion) values (1, 'Stearne', '07/01/2020');
+insert into cancha (numero, nombre, fecha_instalacion) values (2, 'Tomaso', '14/02/2020');
+insert into cancha (numero, nombre, fecha_instalacion) values (3, 'Devy', '29/03/2020');
+insert into cancha (numero, nombre, fecha_instalacion) values (4, 'Kassia', '25/04/2020');
+insert into cancha (numero, nombre, fecha_instalacion) values (5, 'Kaitlin', '30/05/2020');
+insert into cancha (numero, nombre, fecha_instalacion) values (6, 'Kinna', '27/07/2020');
+
+--Datos de clases
+insert into clases (id_clase, fecha, hora, rut_entrenador, rut_jugador, numero_cancha) values (432, '03/07/2021', '11:50', '18491179-4', '19153342-5', 2);
+insert into clases (id_clase, fecha, hora, rut_entrenador, rut_jugador, numero_cancha) values (682, '11/08/2021', '5:39', '18491179-4', '19730309-9', 3);
+insert into clases (id_clase, fecha, hora, rut_entrenador, rut_jugador, numero_cancha) values (551, '28/09/2021', '3:12', '20289845-5', '20141380-6', 1);
+
+--Datos de pago
+insert into pago (numero_boleta, fecha, hora, monto, rut_jugador) values (1, '01/06/2021', '14:12',14000, '19179975-3');
+insert into pago (numero_boleta, fecha, hora, monto, rut_jugador) values (2, '03/07/2021', '16:32',12000, '19730309-9');
+insert into pago (numero_boleta, fecha, hora, monto, rut_jugador) values (3, '05/07/2020', '14:25',15000, '20324948-2'); 
+
+--Datos de reserva
+insert into reserva (id_reserva, fecha, hora, estado, numero_cancha, rut_jugador, numero_boleta_reserva) values (5, '06/06/2021', '11:56', 'Pagado', 1, '19179975-3', 1);
+insert into reserva (id_reserva, fecha, hora, estado, numero_cancha, rut_jugador) values (6, '07/06/2021', '14:20', 'No pagado', 2, '19989134-2');
+insert into reserva (id_reserva, fecha, hora, estado, numero_cancha, rut_jugador, numero_boleta_reserva) values (7, '12/07/2021', '12:44', 'Pagado', 2, '19730309-9', 2);
+insert into reserva (id_reserva, fecha, hora, estado, numero_cancha, rut_jugador, numero_boleta_reserva) values (8, '13/07/2021', '11:59', 'Pagado', 3, '20324948-2', 3);
+
+--Datos de divisiones
+insert into division (id_division, nombre, sexo, finales_ascenso, division_asociada) values (102, 'Sonsing', 'Femenino', 2, 103);
+insert into division (id_division, nombre, sexo, finales_ascenso, division_asociada) values (2, 'Duobam', 'Masculino', 3, 4);
+insert into division (id_division, nombre, sexo, finales_ascenso, division_asociada) values (103, 'Konklab', 'Femenino', 2, 104);
+insert into division (id_division, nombre, sexo, finales_ascenso, division_asociada) values (104, 'Overhold', 'Femenino', 2, 105);
+insert into division (id_division, nombre, sexo, finales_ascenso, division_asociada) values (4, 'Zathin', 'Masculino', 3, 5);
+insert into division (id_division, nombre, sexo, finales_ascenso, division_asociada) values (106, 'Flowdesk', 'Femenino', 1, 107);
+insert into division (id_division, nombre, sexo, finales_ascenso, division_asociada) values (5, 'Tempsoft', 'Masculino', 3, 6);
+
+--Datos de torneo
+insert into torneo (nombre, fecha, id_division_torneo, numero_cancha) values ('Regrant', '01/04/2021', 4, 5);
+insert into torneo (nombre, fecha, id_division_torneo, numero_cancha) values ('Tempsoft', '07/07/2021', 102, 4);
+insert into torneo (nombre, fecha, id_division_torneo, numero_cancha) values ('Stronghold', '16/09/2021', 5, 3);
+insert into torneo (nombre, fecha, id_division_torneo, numero_cancha) values ('Bitwolf', '05/08/2021', 106, 4);
+
+--Datos de historial
+insert into historial (id_historial, posicion, fecha_subida, fecha_bajada, id_pareja_historial, nombre_torneo) values (150, 1, '26/04/2021', '08/04/2021', 203, 'Regrant');
+insert into historial (id_historial, posicion, fecha_subida, fecha_bajada, id_pareja_historial, nombre_torneo) values (638, 3, '26/05/2020', '26/07/2021', 191, 'Tempsoft');
+insert into historial (id_historial, posicion, fecha_subida, fecha_bajada, id_pareja_historial, nombre_torneo) values (461, 2, '20/06/2021', '21/08/2021', 195, 'Bitwolf');
+
+
+--Requerimientos
+
+--a) Lista de todas las reservas que no fueron pagadas.
+select * from reserva r where (r.estado = 'No pagado')
+
+--b) Lista de todos los entrenadores, y por cada entrenador, los jugadores que han recibido clases.
+select entrenador.rut as rut_entrenador, entrenador.nombre as nombre_entrenador, entrenador.apellido as apellido_entrenador,
+clases.rut_jugador as rut_jugador, jugador.nombre as nombre_jugador, jugador.apellido as apellido_jugador from entrenador 
+inner join clases  on clases.rut_entrenador = entrenador.rut
+inner join jugador on clases.rut_jugador = jugador.rut
+
+--c) Lista de todas las reservas pagadas, indicando su fecha, cancha, fecha/hora del pago, monto, numero de ´boleta.
+select reserva.fecha as fecha_reserva, reserva.numero_cancha, pago.fecha as fecha_pago, pago.hora as hora_pago, pago.monto , pago.numero_boleta from reserva  
+inner join pago on pago.numero_boleta = reserva.numero_boleta_reserva
+where (reserva.estado = 'Pagado')
+
+--d) Listado de jugadores, indicando la division a la que potencialmente pertenece. 
+select rut, nombre, apellido, division from jugador 
+
+--e) Teniendo un dia y una hora, listar todas las canchas disponibles para ser reservadas.
+select cancha.numero, cancha.nombre  from cancha 
+where not exists(
+	select from reserva 
+	inner join torneo on (torneo.numero_cancha = cancha.numero and torneo.fecha > '05/08/2021' and 
+	reserva.numero_cancha = cancha.numero and reserva.fecha > '05/08/2021')
+)

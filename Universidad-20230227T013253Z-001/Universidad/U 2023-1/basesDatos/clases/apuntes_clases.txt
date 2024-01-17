@@ -1,0 +1,7 @@
+select * 
+from empresa
+where rut in(select rut_empresa from empleado)
+
+select *
+from empresa p
+where exist (select * from empleado e where e.rut_empresa = p.rut)

@@ -1,0 +1,148 @@
+def diagnosticoExamen(diag,tEx,mes): #Funcion que nos ayudara a calcular el diagnostico de un paciente cualquiera recibiendo 3 parametros
+                                     #diag = "prediagnostico del examen";tEx = "el tipo de examen";mes = "El mes en que se lo realizó"   
+    arch2=open("examenes.txt","r",encoding='utf-8') #Abrimos el archivo de texto llamado "examenes.txt"
+    linea2=arch2.readline().strip()#Leemos
+    valores=["",""]#Esta lista nos servira para poder dividir la presion sistólica y presion diastólica
+    exa=[]#Esta lista nos servira para dividir el valor del prediagnostico de la "Presion Arterial"
+    while linea2 != "":
+        partes=linea2.split(",")
+        tipoEx=partes[0]
+        valorNormal=partes[1]
+        valorAlterado=partes[2]
+        diagnostico=partes[3]
+        if tipoEx=="P":
+            valores[0]=valorNormal.split("/")
+            valores[1]=valorAlterado.split("/")  
+            if tEx=="P":
+                exa.append(diag.split("/"))
+                x=""
+                if int(exa[0][0]) >= int(valores[1][0]) or int(exa[0][1])>= int(valores[1][1]):
+                    x=[diagnostico,tEx,mes]
+                elif int(exa[0][0]) <= int(valores[0][0]) or int(exa[0][1]) <= int(valores[0][1]) :
+                    x=["NORMAL",tEx,mes]
+                else:
+                    x=["PRECAUCIÓN",tEx,mes]   
+
+        if tipoEx=="C" and tEx=="C":
+            x=""
+            if int(diag) >= int(valorAlterado):
+                x=[diagnostico,tEx,mes]
+            if int(diag) < int(valorAlterado) and int(diag) > int(valorNormal):
+                x=["PRECAUCIÓN",tEx,mes]
+            if int(diag) <= int(valorNormal):
+                x=["NORMAL",tEx,mes]    
+
+        if tipoEx=="G" and tEx=="G":
+            x=""
+            if int(diag)>= int(valorAlterado):
+                x=[diagnostico,tEx,mes]
+            if int(diag) < int(valorAlterado) and int(diag) > int(valorNormal):
+                x=["PRECAUCIÓN",tEx,mes]
+            if int(diag) <= int(valorNormal):
+                x=["NORMAL",tEx,mes]
+              
+        linea2=arch2.readline().strip() 
+    return x  
+    
+arch=open("pacientes.txt","r")
+linea=arch.readline().strip()
+rutPaciente=[]
+nombrePaciente=[]
+edadPaciente=[]
+sexoPaciente=[]
+while linea!= "":
+    partes=linea.split(",")
+    rut=partes[0]
+    nombre=partes[1]
+    sexo=partes[2]
+    edad=int(partes[3])
+    
+    rutPaciente.append(rut)
+    nombrePaciente.append(nombre)
+    edadPaciente.append(edad)
+    sexoPaciente.append(sexo)
+
+    linea=arch.readline().strip()
+    
+arch3=open("registro.txt","r")
+linea3=arch3.readline().strip()
+rutRegistro=[]
+meses=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]
+resultados=[]
+while linea3 != "":
+    partes=linea3.split(",")
+    orden=(partes[0])
+    
+    if orden != "O":
+        rutP=partes[0]
+        mes=partes[1]
+        examen=partes[2]
+        result=partes[3]
+        rutRegistro.append(rutP)
+        resultados.append(diagnosticoExamen(result,examen,mes))
+        
+    linea3=arch3.readline().strip()
+
+#Diagnostico.txt ; este codigo nos dara el archivo de salida como se observa en el archivo ejemplo entregado
+print("Presion Arterial")
+for i in range(len(meses)):
+    print(meses[i])
+    for j in range(len(resultados)):
+        if resultados[j][2]==meses[i]:
+            if resultados[j][1]=="P":
+                print(str(rutRegistro[j])+","+str(nombrePaciente[rutPaciente.index(rutRegistro[j])])+","+str(resultados[j][0]))
+
+print("Colesterol")
+for i in range(len(meses)):
+    print(meses[i])
+    for j in range(len(resultados)):
+        if resultados[j][2]==meses[i]:
+            if resultados[j][1]=="C":
+                print(str(rutRegistro[j])+","+str(nombrePaciente[rutPaciente.index(rutRegistro[j])])+","+str(resultados[j][0]))
+print("Curva de Tolerancia a la Glucosa")
+for i in range(len(meses)):
+    print(meses[i])
+    for j in range(len(resultados)):
+        if resultados[j][2]==meses[i]:
+            if resultados[j][1]=="G":
+                print(str(rutRegistro[j])+","+str(nombrePaciente[rutPaciente.index(rutRegistro[j])])+","+str(resultados[j][0]))
+
+
+#Estadisticas.txt ;  este codigo nos dara el archivo de salida como se observa en el archivo ejemplo entregado
+print("*A*")
+print("Presion Arterial")
+for i in range(len(meses)):
+    cont=0 #cantidad examenes hechos, separados por mes y por tipo (Presion Arterial) 
+    norm=0 # contador de casos con Presion Arterial  en condicion "Normal"
+    prec=0 # contador de casos con Presion Arterial  en condicion "Precaucion"
+    alt=0  # contador de casos con Presion Arterial  en condicion "Alterado" 
+    for j in range(len(resultados)):
+        if resultados[j][2]==meses[i]:
+            if resultados[j][1]=="P":
+                cont+=1
+                if resultados[j][0]=="NORMAL":
+                    norm+=1
+                elif resultados[j][0]=="PRECAUCIÓN":
+                    prec+=1
+                else:
+                    alt+=1
+
+    print(str(meses[i]+","+str(cont)))
+                
+print("Colesterol")
+for i in range(len(meses)):
+    cont=0 #cantidad examenes hechos, separados por mes y por tipo (Coresterol) 
+    for j in range(len(resultados)):
+        if resultados[j][2]==meses[i]:
+            if resultados[j][1]=="P":
+                cont+=1
+    print(str(meses[i]+","+str(cont)))
+
+print("Curva de Tolerancia a la Glucosa")
+for i in range(len(meses)):
+    cont=0 #cantidad examenes hechos, separados por mes y por tipo (Curva de tolerancia a la glucosa) 
+    for j in range(len(resultados)):
+        if resultados[j][2]==meses[i]:
+            if resultados[j][1]=="P":
+                cont+=1
+    print(str(meses[i]+","+str(cont)))

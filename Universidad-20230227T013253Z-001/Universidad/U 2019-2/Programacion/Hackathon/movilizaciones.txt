@@ -1,0 +1,40 @@
+región XV,2
+Arica,100000
+Putre,600
+región IV,4
+Coquimbo,110000
+La Serena,90000
+Ovalle,45000
+Andacollo,6000
+región V,2
+Valparaiso,200000
+Viña del Mar,180000
+región XII,2
+Punta Arenas,60000
+Porvenir,2000
+región III,3
+Copiapo,60000
+Vallenar,7000
+Chañaral,3000
+región II,3
+Antofagasta,210000
+Calama,90000
+Tocopilla,10000
+región Metropolitana,6
+Puente Alto,350000
+La Florida,180000
+San Bernardo,190000
+Renca,70000
+Maipú,340000
+Santiago,300000
+región VI,2
+Rancagua,130000
+San Fernando,20000
+región VIII,4
+Concepción,150000
+Talcahuano,60000
+Los Angeles,40000
+Lota,12000
+región IX,2
+Temuco,110000
+Angol,15000

@@ -1,0 +1,419 @@
+20/3/2020;20:14;POM-89;Ánimo
+21/3/2020;11:45;APA-60;FC
+23/3/2020;20:13;SD-25;voy llegando
+26/3/2020;21:0;SD-25;<Visibilidad>
+23/3/2020;16:17;APA-60;no puedo
+22/3/2020;19:21;NH-30;dale dale
+27/3/2020;19:15;NH-30;es verdad 👀
+20/3/2020;20:17;POM-89;no puedo
+21/3/2020;16:46;FKJ-45;error grave
+20/3/2020;20:45;NH-30;:p
+26/3/2020;20:12;POM-89;no, mala
+22/3/2020;16:14;NH-30;👀👀👀👀👀👀👀👀👀
+22/3/2020;23:12;FKJ-45;<Visibilidad>
+21/3/2020;20:43;APA-60;<Visibilidad>
+29/3/2020;20:12;SD-25;a las 3
+27/3/2020;20:10;JKD-1;En posición
+24/3/2020;10:17;NH-30;nada que ver
+24/3/2020;23:12;POM-89;<Combustible>
+20/3/2020;19:10;NH-30;Aterrizaje exitoso
+23/3/2020;19:15;SD-25;Aterrizaje exitoso
+29/3/2020;20:12;NH-30;<Visibilidad>
+29/3/2020;16:13;POM-89;No
+28/3/2020;16:46;NH-30;<Combustible>
+23/3/2020;20:0;FKJ-45;Problemas de altitud
+24/3/2020;23:45;JKD-1;y si lo dejamos para la próxima semana
+22/3/2020;16:12;SD-25;es verdad 👀
+25/3/2020;20:12;NH-30;Yo llevo la carne
+27/3/2020;20:46;POM-89;<Visibilidad>
+22/3/2020;16:20;DIE-10;Pista sucia
+20/3/2020;15:13;SD-25;<Trafico>
+24/3/2020;20:10;POM-89;<Combustible>
+21/3/2020;19:14;APA-60;voy llegando
+27/3/2020;10:12;FKJ-45;aps
+29/3/2020;21:45;SD-25;Sí, jjajaja dale
+22/3/2020;21:21;SD-25;<Visibilidad>
+26/3/2020;21:15;POM-89;gracias
+26/3/2020;16:21;DIE-10;🙊🙊🙊🙊🙊🙊
+21/3/2020;20:10;JKD-1;vale vale
+29/3/2020;20:12;SD-25;y… cómo les fue ayer?
+22/3/2020;20:13;SD-25;nada que ver
+22/3/2020;20:22;POM-89;bacan
+25/3/2020;8:17;DIE-10;👍👍
+27/3/2020;21:46;JKD-1;Problemas de altitud
+22/3/2020;20:12;APA-60;vale vale
+28/3/2020;20:13;FKJ-45;Yo llevo la carne
+20/3/2020;15:12;SD-25;gracias
+20/3/2020;19:17;SD-25;y de dónde sacaron eso?
+27/3/2020;11:45;POM-89;<Visibilidad>
+28/3/2020;20:10;JKD-1;Espere su turno
+22/3/2020;20:14;DIE-10;<Trafico>
+23/3/2020;19:21;JKD-1;es verdad 👀
+20/3/2020;16:17;SD-25;<Trafico>
+22/3/2020;16:46;NH-30;Hola
+24/3/2020;16:12;SD-25;<Visibilidad>
+27/3/2020;20:21;APA-60;gracias
+24/3/2020;20:21;FKJ-45;<Combustible>
+21/3/2020;19:12;DIE-10;Vieron el partido ayer?
+28/3/2020;8:12;APA-60;Ánimo
+23/3/2020;22:46;NH-30;nada que ver
+23/3/2020;20:46;SD-25;<Combustible>
+27/3/2020;20:10;APA-60;:p
+29/3/2020;19:12;DIE-10;es verdad 👀
+20/3/2020;16:20;APA-60;Yo llevo la carne
+24/3/2020;20:13;NH-30;Adiós
+28/3/2020;20:10;DIE-10;<Trafico>
+27/3/2020;20:15;FKJ-45;En posición
+22/3/2020;20:12;POM-89;dale dale
+20/3/2020;20:12;APA-60;Problemas de altitud
+24/3/2020;23:20;SD-25;<Visibilidad>
+20/3/2020;19:17;FKJ-45;bacan
+27/3/2020;16:12;POM-89;<Visibilidad>
+20/3/2020;16:21;JKD-1;👍👍
+24/3/2020;10:17;JKD-1;😱
+23/3/2020;7:10;SD-25;Vieron el partido ayer?
+26/3/2020;19:17;POM-89;NAAAAAAAAAAAAAAHH
+20/3/2020;16:17;DIE-10;me escuchan
+27/3/2020;22:12;DIE-10;si…
+24/3/2020;7:21;SD-25;y… cómo les fue ayer?
+28/3/2020;19:13;APA-60;Hola
+27/3/2020;20:20;SD-25;👍
+23/3/2020;20:13;SD-25;a qué hora llegan?
+26/3/2020;23:15;DIE-10;<Visibilidad>
+22/3/2020;16:46;SD-25;<Combustible>
+25/3/2020;20:12;DIE-10;y si lo dejamos para la próxima semana
+29/3/2020;19:22;POM-89;Adiós
+26/3/2020;20:21;FKJ-45;no puedo
+26/3/2020;20:22;FKJ-45;<Combustible>
+22/3/2020;16:12;JKD-1;<Combustible>
+27/3/2020;16:46;POM-89;Horario de llegada
+28/3/2020;16:13;SD-25;a qué hora llegan?
+22/3/2020;11:15;NH-30;👍👍
+25/3/2020;20:43;DIE-10;si…
+29/3/2020;21:46;SD-25;<Trafico>
+23/3/2020;10:12;SD-25;Permiso
+22/3/2020;23:12;FKJ-45;<Combustible>
+24/3/2020;20:22;FKJ-45;Ánimo
+24/3/2020;20:43;DIE-10;<Visibilidad>
+26/3/2020;20:45;POM-89;<Combustible>
+26/3/2020;20:17;POM-89;En posición
+26/3/2020;20:14;NH-30;FC
+25/3/2020;23:10;FKJ-45;a las 3
+26/3/2020;21:45;SD-25;👍
+23/3/2020;20:12;SD-25;gracias
+23/3/2020;23:14;APA-60;<Combustible>
+27/3/2020;20:46;POM-89;jajajajajaja
+21/3/2020;19:13;APA-60;<Combustible>
+27/3/2020;22:12;SD-25;👀👀👀👀👀👀👀👀👀
+22/3/2020;23:12;POM-89;<Trafico>
+20/3/2020;20:12;FKJ-45;<Visibilidad>
+27/3/2020;21:21;NH-30;<Combustible>
+22/3/2020;19:46;FKJ-45;Espere su turno
+27/3/2020;11:13;SD-25;Pista sucia
+26/3/2020;11:43;FKJ-45;<Visibilidad>
+21/3/2020;20:13;NH-30;<Visibilidad>
+24/3/2020;15:0;POM-89;gracias
+24/3/2020;21:13;POM-89;<Combustible>
+23/3/2020;21:46;SD-25;<Combustible>
+22/3/2020;7:21;NH-30;Horario de llegada
+26/3/2020;20:20;FKJ-45;a las 8
+20/3/2020;20:22;SD-25;<Combustible>
+29/3/2020;10:10;SD-25;Feliz Cumpleaños
+27/3/2020;20:46;SD-25;<Trafico>
+20/3/2020;16:10;SD-25;y… cómo les fue ayer?
+25/3/2020;19:14;SD-25;<Visibilidad>
+22/3/2020;11:22;FKJ-45;me escuchan
+29/3/2020;21:43;FKJ-45;<Visibilidad>
+22/3/2020;20:45;SD-25;<Visibilidad>
+22/3/2020;16:46;SD-25;hahahaha
+20/3/2020;19:12;SD-25;estan ahí?
+22/3/2020;22:46;JKD-1;<Visibilidad>
+20/3/2020;20:14;POM-89;y si lo dejamos para la próxima semana
+21/3/2020;16:13;JKD-1;a las 8
+24/3/2020;16:17;NH-30;No
+26/3/2020;20:13;FKJ-45;<Trafico>
+26/3/2020;19:21;APA-60;<Visibilidad>
+26/3/2020;20:12;FKJ-45;a las 3
+28/3/2020;20:45;NH-30;Feliz Cumpleaños
+20/3/2020;20:43;SD-25;<Trafico>
+21/3/2020;16:12;JKD-1;oka, voy el jueves
+25/3/2020;19:12;FKJ-45;me escuchan
+23/3/2020;21:13;POM-89;gracias
+29/3/2020;19:12;POM-89;<Combustible>
+28/3/2020;19:17;SD-25;😱😱😱😱😱😱😱😱
+29/3/2020;19:17;NH-30;<Combustible>
+21/3/2020;19:43;APA-60;me escuchan
+26/3/2020;16:14;NH-30;<Combustible>
+29/3/2020;23:46;SD-25;<Trafico>
+29/3/2020;15:10;DIE-10;enrielar curso
+27/3/2020;16:45;FKJ-45;<Trafico>
+25/3/2020;11:13;POM-89;<Trafico>
+21/3/2020;10:45;DIE-10;todo un misterio
+22/3/2020;19:21;APA-60;no, mala
+29/3/2020;20:20;SD-25;NAAAAAAAAAAAAAAHH
+28/3/2020;16:12;NH-30;<Combustible>
+26/3/2020;16:20;SD-25;<Visibilidad>
+29/3/2020;19:12;SD-25;Adiós
+25/3/2020;7:13;SD-25;<Visibilidad>
+23/3/2020;20:21;NH-30;nada que ver
+27/3/2020;16:43;NH-30;🙊🙊🙊🙊🙊🙊
+24/3/2020;16:10;SD-25;👍
+22/3/2020;10:46;NH-30;Hola
+29/3/2020;21:0;FKJ-45;Vieron el partido ayer?
+21/3/2020;20:12;SD-25;Aterrizaje exitoso
+28/3/2020;8:13;JKD-1;<Trafico>
+28/3/2020;15:45;APA-60;dónde están?
+29/3/2020;20:12;APA-60;me escuchan
+21/3/2020;23:20;SD-25;enrielar curso
+20/3/2020;10:22;DIE-10;<Visibilidad>
+23/3/2020;16:46;FKJ-45;😱😱😱😱😱😱😱😱
+20/3/2020;20:20;FKJ-45;mmmm…..
+24/3/2020;7:17;APA-60;<Trafico>
+27/3/2020;16:13;SD-25;gracias
+27/3/2020;20:43;NH-30;dónde están?
+20/3/2020;21:45;NH-30;a las 8
+21/3/2020;7:10;JKD-1;nada que ver
+28/3/2020;7:20;APA-60;Yo llevo la carne
+24/3/2020;16:17;SD-25;no puedo
+27/3/2020;19:12;SD-25;Feliz Cumple!
+21/3/2020;20:46;NH-30;me escuchan
+26/3/2020;16:21;FKJ-45;<Visibilidad>
+21/3/2020;23:15;FKJ-45;Problemas de altitud
+28/3/2020;21:15;SD-25;<Trafico>
+25/3/2020;22:43;FKJ-45;No
+27/3/2020;20:14;NH-30;si
+26/3/2020;11:21;POM-89;voy llegando
+24/3/2020;16:21;APA-60;Yo llevo la carne
+21/3/2020;20:12;FKJ-45;🙊🙊🙊🙊🙊🙊
+20/3/2020;20:0;APA-60;Hola hola
+22/3/2020;22:12;SD-25;y si lo dejamos para la próxima semana
+24/3/2020;16:45;FKJ-45;Siiiiiiii
+29/3/2020;19:43;APA-60;Adiós
+25/3/2020;16:10;SD-25;y de dónde sacaron eso?
+21/3/2020;10:43;NH-30;<Combustible>
+28/3/2020;21:17;SD-25;👍
+22/3/2020;19:21;FKJ-45;NAAAAAAAAAAAAAAHH
+20/3/2020;16:12;APA-60;:p
+23/3/2020;21:17;JKD-1;:p
+21/3/2020;16:22;SD-25;todo un misterio
+24/3/2020;16:12;NH-30;<Visibilidad>
+24/3/2020;10:17;APA-60;Ánimo
+26/3/2020;21:12;POM-89;todo un misterio
+23/3/2020;22:12;NH-30;mmmm…..
+27/3/2020;20:46;FKJ-45;<Trafico>
+21/3/2020;21:12;JKD-1;y si lo dejamos para la próxima semana
+22/3/2020;19:21;FKJ-45;<Visibilidad>
+22/3/2020;16:21;FKJ-45;<Combustible>
+23/3/2020;19:13;SD-25;Atención a las señales
+28/3/2020;22:0;APA-60;bacan
+24/3/2020;21:20;SD-25;mmmm…..
+20/3/2020;7:17;DIE-10;<Visibilidad>
+21/3/2020;15:13;POM-89;aps
+24/3/2020;16:14;FKJ-45;a las 3
+20/3/2020;10:14;FKJ-45;Horario de llegada
+25/3/2020;19:46;SD-25;Hola hola
+28/3/2020;19:12;DIE-10;<Trafico>
+27/3/2020;10:12;SD-25;si
+27/3/2020;16:0;FKJ-45;<Combustible>
+21/3/2020;15:12;APA-60;estan ahí?
+27/3/2020;19:12;SD-25;<Combustible>
+23/3/2020;19:43;NH-30;😱
+26/3/2020;20:13;JKD-1;Atención a las señales
+27/3/2020;23:0;SD-25;Permiso para despegar?
+26/3/2020;21:12;POM-89;voy llegando
+23/3/2020;23:43;APA-60;Horario de llegada
+27/3/2020;16:13;POM-89;no puedo
+25/3/2020;20:0;APA-60;oka, voy el jueves
+28/3/2020;20:13;SD-25;y de dónde sacaron eso?
+20/3/2020;22:22;POM-89;<Trafico>
+27/3/2020;15:21;DIE-10;gracias
+21/3/2020;20:12;FKJ-45;todo un misterio
+28/3/2020;16:17;NH-30;gracias
+22/3/2020;19:12;DIE-10;el jueves puede
+28/3/2020;19:46;FKJ-45;Espere su turno
+21/3/2020;15:21;SD-25;Atención a las señales
+28/3/2020;20:12;SD-25;Problemas de altitud
+24/3/2020;22:45;NH-30;Exceso de velocidad
+29/3/2020;19:22;JKD-1;<Combustible>
+21/3/2020;20:13;POM-89;Aborte
+26/3/2020;21:45;SD-25;No
+21/3/2020;19:46;SD-25;estan ahí?
+23/3/2020;11:0;SD-25;<Visibilidad>
+21/3/2020;16:0;NH-30;no, mala
+27/3/2020;7:20;FKJ-45;<Trafico>
+23/3/2020;16:12;POM-89;<Trafico>
+21/3/2020;20:12;SD-25;😂😂😂
+21/3/2020;21:22;JKD-1;NAAAAAAAAAAAAAAHH
+25/3/2020;11:13;DIE-10;<Combustible>
+29/3/2020;21:43;APA-60;No
+28/3/2020;10:14;SD-25;si…
+25/3/2020;15:13;NH-30;<Trafico>
+29/3/2020;20:13;POM-89;Despegue exitoso
+23/3/2020;20:21;SD-25;uhhhhhh muy bueno
+28/3/2020;20:10;POM-89;<Trafico>
+28/3/2020;20:15;SD-25;me escuchan
+29/3/2020;22:0;SD-25;es verdad 👀
+21/3/2020;10:12;NH-30;Feliz Cumple!
+29/3/2020;16:13;NH-30;dónde están?
+21/3/2020;16:46;DIE-10;Hola hola
+26/3/2020;20:22;SD-25;no puedo
+22/3/2020;23:46;NH-30;Despejen la pista
+21/3/2020;10:21;SD-25;me escuchan
+24/3/2020;19:17;JKD-1;<Visibilidad>
+25/3/2020;19:12;JKD-1;<Combustible>
+27/3/2020;20:10;JKD-1;el jueves puede
+25/3/2020;21:45;POM-89;Atención a las señales
+26/3/2020;20:46;SD-25;😱
+27/3/2020;21:12;JKD-1;<Combustible>
+23/3/2020;22:21;SD-25;mmmm…..
+23/3/2020;19:20;SD-25;<Combustible>
+23/3/2020;20:12;SD-25;Espere su turno
+27/3/2020;20:21;POM-89;<Combustible>
+26/3/2020;10:14;SD-25;Permiso para despegar?
+27/3/2020;20:10;SD-25;Aterrizaje exitoso
+26/3/2020;23:43;NH-30;el jueves puede
+20/3/2020;23:17;DIE-10;<Visibilidad>
+25/3/2020;20:46;DIE-10;<Combustible>
+22/3/2020;16:22;POM-89;Aborte
+23/3/2020;11:13;SD-25;Horario de llegada
+28/3/2020;10:0;SD-25;dale dale
+24/3/2020;16:13;DIE-10;y de dónde sacaron eso?
+23/3/2020;20:46;APA-60;<Combustible>
+23/3/2020;20:12;FKJ-45;FC
+25/3/2020;15:45;POM-89;error grave
+25/3/2020;20:15;SD-25;<Combustible>
+25/3/2020;20:17;NH-30;<Trafico>
+25/3/2020;19:46;FKJ-45;<Combustible>
+21/3/2020;22:13;NH-30;🙊🙊🙊🙊🙊🙊
+21/3/2020;7:17;SD-25;<Trafico>
+22/3/2020;20:0;NH-30;Permiso para despegar?
+20/3/2020;19:22;APA-60;Hola hola
+23/3/2020;20:12;DIE-10;a qué hora llegan?
+20/3/2020;20:46;SD-25;👍👍
+20/3/2020;16:21;FKJ-45;<Visibilidad>
+25/3/2020;19:12;NH-30;oka, voy el jueves
+29/3/2020;20:12;JKD-1;:p
+20/3/2020;20:21;SD-25;gracias
+29/3/2020;20:43;JKD-1;😱
+22/3/2020;19:46;SD-25;No
+23/3/2020;16:21;FKJ-45;Despegue exitoso
+28/3/2020;19:0;JKD-1;Siiiiiiii
+23/3/2020;8:12;NH-30;si…
+24/3/2020;20:0;SD-25;<Combustible>
+21/3/2020;7:12;SD-25;<Visibilidad>
+29/3/2020;22:46;FKJ-45;<Combustible>
+28/3/2020;21:10;POM-89;<Trafico>
+25/3/2020;16:21;SD-25;jajajajajaja
+21/3/2020;20:12;NH-30;Ánimo
+21/3/2020;20:21;FKJ-45;hahahaha
+20/3/2020;20:10;FKJ-45;<Visibilidad>
+25/3/2020;22:20;SD-25;es verdad 👀
+25/3/2020;15:12;APA-60;<Combustible>
+20/3/2020;19:12;NH-30;😱
+20/3/2020;20:43;APA-60;😱
+26/3/2020;20:17;SD-25;voy llegando
+24/3/2020;20:17;FKJ-45;<Trafico>
+26/3/2020;20:17;SD-25;Yo llevo la carne
+26/3/2020;10:22;DIE-10;<Combustible>
+28/3/2020;16:12;FKJ-45;dale dale
+21/3/2020;20:21;APA-60;👍
+23/3/2020;8:17;POM-89;y de dónde sacaron eso?
+27/3/2020;20:13;JKD-1;dale dale
+25/3/2020;19:20;SD-25;hahahaha
+26/3/2020;10:0;NH-30;bacan
+21/3/2020;22:46;APA-60;<Visibilidad>
+20/3/2020;21:17;SD-25;En posición
+23/3/2020;19:21;APA-60;🙊🙊🙊🙊🙊🙊
+24/3/2020;20:13;SD-25;<Combustible>
+24/3/2020;21:12;APA-60;vale vale
+22/3/2020;11:13;SD-25;a qué hora llegan?
+22/3/2020;10:0;SD-25;Horario de despege
+26/3/2020;23:12;FKJ-45;a qué hora llegan?
+21/3/2020;15:12;SD-25;Horario de llegada
+23/3/2020;20:13;NH-30;no puedo
+21/3/2020;8:43;SD-25;Despejen la pista
+29/3/2020;15:15;DIE-10;Listos para aterrizar
+25/3/2020;19:12;NH-30;enrielar curso
+21/3/2020;20:13;APA-60;a qué hora llegan?
+26/3/2020;16:13;POM-89;estan ahí?
+22/3/2020;21:13;JKD-1;gracias
+21/3/2020;20:43;FKJ-45;<Trafico>
+22/3/2020;19:13;DIE-10;<Combustible>
+27/3/2020;20:14;JKD-1;enrielar curso
+25/3/2020;19:20;FKJ-45;<Combustible>
+20/3/2020;10:46;APA-60;En posición
+25/3/2020;7:14;POM-89;<Combustible>
+24/3/2020;15:20;JKD-1;<Combustible>
+28/3/2020;16:21;FKJ-45;aps
+23/3/2020;20:20;POM-89;FC
+24/3/2020;20:21;SD-25;oka, voy el jueves
+27/3/2020;20:45;POM-89;y… cómo les fue ayer?
+22/3/2020;7:12;FKJ-45;Listos para aterrizar
+24/3/2020;23:21;NH-30;No
+26/3/2020;19:10;NH-30;gracias
+21/3/2020;10:21;SD-25;Horario de despege
+24/3/2020;19:45;FKJ-45;👀👀👀👀👀👀👀👀👀
+23/3/2020;10:12;NH-30;Aborte
+23/3/2020;20:13;FKJ-45;no, mala
+27/3/2020;20:45;SD-25;a qué hora llegan?
+24/3/2020;21:21;APA-60;Sí, jjajaja dale
+29/3/2020;20:17;POM-89;Aborte
+29/3/2020;8:22;FKJ-45;me escuchan
+23/3/2020;20:13;POM-89;<Visibilidad>
+25/3/2020;21:21;APA-60;me escuchan
+25/3/2020;20:17;SD-25;Feliz Cumple!
+23/3/2020;10:46;DIE-10;<Trafico>
+28/3/2020;7:17;POM-89;<Visibilidad>
+20/3/2020;20:21;JKD-1;no, mala
+27/3/2020;16:12;SD-25;<Combustible>
+25/3/2020;20:15;SD-25;<Combustible>
+23/3/2020;19:0;SD-25;👀👀👀👀👀👀👀👀👀
+29/3/2020;20:17;DIE-10;Espere su turno
+27/3/2020;15:12;APA-60;👀👀👀👀👀👀👀👀👀
+21/3/2020;20:12;SD-25;voy llegando
+21/3/2020;16:12;NH-30;<Trafico>
+21/3/2020;15:13;NH-30;si…
+22/3/2020;19:21;SD-25;dale dale
+20/3/2020;21:10;POM-89;Feliz Cumple!
+26/3/2020;21:13;SD-25;<Visibilidad>
+21/3/2020;20:15;SD-25;<Visibilidad>
+21/3/2020;16:14;APA-60;dónde están?
+26/3/2020;20:45;SD-25;Eco
+28/3/2020;16:17;SD-25;Eco
+21/3/2020;22:17;JKD-1;<Combustible>
+22/3/2020;16:21;POM-89;No
+20/3/2020;22:45;FKJ-45;Eco
+24/3/2020;10:22;SD-25;<Trafico>
+20/3/2020;8:13;APA-60;el jueves puede
+24/3/2020;20:14;NH-30;Eco
+25/3/2020;10:13;SD-25;Espere su turno
+23/3/2020;16:0;NH-30;todo un misterio
+21/3/2020;20:10;SD-25;todo un misterio
+20/3/2020;19:45;SD-25;Permiso para despegar?
+20/3/2020;11:21;APA-60;a las 8
+23/3/2020;16:12;POM-89;Horario de despege
+21/3/2020;10:17;SD-25;<Combustible>
+26/3/2020;16:13;SD-25;<Trafico>
+20/3/2020;19:13;FKJ-45;hahahaha
+21/3/2020;22:21;JKD-1;<Trafico>
+22/3/2020;20:21;SD-25;Aterrizaje exitoso
+26/3/2020;20:13;NH-30;dónde están?
+27/3/2020;19:15;DIE-10;En posición
+25/3/2020;16:13;FKJ-45;FC
+27/3/2020;16:21;NH-30;Ánimo
+25/3/2020;20:14;SD-25;Hola
+22/3/2020;23:17;SD-25;<Combustible>
+27/3/2020;15:15;SD-25;estan ahí?
+24/3/2020;23:14;FKJ-45;<Visibilidad>
+23/3/2020;16:46;POM-89;<Visibilidad>
+24/3/2020;23:13;SD-25;aps
+29/3/2020;23:43;POM-89;el jueves puede
+22/3/2020;20:45;APA-60;el jueves puede
+28/3/2020;21:17;SD-25;<Combustible>
+28/3/2020;16:46;JKD-1;FC
+26/3/2020;19:17;SD-25;<Trafico>
+22/3/2020;11:46;POM-89;gracias
+21/3/2020;15:22;SD-25;<Combustible>
+28/3/2020;7:10;POM-89;Listos para aterrizar
+27/3/2020;23:14;SD-25;Espere su turno
+20/3/2020;7:46;JKD-1;mmmm…..

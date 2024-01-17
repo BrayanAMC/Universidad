@@ -1,0 +1,1000 @@
+Male;Action|Comedy|Drama|Thriller;Kabul Express;4663
+Female;Action|Adventure|Drama|Western;The Last Wagon;12447
+Male;Crime|Drama;Reconstruction (Anaparastasi);3179
+Female;Crime|Drama|Film-Noir|Thriller;Brothers Rico, The;7459
+Female;Action|Horror|Sci-Fi;Tetsuo III: The Bullet Man;9195
+Male;Documentary|Sci-Fi;Aftermath: Population Zero;11467
+Female;Drama;Rebel, The (Le Rebelle);2721
+Female;Action|Crime|Thriller;Ticker;8231
+Male;Action|Adventure|Drama;In the Heart of the Sea;12671
+Male;Action|Thriller;Aftermath;7207
+Male;Adventure|Children|Drama;The Sword and the Rose;9668
+Female;Crime|Drama|Thriller;Man I Love, The;14842
+Female;Documentary;We Are Legion: The Story of the Hacktivists;11844
+Male;Drama|Romance;Weddings and Babies ;13938
+Male;Documentary;The Day That Lasted 21 Years;11287
+Male;Drama;Journey of Hope (Reise der Hoffnung);1375
+Female;Comedy;Wonderful and Loved by All (Underbar och älskad av alla);11680
+Female;Drama;I Am Maria (Jag är Maria);12664
+Male;Adventure|Animation|Comedy|Fantasy|Romance;Porco Rosso (Crimson Pig) (Kurenai no buta);4557
+Male;Action|Crime|Drama|Thriller;No Way Back;523
+Female;Documentary;Mile... Mile & a Half;6965
+Male;Crime|Thriller;Pusher;4778
+Male;Drama;Hundred-Foot Journey, The;2557
+Male;Adventure|Drama;Robinson Crusoe (Daniel Defoe's Robinson Crusoe);6902
+Male;Documentary;Trap: What Happened to Our Dream of Freedom, The;649
+Male;Drama;Men with Guns;498
+Male;Action|Drama|Thriller;Malone;5484
+Female;Action|Comedy|Thriller|Western;Sunset;1511
+Female;Comedy;Blackadder Back & Forth;1729
+Female;Drama;Memories of Underdevelopment (Memorias del subdesarrollo);11203
+Female;Documentary;Legend of Leigh Bowery, The;12761
+Male;Animation|Comedy|Fantasy;Darkness/Light/Darkness (Tma/Svetlo/Tma);2613
+Female;Documentary;Agronomist, The;3915
+Female;Comedy;Ernest Goes to Camp;9489
+Female;Drama|War;Hamsun;11383
+Female;Adventure|Drama|Fantasy;Nibelungen: Siegfried, Die;14309
+Female;Action|Adventure|Drama|War|Western;Seraphim Falls;5271
+Male;Drama|Romance;Life Back Then (Antoki no inochi);3041
+Female;Comedy|Drama|Romance;Jab We Met;9264
+Female;Western;Belle Starr;4790
+Female;Action|Sci-Fi|Thriller;The Anomaly;3062
+Male;Comedy;Hot Chick, The;4994
+Female;Action;Breakout;13173
+Male;Drama;Marooned in Iraq (Gomgashtei dar Aragh);4971
+Female;Drama;Lady Oscar;6058
+Male;Horror|Thriller;Afflicted, The;3894
+Female;Adventure|Drama|Romance;Agora;2307
+Male;Crime|Drama|Mystery;Murder on Monday;7412
+Female;Crime|Mystery|Thriller;The Golden Eye;6748
+Female;Comedy;Tales from the Golden Age (Amintiri din epoca de aur);11580
+Female;Documentary;21 Up;5434
+Female;Drama|Mystery|Thriller;Girl by the Lake, The (La ragazza del lago);14121
+Female;Comedy|Documentary;Trust Us, This Is All Made Up;5879
+Female;Comedy|Drama;Life and Death of Peter Sellers, The;8610
+Male;Documentary;Nas: Time Is Illmatic;14778
+Female;Action|Crime|Drama;Revenge of the Green Dragons;669
+Female;Comedy|Fantasy|Sci-Fi;Nothing Lasts Forever ;15719
+Female;Documentary;Divorce Iranian Style;13260
+Male;Drama;End of the Affair, The;434
+Female;Horror|Thriller;Shark Night 3D;4669
+Male;Documentary|Drama;Titicut Follies;12852
+Female;Action|Adventure|Sci-Fi|Thriller;Clockstoppers;2345
+Female;Documentary;Why We Fight;14788
+Female;Comedy|Drama;Small Time;732
+Male;Horror|Mystery|Thriller;Deep Red (Profondo rosso);5697
+Female;Drama|Romance;Fluffer, The;10774
+Male;Comedy|Drama|Romance;Muzi v nadeji;3037
+Male;Drama|Romance;Wild Orchid;4075
+Male;Drama|Romance;Roman Spring of Mrs. Stone, The;536
+Male;Comedy|Crime|Mystery;Murder à la Mod;4220
+Female;Comedy;Airplane!;6768
+Female;Drama|Romance;Daisy;7702
+Female;Comedy;Bad News Bears Go to Japan, The;15420
+Male;Drama|Horror|Thriller;Snapshot;12395
+Male;Comedy|Western;4 for Texas;11974
+Female;Comedy;Hear My Song;2061
+Male;Comedy|Drama;Peggy Sue Got Married;9986
+Male;Drama;A Night for Dying Tigers;4525
+Female;Comedy|Romance;Outsourced;1769
+Male;Comedy|Musical;3 Sailors and a Girl (Three Sailors and a Girl);9763
+Female;(no genres listed);A Rumor Of War;569
+Male;Drama|War;Three Came Home;8331
+Female;Comedy|Drama|Romance;This Christmas;3588
+Male;Animation|Children|Comedy;Shark Tale;798
+Female;Drama;Toto le héros;11280
+Male;Animation|Documentary|Drama|War;Waltz with Bashir (Vals im Bashir);2672
+Female;Drama;Babette's Feast (Babettes gæstebud);8183
+Male;Crime|Drama;Robber, The (Der Räuber);6727
+Male;Drama;Jamaica Inn;8127
+Male;Drama|Musical;Tommy;3958
+Female;Documentary|War;Malta G.C.;5046
+Female;Action;The Monkey Hustle;5591
+Female;Drama;Garden of Eden, The;9499
+Female;Action|Romance|Sci-Fi|Thriller;Saint, The;1248
+Female;Comedy|Drama;August: Osage County;12187
+Female;Drama|Horror|Mystery;Szamanka;7446
+Male;Comedy|Drama;Diving In;9889
+Female;Comedy|Documentary;Jackass 3.5;10394
+Male;Action|Adventure|Fantasy;Casey Jones;12751
+Male;Drama;Lowlands (Tiefland);4090
+Female;Documentary;Fahrenheit 9/11;13190
+Female;Documentary;I Know That Voice;7629
+Male;Comedy|Musical|Romance;Sun Valley Serenade;5308
+Female;Adventure|Children|Drama;Ronja Robbersdaughter (Ronja Rövardotter);14468
+Male;Drama;Boys;6322
+Female;Drama|Romance;Feast of All Saints;12447
+Female;Documentary;Utopia;669
+Female;Comedy|Drama;Movie Days (Bíódagar);14209
+Female;Comedy|Crime;Delhi Belly;12079
+Female;Comedy|Documentary;Vegucated;14136
+Female;Drama;Experience Preferred... But Not Essential;1165
+Female;Crime|Horror|Thriller;Silence of the Lambs, The;8582
+Female;Musical|Western;Love Me Tender;1560
+Female;Drama;Miracle Run;12578
+Female;Drama;Das Leben ist nichts für Feiglinge;10456
+Female;Adventure|Drama|Horror|Mystery|Thriller;Silver Bullet (Stephen King's Silver Bullet);11331
+Female;Drama|War;Attack!;9855
+Male;Comedy|Fantasy|Romance;Boccaccio '70;9529
+Male;Action|Adventure|Animation|Fantasy|Horror;Berserk: The Golden Age Arc - The Egg of the King;5458
+Female;Comedy;Myra Breckinridge;15057
+Female;Drama|Romance;Brides (Nyfes);982
+Male;Action|Romance|Thriller;Year of the Gun;12285
+Female;Drama;Children On Their Birthdays;5227
+Female;Comedy|Drama|Horror|Sci-Fi|Thriller;Save the Green Planet! (Jigureul jikyeora!);12609
+Female;Drama;Limit (Limite);14222
+Male;Adventure|Drama;Xingu ;2516
+Male;Action|Crime;Mesrine: Public Enemy #1 (L'ennemi public n°1);1421
+Female;Drama|Romance;Romeo and Juliet;2574
+Female;Adventure|Horror|Sci-Fi|Thriller;Caltiki the Undying Monster;2231
+Male;Comedy;Louis C.K.: Oh My God;15573
+Male;Action|Thriller;Fear of Flying;8932
+Male;Action|Adventure|Horror|Mystery|Sci-Fi|Thriller;Cave, The;3832
+Female;Drama;Hell's Kitchen;11169
+Female;Comedy;Connie and Carla;15287
+Female;Western;Alvarez Kelly;6336
+Male;Documentary;Thrive;14186
+Female;Comedy|Drama;Drifting Clouds (Kauas pilvet karkaavat);7190
+Male;Comedy|Drama;Oxford Blues;3930
+Female;Crime|Drama|Mystery|Thriller;Adversary, The (L'adversaire);2348
+Male;Documentary;Gates of Heaven;10468
+Female;Animation|Children|Comedy|Musical|Western;Home on the Range;10736
+Male;Drama;Imaginary Crimes;9580
+Male;Horror;Premature Burial, The;7373
+Male;Action|Thriller;Internecine Project, The;4137
+Male;Comedy|Romance;Golden Boys, The;6310
+Male;Drama;Nostalghia;14276
+Female;Comedy;Little Voice;10961
+Female;Comedy|Crime;Cookie;10473
+Female;Documentary;Love Meetings (Comizi d'amore);11250
+Female;Drama|Romance;Before Midnight;8859
+Male;Adventure|Animation|Fantasy;Printed Rainbow;2020
+Male;Action|Fantasy|Sci-Fi;Rebirth of Mothra;3058
+Female;Comedy|Drama;Tinpis Run;3878
+Female;Children|Comedy|Romance|Sci-Fi;RocketMan (a.k.a. Rocket Man);577
+Female;Crime|Horror|Thriller;Psycho;9845
+Female;Comedy;Fast Food;7537
+Male;Fantasy|Horror|Sci-Fi|Thriller;Videodrome;2066
+Female;Comedy|Drama;Family Game, The (Kazoku gêmu);949
+Female;Drama|Thriller;Remember My Name;4795
+Male;Documentary;History of Postwar Japan as Told by a Bar Hostess (Nippon Sengoshi - Madamu onboro no Seikatsu);10737
+Female;Drama|Romance;Stranger by the Lake (L'inconnu du lac);15304
+Male;Documentary;Comic Book Confidential;5701
+Female;Drama|Mystery|Thriller;Blue Velvet;11315
+Male;Drama|Fantasy;Uncle Boonmee Who Can Recall His Past Lives (Loong Boonmee raleuk chat);4785
+Female;Drama|Romance;Rough Magic;15776
+Female;Mystery;The Man Without a Map;5443
+Female;Crime;Pay or Die;5279
+Female;Comedy;King of Germany;6491
+Female;Mystery|Thriller;Bat, The;930
+Male;Comedy|Romance;Blades of Glory;15002
+Female;Documentary;My Voyage to Italy (Il mio viaggio in Italia);1303
+Male;Drama;I aionia epistrofi tou Antoni Paraskeva;3924
+Male;Action|Thriller;Blackout;5140
+Male;Children|Comedy|Fantasy|Romance;Santa Clause 2, The;7771
+Male;Crime|Drama;They Gave Him A Gun;12379
+Female;Action|Fantasy;Ashura;4291
+Male;Action|Drama|Thriller;Unstoppable;9360
+Male;Drama|War;Hotel Rwanda;2391
+Male;Drama;Lean on Me;14653
+Female;Comedy|Mystery;My Favorite Brunette;11318
+Male;Horror|Mystery|Sci-Fi;Invasion of the Bee Girls;512
+Male;Documentary;Reagan;6246
+Male;Drama;Institute Benjamenta, or This Dream People Call Human Life;11851
+Female;Adventure|Animation|Children|Comedy;Rugrats Go Wild!;5355
+Male;Crime|Drama;I Am Waiting (Ore wa matteru ze);8762
+Female;Drama;The Trip to Bountiful;10984
+Male;Comedy|Crime;Warning for the Joensson Gang (Varning för Jönssonligan);2668
+Male;Drama;Glass Menagerie, The;1156
+Female;Comedy|Musical|Romance;Johnny Suede;5795
+Female;Drama;Beautiful City (Shah-re ziba);2714
+Male;Documentary;Gimme Shelter;7973
+Female;Drama;Little Fugitive;15069
+Female;Comedy;Don't Tell Mom the Babysitter's Dead;7749
+Female;Comedy;Scavenger Hunt;5548
+Female;Drama|Romance;Jules and Jim (Jules et Jim);3267
+Male;Documentary;Garbage Warrior;12150
+Male;Action;Avalanche;15163
+Male;Action|Crime|Drama|Thriller;Miami Vice;10083
+Male;Adventure|Children|Romance;Dust Factory, The;6279
+Female;Comedy|Horror;My Demon Lover;1773
+Male;Action|Adventure|Comedy|Fantasy;Myth, The (San wa);1220
+Male;Drama;My Week with Marilyn;12925
+Male;Crime;The 21 Carat Snatch;6114
+Male;Drama;Vesna va veloce;7832
+Male;Comedy;Raising Arizona;3238
+Female;Comedy|Western;Blazing Saddles;4423
+Male;Comedy|Mystery;Whistling in the Dark;3328
+Female;Documentary;Voices of Iraq;14092
+Female;Children|Comedy|Fantasy;Flintstones, The;12803
+Female;Drama;Joe;8349
+Male;Action|Adventure|Fantasy|Sci-Fi;Ghidorah, the Three-Headed Monster (San daikaijû: Chikyû saidai no kessen);1270
+Male;Animation|Drama;From Dad to Son;9049
+Female;Drama;Luther;13479
+Female;Comedy|Sci-Fi;Terumae romae (Thermae Romae);12173
+Female;Children|Comedy|Fantasy;How the Grinch Stole Christmas (a.k.a. The Grinch);10305
+Male;Animation|Sci-Fi;Ultramarines: A Warhammer 40,000 Movie;10942
+Female;Adventure|Comedy|Thriller;Johnny English Reborn;14589
+Male;Action|Crime;Shaft's Big Score!;13318
+Female;Drama|Romance;Every Stewardess Goes to Heaven (Todas las azafatas van al cielo);10628
+Female;Action;Dr. Wai in the Scriptures with No Words (Mao xian wang);7369
+Female;Documentary;Hoop Realities;2624
+Male;Drama|Romance;Heavenly Forest;1849
+Male;Drama;Golden Thread, The (Subarnarekha);838
+Male;Drama;Story of Xinghua, The (Xinghua san yue tian);15328
+Female;Action|Horror|Thriller;Freddy vs. Jason;7916
+Male;Comedy|Musical;Song Is Born, A;8813
+Female;Comedy;Seeing Other People;8895
+Female;Horror;House of Dracula;14884
+Female;Children|Comedy|Drama;Beethoven;11590
+Female;Comedy|Thriller;Man of the Year;10108
+Male;Action|Adventure|Romance;Three Musketeers, The;8752
+Male;Adventure|Drama;Spirit of St. Louis, The;9889
+Female;Comedy;Nadine;7740
+Female;Action|Adventure|Comedy|Thriller;First Strike (Police Story 4: First Strike) (Ging chaat goo si 4: Ji gaan daan yam mo);2682
+Male;Comedy;Cheech & Chong's Next Movie;1604
+Male;Comedy|Documentary;This Filthy World;3830
+Female;Horror;Fear No Evil;11439
+Male;Adventure|Children|Drama;War of the Buttons;9591
+Female;Action|Drama|Horror|Sci-Fi|Thriller;Crazies, The (a.k.a. Code Name: Trixie);13487
+Female;Horror|Thriller;Awakening, The;4177
+Female;Drama|Sci-Fi;Beyond the Stars;11090
+Female;Comedy;Club Fed;8547
+Female;Drama;Squeeze;13770
+Male;Drama;Kid With a Bike, The (Le gamin au vélo);10192
+Female;Comedy|Crime;Cookie;7213
+Female;Action|Crime|Drama;Blue Thunder;4890
+Female;Drama;Life of a King;11661
+Female;Drama;Private Lessons (Élève libre);1678
+Female;Comedy;Skidoo;8027
+Female;Adventure|Animation|Children|Drama;Tarzan;11307
+Female;Drama|War;Battle Cry;12811
+Female;Drama;Mister Johnson;5187
+Male;Drama|Romance;Jane Eyre;2794
+Male;Comedy|Romance;Merrily We Live;11624
+Male;Documentary;War You Don't See, The;13057
+Female;Adventure|Drama;Zorba the Greek (Alexis Zorbas);1005
+Male;Drama|Musical|War;Red Psalm (Még kér a nép);12551
+Male;Drama|Romance;Amour;14290
+Female;Comedy;Dylan Moran Live: What It Is;13585
+Female;Drama|Sci-Fi;Iceman;11741
+Male;Horror|Thriller;Poltergeist II: The Other Side;14301
+Male;Crime|Drama;Landscape Suicide;10218
+Male;War;Bataan;7457
+Male;Comedy;Houseguest;799
+Male;Western;They Came to Cordura;4935
+Male;Comedy|Documentary|Drama;Other F Word, The;9663
+Female;Comedy;Moving Violations;10980
+Male;Drama;Trial, The (Procès, Le);12747
+Female;Drama|Romance;Rowing with the Wind (Remando al viento);11758
+Female;Drama;Port of Call (Hamnstad);3995
+Female;Comedy|Drama|Romance;Bread and Tulips (Pane e tulipani);3721
+Male;Sci-Fi|Thriller;Signal, The;9298
+Female;Comedy;Calendar Girls;2010
+Male;Comedy|Crime;Micmacs (Micmacs à tire-larigot);13652
+Female;Comedy|Drama;New York Stories;5002
+Male;Drama;Shakespeare's Globe: Henry V;12867
+Male;Crime|Drama|Mystery;End Game;586
+Female;Adventure|Animation|Children;Charlotte's Web 2: Wilbur's Great Adventure;3312
+Female;Drama;Delbaran;14413
+Female;Documentary;War Stories;10819
+Female;Comedy|Drama;Happy Times (Xingfu shiguang);3035
+Female;Action|Adventure|Crime;Breaker! Breaker!;11134
+Female;Children|Drama;Skylark;11950
+Female;Horror|Sci-Fi;The Bone Snatcher;1754
+Male;Drama;Marion Bridge;8576
+Female;Drama;Free Radicals (Böse Zellen);14535
+Female;Drama|Romance;Waiting for Forever;12325
+Female;Action|Mystery|Thriller;Boys from Brazil, The;594
+Female;Comedy|Crime;Big Trouble;15782
+Female;Comedy;Kiss Me Goodbye;7585
+Female;Adventure;The Nautical Chart;939
+Female;Drama|Romance;Fanny;11823
+Male;Horror|Mystery|Thriller;Someone's Watching Me!;15275
+Female;Action|Adventure|Crime|Drama;Yuva;3015
+Male;Adventure|Crime|Thriller;Nancy Drew;8026
+Female;Action|Comedy|Drama;Last Dragon, The;2781
+Male;Comedy|Drama;Where the Heart Is;14921
+Male;Drama;Close-Up (Nema-ye Nazdik);7180
+Female;Comedy|Drama;Afternoon Delight;11268
+Female;Comedy;Nickelodeon;457
+Female;Action|Crime;Sinners and Saints;10903
+Male;Animation|Musical;American Pop;5659
+Male;Horror;976-EVIL;4748
+Female;Thriller;Accident (Yi ngoi);11677
+Male;Comedy|Drama;Mister Lonely;2990
+Female;Documentary;National Gallery;7268
+Male;Comedy|Romance;Tall Guy, The;5932
+Male;Drama|Romance;Intohimon vallassa;5398
+Male;Comedy;Boats;5780
+Female;Comedy|Drama|Romance;In Therapy (Divã);12941
+Female;Drama;Big Sur;520
+Female;Drama;Magdalene Sisters, The;13870
+Male;Comedy;Feet First;3447
+Female;Documentary;Planet Ocean;9896
+Male;Crime|Film-Noir|Thriller;Big Clock, The;8719
+Male;Comedy|Musical;Very Annie Mary;3442
+Female;Documentary;Dreams of  a Life;2820
+Male;Crime|Drama|Film-Noir;Shockproof;478
+Female;Comedy|Romance;Easy Living;2829
+Female;Action|Adventure|Sci-Fi;Double Dragon;15460
+Male;Drama;Shit Year;12523
+Male;Crime|Drama|Film-Noir;Sound of Fury, The;14075
+Male;Action;Two Rabbits (2 Coelhos);4017
+Male;Drama;Airport '77;15105
+Male;Crime|Drama|Thriller;Trap, The (Klopka);9042
+Male;Drama|Mystery|Sci-Fi;Fire in the Sky;3419
+Male;Documentary|IMAX;Michael Jordan to the Max;615
+Female;Documentary;Position Among The Stars (Stand van de Sterren);5848
+Female;Drama|Musical;My Blue Heaven;7651
+Female;Drama|Romance;Clara and Me (Clara et moi);7253
+Female;Drama;Written on the Wind;10556
+Female;Crime|Drama;Take, The;7742
+Female;Action|Adventure|Crime|Drama|Mystery|Thriller;Army of One (Joshua Tree);9886
+Female;Drama|Thriller;Trigger Effect, The;15530
+Female;Documentary;Lord, Save Us from Your Followers;860
+Male;Comedy|Crime;Ordinary Decent Criminal;14977
+Female;Action|Drama|Thriller|War;Hurt Locker, The;12491
+Female;Action|Adventure;The Hunchback of Paris;10268
+Female;Comedy|Drama|Romance;Lost in Translation;15277
+Female;Documentary;Tapestries of Hope;1112
+Male;Thriller;31 North 62 East;13116
+Male;Documentary;Sun Kissed;10418
+Male;Documentary|War;Control Room;985
+Male;Drama;Inside Paris (Dans Paris);4368
+Male;Western;Last Stand At Saber River;13871
+Male;Comedy|Western;Brothers O'Toole, The;12187
+Female;Comedy|Drama|Romance;Trust;15745
+Female;Drama;Saturday Night and Sunday Morning;2043
+Female;Drama|Thriller;Gray Lady Down;4062
+Female;Animation|Children;Winnie the Pooh and the Honey Tree;6484
+Male;Drama|Romance;And Your Mother Too (Y tu mamá también);3799
+Male;Comedy|Horror|Romance;Vamps;4802
+Female;Animation;Bosko's Parlor Pranks;8246
+Male;Drama;Eight Deadly Shots (Kahdeksan surmanluotia);4565
+Male;Action;Extraction;4169
+Male;Crime|Drama|Film-Noir|Thriller;Brothers Rico, The;5697
+Female;Crime|Drama|Mystery;Kill a Rat;5192
+Male;Drama;Miss Kicki;8548
+Male;Comedy;Day's Pleasure, A (Ford Story, A);9843
+Female;Drama;My Life;524
+Male;Crime|Drama|Mystery|Thriller;Spanish Prisoner, The;3403
+Female;Comedy|Drama;Housekeeping;10006
+Male;Action|Drama;Pistol Whipped;10673
+Female;Action|Adventure|Comedy;Yellowbeard;2921
+Male;Horror;Mum & Dad;4888
+Male;Documentary;Unknown White Male;3358
+Female;Adventure|Animation|Children|Fantasy|Musical;James and the Giant Peach;6294
+Male;Comedy|Horror|Mystery;Pandemonium;11954
+Female;Drama|Romance;Second Skin (Segunda Piel);10846
+Female;Drama;Love Sick (Legaturi bolnavicioase);8316
+Male;Drama|Romance|War;Operator 13;14253
+Female;Documentary;Dive! (Dive!: Living off America's Waste);10429
+Female;Comedy|Crime;Nine Dead Gay Guys;15890
+Female;Drama;Return;8176
+Male;Action|Adventure|Animation;Dragon Ball Z: Broly Second Coming (Doragon bôru Z 10: Kiken na futari! Sûpâ senshi wa nemurenai);14492
+Male;Drama;Taboo (Gohatto);3771
+Male;Crime|Drama|Fantasy|Mystery|Thriller;Invisible, The;4444
+Female;Musical;"Great Performances" Cats;5153
+Female;Comedy|Drama;TV Set, The;10496
+Female;Comedy;Boys and Girls Guide to Getting Down, The;11328
+Female;Crime|Thriller;Tortured;9921
+Male;Adventure|Musical;Stowaway;5300
+Male;Drama|Thriller;Deterrence;4755
+Male;Drama|Romance;One Way Passage;7075
+Female;Documentary;Z Channel: A Magnificent Obsession;9879
+Male;Comedy;I'm Not Rappaport;6218
+Male;Thriller;I as in Icarus (I... comme Icare);8820
+Female;Comedy|Romance;Mr. & Mrs. Smith;3019
+Female;Action|Comedy|Crime|Thriller;Top Dog;14467
+Female;Action|Adventure|Romance;Flame and the Arrow, The;15656
+Female;Drama;Grand Isle;10695
+Female;Children|Fantasy;Peanut Butter Solution, The;12323
+Female;Documentary;We Steal Secrets: The Story of WikiLeaks;6951
+Female;Sci-Fi|Western;Jessie James Meets Frankenstein's Daughter;14759
+Female;Horror;Manos: The Hands of Fate;9024
+Male;Action|Adventure|Animation;Dragon Ball Z: Fusion Reborn (Doragon bôru Z 12: Fukkatsu no fyushon!! Gokû to Bejîta);9371
+Male;Drama|Fantasy;Dark Dungeons;8125
+Female;Western;The Man From The Alamo;10449
+Male;Action|Drama|Fantasy;Pulgasari;13942
+Male;Drama|Thriller;Open Water 2: Adrift;8444
+Female;Drama|Thriller;Amber Lake ;777
+Male;Crime|Drama|Film-Noir|Mystery;Naked City, The;15322
+Female;Action|Animation|Fantasy;Berserk: The Golden Age Arc 2 - The Battle for Doldrey;8020
+Male;Crime|Drama;Idiot Box;13763
+Female;Animation|Sci-Fi;Metropia;13395
+Female;Comedy|Drama;Sammy and Rosie Get Laid;1747
+Female;Drama|Thriller;City of No Limits, The (la ciudad sin límites, En);14652
+Male;Crime|Drama|Thriller;Interrogation (Przesluchanie);12564
+Male;Drama;Gojoe: Spirit War Chronicle (Gojo reisenki: Gojoe);6353
+Male;Action|Crime|Thriller;Wrong Turn at Tahoe;1831
+Male;Comedy|Drama;Bob & Carol & Ted & Alice;7519
+Female;Comedy|Drama;Bright Young Things;1650
+Male;Thriller;Games;14922
+Female;Drama|Romance;Up in the Air;9480
+Male;Comedy|Drama;Bjarnfreðarson;6686
+Female;Drama;Two Family House;614
+Female;Adventure|Animation|Children|Drama|Fantasy;Watership Down;6443
+Male;Comedy;Kevin Nealon: Whelmed, But Not Overly;4062
+Female;Drama|Mystery|War;Three Faces East;10775
+Male;Fantasy|Horror;Vampyr;11465
+Male;Drama;Scream of Stone (Cerro Torre: Schrei aus Stein);15009
+Female;Comedy|Drama|Romance;Son in Law;14705
+Female;Comedy;Alan Partridge: Alpha Papa;2584
+Male;Drama;Ballad of Narayama, The (Narayama bushiko);10220
+Male;Drama;Emigrants, The (Utvandrarna);7455
+Female;Crime|Horror|Mystery|Thriller;American Psycho;5893
+Female;Comedy;Niagara Motel;11936
+Male;Mystery|Romance|Thriller;Night Train To Lisbon;3648
+Female;Documentary|Musical;Festival Express;9669
+Female;Drama|Romance;Mademoiselle Chambon;5203
+Male;Comedy|Horror;Pet Sematary II;6842
+Female;Comedy;Daddy's Dyin'... Who's Got the Will?;2601
+Male;Documentary;Sam Peckinpah's West: Legacy of a Hollywood Renegade;7600
+Male;Romance|Thriller;Nobody Knows Anybody (Nadie conoce a nadie);14684
+Female;Comedy|Drama;Rickshaw Man, The (Muhomatsu no issho);13375
+Male;Adventure|Crime|Drama;Hurricane Express, The;6050
+Female;Action|Adventure|Drama;Poseidon Adventure, The ;6536
+Male;Crime|Thriller;Small Town Murder Songs;12069
+Male;Drama|Thriller;Storyville;15565
+Male;Action;Punisher, The;15173
+Female;Horror;The Face of Marble;3667
+Male;Action|Sci-Fi|Thriller;Blade Runner;7525
+Female;Comedy|Drama;Blue Juice;11850
+Male;Romance|Western;Badlanders, The;14962
+Male;Crime|Drama|Film-Noir;Rogue Cop;1088
+Female;Comedy|Romance;Arthur 2: On the Rocks;8337
+Female;Romance;Crush, The (La cotta);6556
+Male;Action|Drama|Thriller|War;American Soldiers;1671
+Female;Action|Drama|Romance|War;Sands of Iwo Jima;810
+Female;Documentary;History of Hell (Rosas Höllenfahrt);4144
+Female;Comedy|Drama;On Tour (Tournée);9146
+Female;Comedy;Bill Maher: Victory Begins at Home;603
+Male;Drama;Ego;2804
+Male;Drama|Mystery;Spider's Stratagem, The (Strategia del ragno);6967
+Female;Action;The .44 Specialist;7539
+Male;Drama;Story of Xinghua, The (Xinghua san yue tian);15003
+Female;Documentary;Brony Tale, A;9106
+Male;Crime|Thriller;All Things to All Men;12678
+Male;Adventure|Fantasy;Fando and Lis (Fando y Lis);9355
+Female;Action|Drama;Death Wish 2;15287
+Female;Comedy|Drama|War;My Führer;7077
+Male;Drama|Thriller;Crave;8468
+Male;Action|Thriller;The Guardians;11466
+Male;Action|Drama|War;Giant of Marathon, The (Battaglia di Maratona, La);12100
+Male;Comedy;Mondo Trasho;8069
+Male;Adventure|Romance;Paradise;5629
+Female;Drama;House of Sand (Casa de Areia);11004
+Female;Drama|Romance;Heavy;8227
+Female;Fantasy|Sci-Fi;Children of Dune;6543
+Female;Mystery|Thriller;Mirage;15818
+Male;War;In Enemy Hands;5750
+Male;Documentary;Television Under the Swastika (Das Fernsehen unter dem Hakenkreuz);13427
+Female;Children|Comedy;Good Burger;12640
+Male;Drama;Saint Joan;12896
+Male;Adventure|Horror|Sci-Fi;Bigfoot;2852
+Female;Drama|Thriller;Whisperers, The;4420
+Male;Animation|Comedy;Heathcliff: The Movie;16000
+Male;Sci-Fi;Angry Red Planet, The;6312
+Female;Comedy|Drama;Liar, The (Valehtelija);15036
+Male;Drama;Misunderstood;9994
+Female;Horror;Horror of Dracula (Dracula);5897
+Male;Drama;Boys;1488
+Female;Action|Comedy|War;Kelly's Heroes;2694
+Male;Comedy|Musical;Just Around the Corner;3448
+Male;Crime|Drama|Thriller|War;Front Line, The;14808
+Female;Comedy|Drama;Last Run, The;10039
+Male;Drama;Diggstown;4197
+Female;Documentary;Kino-Eye (Kinoglaz);10172
+Female;Horror|Thriller;Private Parts;6208
+Female;Action|Drama;Series 7: The Contenders;7748
+Male;Animation|Comedy|Sci-Fi;Monsters vs Aliens: Mutant Pumpkins from Outer Space;12262
+Male;Drama|Horror;Beyond Bedlam;13773
+Female;Drama;Jealousy;2928
+Male;Drama|Romance;Innocent, The (Innocente, L');10275
+Male;Drama|Romance;Hearts Divided;14907
+Female;Horror;Amityville II: The Possession;7693
+Male;Drama|Musical;Broadway;7776
+Female;Documentary;On Any Sunday;632
+Female;Crime|Drama|Thriller;Jackie Brown;8903
+Male;Drama;Exhibition;7215
+Female;Adventure|Children;Tom & Thomas;4776
+Male;Crime|Thriller;True Romance;6136
+Female;Action;Shadow Man;10117
+Male;(no genres listed);Blablablá;12612
+Male;Drama|Horror;Twentynine Palms;13300
+Female;Crime|Drama|Romance|Thriller;Shoot the Piano Player (Tirez sur le pianiste);13970
+Male;Comedy|Drama|Romance;Goddess of 1967, The;11615
+Female;Crime|Documentary;Two Escobars, The;13090
+Female;Comedy;Clifford;3056
+Male;Drama|Romance;Woman Rebels, A (Portrait of a Rebel);12665
+Male;Action|Adventure|War|Western;Duck, You Sucker (a.k.a. Fistful of Dynamite, A) (Giù la testa);14928
+Female;Western;The Vanishing American;9959
+Female;(no genres listed);Playground;5953
+Male;Action|Adventure;Lone Wolf and Cub: Baby Cart at the River Styx (Kozure Ôkami: Sanzu no kawa no ubaguruma);14024
+Female;Drama;Jacknife;12380
+Male;Documentary;Beslan: Three Days in September;14646
+Male;Horror|Sci-Fi;Brain, The;15585
+Female;Drama;Omagh;7850
+Female;Comedy|Romance;Dating the Enemy;5103
+Female;Comedy|Horror;Cockneys vs Zombies;1344
+Female;Comedy;Spy Hard;6358
+Female;Drama;There's Always Tomorrow;11530
+Male;Drama;Hotte in Paradise (Hotte im Paradies);523
+Male;Comedy;Taking Woodstock;457
+Male;Crime|Drama|Mystery|Thriller;Meeting Evil;5995
+Female;Children|Comedy;Blank Check;8626
+Male;Drama|Romance;Daniel Deronda;1520
+Male;Drama;Hey Ram;2479
+Female;Sci-Fi;Project Moon Base;3112
+Female;(no genres listed);Sittin' on a Backyard Fence;7899
+Female;Comedy;How to Meet Girls from a Distance;856
+Male;Comedy|Romance;Only the Lonely;9225
+Male;Comedy;Fandango;14709
+Male;Action|Comedy|Horror;Lesbian Vampire Killers;2503
+Female;Drama;Dead Ahead: The Exxon Valdez Disaster;15751
+Female;Documentary;Woodmans, The;12997
+Male;Action|Crime|Drama|War;Redacted;3180
+Female;Drama|Fantasy;Hereafter;3867
+Female;Horror;Kiss of the Vampire, The;12558
+Male;Comedy|Western;Rustlers' Rhapsody;12876
+Female;Drama;And Life Goes On (a.k.a. Life and Nothing More) (Zendegi va digar hich);4781
+Male;Drama|War;Intimate Enemies (L'ennemi intime);9841
+Male;Comedy|Drama;Every Day;2530
+Female;Documentary;March of the Movies (Film Parade, The);7517
+Male;Documentary;Human Experience, The;9552
+Male;Documentary;Promises;11834
+Female;Action|Comedy;Taxi;3108
+Female;Animation|Horror|IMAX;Haunted Castle;1062
+Male;Drama;Miss Austen Regrets;1232
+Female;Drama|Romance;North & South;3408
+Female;Adventure|Fantasy|IMAX;Alice in Wonderland;5130
+Male;Drama|War;Great King, The (Der große König);3505
+Female;(no genres listed);The Hearts of Age;12188
+Male;Drama;Guter Junge;1907
+Male;Drama|War;Unknown Soldier, The (Tuntematon sotilas);9069
+Female;Sci-Fi|Thriller;Sphere;15429
+Male;Drama|Horror|Thriller;Deadline;11659
+Female;Comedy;Sons of the Desert;3965
+Female;Comedy|Romance;Passionada;1845
+Female;Action|Comedy;Loaded Weapon 1 (National Lampoon's Loaded Weapon 1);6944
+Male;Comedy|Drama;Empty Nest (El nido vacío);13373
+Female;Comedy|Drama|Romance;Heat;12817
+Male;Comedy|Romance;Music and Lyrics;9977
+Female;Action|Crime|Drama|Thriller;Punisher: War Zone;3532
+Male;Comedy;Fans;6316
+Male;Drama|Sci-Fi;1984 (Nineteen Eighty-Four);7891
+Male;Adventure|Children|Drama|Fantasy|IMAX;Where the Wild Things Are;1390
+Female;Drama;Scissere;3744
+Male;Comedy|Drama|Fantasy;Being John Malkovich;10946
+Male;Animation|Comedy|Sci-Fi;Johnny Express;11628
+Male;Action|Crime|Drama|Thriller;Memory of a Killer, The (Zaak Alzheimer, De);1161
+Female;Drama|Romance;Second Skin (Segunda Piel);8783
+Female;Drama;No End (Bez konca);7537
+Male;Comedy|Drama;Flicker (Flimmer);7254
+Female;Comedy|Romance;New Year's Eve;2475
+Male;Drama;Go;1054
+Female;Comedy|Horror;Piranha 3DD (a.k.a. Piranha DD);5386
+Male;Comedy|Drama;Man on the Train (Homme du train, L');12154
+Male;Drama|Mystery|Thriller;Passengers;13456
+Male;Drama;Come Undone (Cosa voglio di più);13281
+Female;Documentary;Drew: The Man Behind the Poster;7775
+Male;Horror|Thriller;Donkey Punch;1427
+Female;Animation|War;When the Wind Blows;7349
+Female;Horror|Thriller;Paranormal Activity: The Marked Ones;3761
+Male;Comedy|Drama|Romance;Witches, The (Le streghe);1120
+Female;Drama;Mon oncle d'Amérique;14656
+Female;Action|Thriller;Fulltime Killer (Chuen jik sat sau);4493
+Male;Action|Crime|Thriller;Blitz;9637
+Male;Thriller;Calling, The;10290
+Female;Drama|War;Kozara;1668
+Male;Action|Adventure;Forced Vengeance;4634
+Male;Drama;F.I.S.T.;11272
+Female;Drama;Seduction of Joe Tynan, The;15383
+Female;Comedy|Romance;Family Honeymoon;7798
+Male;Documentary;Unreasonable Man, An;5658
+Female;Drama;Sam's Song;7805
+Male;Drama;Promised Life, The (Vie promise, La);6794
+Male;War;Bataan;13410
+Male;Drama;Den sommeren jeg fylte 15;10782
+Female;Drama;Rebels of the Neon God (Qing shao nian nuo zha);9901
+Female;Comedy|Romance;Fast Food, Fast Women;1634
+Female;Drama|Fantasy|Horror|Mystery;Face to Face (Ansikte mot ansikte);864
+Male;Drama;Abraham's Valley (Vale Abraão);4700
+Male;Crime|Drama;Ruby;3814
+Female;Drama|Mystery|Thriller;Headless Woman, The (Mujer sin cabeza, La);3111
+Female;Documentary;Kidnapped For Christ;12985
+Female;Drama|War;Tobruk;14728
+Male;Drama;Identification Marks: None (Rysopis) ;5338
+Male;Drama|Thriller;Stigmata;9649
+Female;Drama;It Felt Like Love;10529
+Female;Comedy|Drama;Rickshaw Man, The (Muhomatsu no issho);4474
+Female;Documentary;6 Desires: DH Lawrence and Sardinia;811
+Female;Drama|Musical;Jersey Boys;1950
+Female;Comedy|Romance;American Pie Presents The Naked Mile (American Pie 5: The Naked Mile);9132
+Male;Crime|Drama;Q & A;12982
+Male;Comedy;Ocho apellidos vascos;8545
+Female;Documentary;The Natural Love;956
+Male;Action|Adventure|Fantasy;Alice;15373
+Male;Drama|Romance;Sparrow (a.k.a. Cultured Bird) (Man jeuk);10636
+Male;Comedy|Drama;American Loser (Trainwreck: My Life as an Idiot);5901
+Male;Comedy|Romance;Fever Pitch;1828
+Male;Comedy|Drama;Kitchen Stories (Salmer fra kjøkkenet);9553
+Female;Crime|Drama|Thriller;Blood and Wine (Blood & Wine);14444
+Male;Action|Adventure|Fantasy|Mystery;Shadow, The;7426
+Female;Drama;Love & Pop;2714
+Male;Drama|Thriller;Hindenburg, The;6424
+Male;Drama;Story Written with Water, A (Mizu de kakareta monogatari);2685
+Male;Drama;Coward, The (Kapurush);3481
+Male;Documentary|Musical;Crossfire Hurricane;15808
+Male;Documentary;Unforgotten: Twenty-Five Years After Willowbrook;1092
+Male;Adventure|Children|Fantasy|Musical;Alice's Adventures in Wonderland;9370
+Male;Comedy|Drama;Leaving Normal;5724
+Female;Drama;The Golden Cage;15568
+Female;Drama;Partners: The Movie II (Aibô: Gekijô-ban II);4834
+Male;Drama|Romance|Western;Furies, The;13806
+Female;Animation;Canon;5868
+Male;Drama|Thriller;Kremlin Letter, The;15068
+Female;Action|Drama|Mystery|Romance|Sci-Fi;Air Hawks;882
+Female;Horror|Sci-Fi;BlinkyTM;10379
+Female;Drama;Antwone Fisher;1044
+Female;Documentary;Terry Pratchett: Choosing to Die;15343
+Female;Drama|Sci-Fi|Thriller;Pi;13288
+Female;Drama;Broken Vessels;1336
+Female;Horror;Hello Mary Lou: Prom Night II;9783
+Female;Action|Crime|Drama;Four Brothers;8760
+Male;Horror;C.H.U.D.;6055
+Female;Comedy|Thriller;Cheap Thrills;4759
+Female;Drama;Kamikaze;10163
+Female;Comedy;She Does Not Drink, Smoke or Flirt But... She Talks;7089
+Female;Action|Adventure|Animation|Fantasy|Sci-Fi;Green Lantern: First Flight;6024
+Male;Comedy|Drama;Time Code;2417
+Male;Action|Children|Drama;Karate Kid, The;2521
+Male;Documentary;Wankers, The (Les branleuses);14938
+Male;Drama;Enemies: A Love Story;1556
+Male;Drama|Romance;Officer and a Gentleman, An;14914
+Male;Children|Comedy|Drama;Little Secrets;12866
+Male;Drama;Door in the Floor, The;15873
+Female;Comedy;Cockpit;14432
+Female;Action|Adventure|Drama;Poseidon Adventure, The;2148
+Male;Crime|Drama;United States of Leland, The;5492
+Male;Comedy|Drama|Romance;What to Expect When You're Expecting;5391
+Female;Documentary;Poto and Cabengo;5802
+Male;Adventure|Children|Comedy;Herbie Goes to Monte Carlo;8919
+Female;Drama;Wasteland;6407
+Female;Comedy;Bring It On: Fight to the Finish;6357
+Female;Action|Animation|Fantasy;Rocks (Rad, Das);7700
+Female;Action|Comedy|Crime;Flickering Lights (Blinkende lygter);7117
+Male;Action|Drama;Chicago Overcoat;5497
+Female;Comedy|Romance;27 Dresses;15055
+Male;Documentary|Drama;Katy Perry: Part of Me;1797
+Female;Action|Drama|War;Heaven & Earth;13330
+Male;Drama;Why Do Fools Fall In Love?;15739
+Male;Drama;Class Action;7070
+Female;Action|Adventure|Crime|Drama;Steel;8908
+Female;Drama|Romance;Mr. Jones;13042
+Female;Comedy;Overbrook Brothers, The;15139
+Female;Action|Crime|Drama|Thriller;Max Payne;14630
+Female;Documentary;Amazing Journey: The Story of The Who;15396
+Female;Horror|Thriller;Session 9;734
+Male;Drama|Romance;Last Tycoon, The;12370
+Female;Adventure|Animation|Comedy;Mr. Toad's Wild Ride (a.k.a. The Wind in the Willows);2803
+Male;Drama;Miss Annie Rooney;3710
+Male;Comedy;Patton Oswalt: Tragedy Plus Comedy Equals Time;8770
+Female;Documentary;Dungeon Masters, The;8692
+Male;Comedy|Drama;Queens Logic;9786
+Female;Horror;Fall of the House of Usher, The (House of Usher);9169
+Male;Horror;Friday the 13th Part IV: The Final Chapter;11372
+Female;Drama;Low Down, The;9083
+Male;Drama;Interrogation, The (Kuulustelu);11497
+Female;Adventure|Crime|Drama;Bengazi;13017
+Male;Action|Adventure|Drama;South Shaolin Master, The (Nan quan wang);4407
+Male;Comedy|Drama|Romance;Then She Found Me;4071
+Male;Comedy|Drama;Faat Kiné;11059
+Female;Drama;Tree of Knowledge, The (Kundskabens træ);4518
+Male;Animation|Comedy|Musical;South Park: Bigger, Longer and Uncut;13128
+Female;Crime|Mystery;Fast and the Furious, The;12218
+Male;Adventure|Drama|Sci-Fi;Until the End of the World (Bis ans Ende der Welt);4334
+Female;Action|Drama;To Kill with Intrigue (Jian hua yan yu Jiang Nan);8779
+Female;Action;Flash Point (a.k.a. Flashpoint) (Dou fo sin);11966
+Male;Action|Drama;Ten Violent Women;9242
+Male;Crime|Drama|Mystery|Thriller;The Shadow of the Eagle;12358
+Male;Drama;Kings of the Road (Im Lauf der Zeit);11231
+Male;Documentary;So Much So Fast;3766
+Male;Children|Comedy;Shaggy Dog, The;11348
+Female;Comedy;Jim Jefferies: BARE;13805
+Male;Drama;Midnight's Children;9610
+Male;Comedy;Just Sex and Nothing Else (Csak szex és más semmi);3519
+Male;Crime|Drama;Raiders From Beneath the Sea;8008
+Male;Documentary;Statues Also Die (Statues meurent aussi, Les);1994
+Female;Drama|Horror;Dr. Jekyll and Mr. Hyde;12871
+Male;Action|Adventure;Sanshiro Sugata Part Two (Judo Saga II) (Zoku Sugata Sanshirô);6156
+Male;Action|Drama|Thriller;Tough and Deadly;10928
+Female;Drama;Willow Tree, The (Beed-e majnoon);15553
+Female;Documentary;Arctic Tale;7556
+Male;Drama|Musical|Romance;Show Boat;6660
+Female;Comedy|Drama|Romance;Toi et Moi;5689
+Male;Drama|Romance;Our Daily Bread;2012
+Male;Action|Comedy|Crime|Thriller;Red 2;5085
+Female;Fantasy|Romance;Cinderella;9314
+Male;Drama|Romance;Love and Basketball;6674
+Female;Documentary;For No Good Reason;12562
+Male;Comedy;Spite Marriage;7354
+Male;Animation|Drama;Am Ende eiens viel zu kurzen Tages (Death of a superhero);12569
+Male;Drama;Tokio Baby;6707
+Female;Crime|Drama|Mystery;Endeavour;15418
+Male;Comedy;The Vixen;12476
+Female;Action|Horror;Shark Attack;8112
+Male;Action|Adventure|Comedy;Crocodile Dundee II;7310
+Female;Comedy;Ishtar;15317
+Female;Drama;Dottie Gets Spanked;2261
+Male;Sci-Fi;The Hyperboloid of Engineer Garin (Giperboloid inzhenera Garina);7199
+Female;Crime|Drama;Jesse Stone: Sea Change;5606
+Male;Action|Adventure|Comedy;Lupin the 3rd;2396
+Male;Action|Romance|War;Verboten!;4433
+Female;Drama;The Story of Alexander Graham Bell;1491
+Male;Comedy|Drama;OMG Oh My God!;8067
+Female;Drama;Men Don't Leave;1764
+Male;Documentary;Darfur Now;2162
+Male;Drama;Prime of Miss Jean Brodie, The;2450
+Female;Action|Animation|Comedy;Fallen Art (Sztuka spadania);4233
+Male;Drama|Romance;Blind Husbands;5963
+Female;Drama|Romance;I Am Love (Io sono l'amore);2180
+Female;Comedy;Ceremony;11096
+Male;Drama;Beneath the Harvest Sky;7140
+Male;Horror|Thriller;Asylum;14032
+Female;Animation|Fantasy|Sci-Fi;Elephants Dream;1190
+Female;Drama;Broken Sky (El cielo dividido);4427
+Male;Drama|Horror|Thriller;Babadook, The;12410
+Male;Action|Adventure|War;Sharpe's Battle;4399
+Female;Drama;You Will Be My Son (Tu seras mon fils);14605
+Male;(no genres listed);Ella Lola, a la Trilby;13773
+Female;Action|Drama|Thriller;Command Performance;7885
+Female;Drama;Jet Pilot;11736
+Male;Action|Adventure|Drama|War|Western;Seraphim Falls;14598
+Male;Horror|Thriller;Chained;12660
+Male;Comedy;Curiosity of Chance, The;1062
+Male;Action|Comedy|Crime;My Wife Is a Gangster 2 (Jopog manura 2: Dolaon jeonseol);1364
+Male;Fantasy|Horror|Thriller;Kill by Inches;10601
+Male;Drama|Romance|War;Ironclads;6288
+Female;(no genres listed);Two Solutions for One Problem (Dow Rahehal Baraye yek Massaleh);9237
+Male;Drama|Fantasy;Three Wishes;11875
+Male;Drama;Age of the Medici, The (L'età di Cosimo de Medici) ;3763
+Male;Drama;Bicycle Thieves (a.k.a. The Bicycle Thief) (a.k.a. The Bicycle Thieves) (Ladri di biciclette);7071
+Male;Drama;Unconditional;11151
+Female;Comedy;Me and Him (Ich und Er);3049
+Female;Children|Drama;Anne of Green Gables;12164
+Male;Action|Horror|Sci-Fi;28 Days Later;7841
+Female;Drama|Western;Don't Come Knocking;7653
+Male;Action|Comedy|Crime|Fantasy;Medallion, The;6809
+Female;Comedy;It's Pat;7413
+Male;Documentary;Last Call at the Oasis;5017
+Male;Documentary;Lulu in Berlin;8881
+Male;Drama|Romance;Stranger in Town, A;13178
+Male;Documentary|Musical;Calle 54;3517
+Female;Comedy|Drama;Hero;13148
+Female;Action|Sci-Fi;King Kong vs. Godzilla (Kingukongu tai Gojira);14860
+Male;Action|Drama|War;Tae Guk Gi: The Brotherhood of War (Taegukgi hwinalrimyeo);14951
+Male;Drama|Romance|War;From Here to Eternity;4776
+Female;Action|Drama;Mixed Blood;14542
+Male;Animation|Comedy|Fantasy;Monkeybone;13746
+Male;Drama|Musical;Dreamgirls;13678
+Male;Comedy|Drama|Romance;Stay Cool;15293
+Female;Drama;Public Woman, The (Femme publique, La);8707
+Male;Comedy|Documentary;Block Party (a.k.a. Dave Chappelle's Block Party);915
+Male;Mystery|Sci-Fi;Beyond the Black Rainbow;1912
+Female;Animation|Fantasy;Twice Upon a Time;14271
+Female;Drama;Strange One, The;2964
+Female;Drama|Romance;Candy;5413
+Male;Comedy|Fantasy;Going Postal;14940
+Male;Drama;To Each His Own;12000
+Female;Sci-Fi;Killers from Space;3612
+Female;Drama|Romance;Third Person;14959
+Male;Comedy|Drama;Bed & Board (Domicile conjugal);15993
+Female;Drama;Grandfather, The (Abuelo, El);5988
+Male;Thriller;Odessa File, The;13161
+Female;(no genres listed);Dickson Greeting;5717
+Male;Documentary;Thomas Jefferson;8892
+Male;Action|Horror|Thriller;Covenant, The;1911
+Female;Comedy|Drama;Dream Team 1935;14033
+Male;Drama|Romance;Jeremy;12073
+Male;Action|Comedy|Crime|Thriller;Bon Cop, Bad Cop;3256
+Male;Action|Horror|Thriller;Horde, The (La Horde);11490
+Female;Comedy|Western;Professional Gun, A (Mercenary, The) (Mercenario, Il);15543
+Female;Drama;Prefontaine;520
+Female;Action|Adventure|Fantasy|Sci-Fi;Highlander: The Source;6367
+Female;Action|Adventure|Fantasy;Storm Warriors, The (Fung wan II);9495
+Male;Comedy|Romance;Play It Again, Sam;14770
+Female;Comedy|Romance;Truth About Cats & Dogs, The;10240
+Female;Sci-Fi|Thriller;Growth;4273
+Male;Comedy|Drama;Love Is All There Is;10720
+Female;Action|Drama|Romance|Western;Virginia City;7620
+Female;Adventure|Comedy|Drama|Romance;Sisterhood of the Traveling Pants 2, The;4679
+Male;Drama|Horror|Thriller;Bloody Murder;2194
+Female;Drama;Return;3294
+Male;Comedy|Romance;Kiss the Bride;3853
+Female;Action;Jive Turkey;11477
+Male;Action|Drama|Fantasy;Bunraku;1613
+Female;Drama;Our Sunhi;13041
+Female;Action|Thriller;Numbers Station, The;10713
+Female;Drama;We Live Again;7528
+Female;Comedy|Drama;Lawless Heart, The;13020
+Male;Documentary;How Bruce Lee Changed the World;9761
+Female;Comedy;Taking Woodstock;14152
+Male;Comedy|Musical;Leningrad Cowboys Go America;5013
+Female;Adventure|Romance|War;Golden Earrings;10111
+Male;Documentary;Nas: Time Is Illmatic;2268
+Male;Drama;Muddy River;10694
+Female;Drama|Romance;Notti bianche, Le (White Nights);14890
+Male;Comedy|Documentary;Hole in the Soul, A (Rupa u dusi);12987
+Female;Adventure|Animation|Children|Comedy|Fantasy;Turbo;9566
+Female;Comedy;American Virgin;11377
+Female;Comedy|Crime|Drama|Romance;Hide-Out;7547
+Male;Action|Comedy|Crime|Thriller;Police Story 2 (Ging chaat goo si juk jaap);6904
+Male;Comedy|Romance;My Girlfriend's Boyfriend;8127
+Female;Crime|Drama;Executive Action;3201
+Male;Comedy;Sunes sommar;13625
+Male;Comedy;Soft Toilet Seats;2244
+Female;Comedy;Men in the City (Männerherzen);13980
+Male;Drama|War;Devils on the Doorstep (Guizi lai le);12759
+Female;Drama|Romance|Western;Hi-Lo Country, The;10917
+Female;Comedy|Drama;Butterflies Are Free;11929
+Male;Comedy|Romance;Heartbreak Kid, The;12905
+Female;Drama;Whisper of Sin (Nuodemes uzkalbejimas);4762
+Female;Comedy;Lille Fridolf and I;8609
+Female;Comedy|Crime|Mystery|Romance|Thriller;Charade;5852
+Female;Comedy;Let's Not Keep in Touch!;10073
+Female;Drama;Rough Riders;14454
+Female;Documentary|Horror|War;White Light/Black Rain: The Destruction of Hiroshima and Nagasaki;13292
+Female;Action|Comedy|Crime;High Risk;2369
+Female;Documentary;History of Postwar Japan as Told by a Bar Hostess (Nippon Sengoshi - Madamu onboro no Seikatsu);9774
+Male;Comedy|Drama;Married to It;9673
+Male;Comedy;The Fuller Brush Girl;14366
+Female;Comedy;In & Out;11523
+Female;Comedy|Drama|Romance;How to Deal;3997
+Male;Comedy;Supermarket Woman (Sûpâ no onna);6622
+Female;Adventure|Drama|Western;Ride the High Country;5224
+Female;Drama|Horror;Noriko's Dinner Table (Noriko no shokutaku);4005
+Male;Horror|Mystery|Thriller;Unborn, The;15671
+Male;Adventure|Animation|Children|Drama|Fantasy;Niko & the Way to the Stars (a.k.a. The Flight Before Christmas) (Niko - Lentäjän poika);11461
+Female;Drama;For Queen and Country;14930
+Female;Drama;Dragonfly;8813
+Female;Documentary;Bestiaire;11230
+Female;Action|Crime;Hero and the Terror;12386
+Female;Drama;Missing Star, The (La stella che non c'è);10021
+Male;Action|Comedy|Crime|Thriller;Beverly Hills Cop III;2447
+Female;Comedy;Taming of the Shrew, The;7150
+Female;Comedy;Don't Give Up the Ship;10014
+Male;Drama;Persona non grata;15413
+Female;Documentary;Marwencol;12854
+Male;Comedy|Drama;Assisted Living;5077
+Female;Comedy|Drama;Vodka Lemon;14171
+Male;Drama;Margot at the Wedding;2229
+Male;Drama;Sister Kenny;1145
+Male;Drama;White Angel, The (L'angelo bianco);5069
+Female;Horror|Thriller;Holding, The;3999
+Male;Drama;Romero;12747
+Female;Action|Comedy|Crime;Pineapple Express;2158
+Male;Horror;Creature;3235
+Female;Documentary;Scatter My Ashes at Bergdorf's;10241
+Male;Comedy|Drama|Romance;Lady is Willing, The;1960
+Female;Drama;Glenn Miller Story, The;5850
+Male;Drama|Romance;Angel;12155
+Female;Comedy|Fantasy;Bad Johnson;8524
+Female;Adventure|Animation|Children;Balto;7996
+Male;Children|Comedy|Fantasy|Musical;Mary Poppins;12402
+Female;Action|Sci-Fi|Thriller;Ultimate Warrior, The;6308
+Female;Thriller;Forgotten One, The;1355
+Female;Action|Sci-Fi;Battlefield Earth;11160
+Female;Action|Western;Prairie Fever;3978
+Male;Action;Inside;12393
+Female;Comedy;Making the Grade;12331
+Male;Comedy;Secret Ballot (Raye makhfi);3388
+Male;Drama;Hell Without Limits (Lugar sin límites, El);6998
+Female;Documentary;The Mask You Live In;1465
+Female;Comedy|Mystery;Death Kiss, The;13406
+Female;Drama|Romance;My Name Is Joe;14204
+Male;Comedy|Musical|Romance;Bells Are Ringing;11745
+Female;Drama|Romance;Our Daily Bread;4717
+Female;Horror;Crawlspace;7712
+Male;Comedy|Crime;Partners in Crime (Associés contre le crime...);10846
+Male;Comedy;Cold Turkey;4862
+Male;Drama;Invictus;9232
+Male;Action|Adventure|Sci-Fi|Thriller;X2: X-Men United;13428
+Male;Drama|Romance;Amour;11360
+Male;Comedy|Musical|Romance;Thin Ice;4256
+Female;Drama|Romance;Faithless (Trolösa);3266
+Male;Horror|Thriller;Strait-Jacket;1779
+Female;Drama;Voyager (Homo Faber);8445
+Female;Drama;Sybil;5251
+Female;Adventure|Animation|Children;Charlotte's Web 2: Wilbur's Great Adventure;8072
+Male;Drama;Pascali's Island;7413
+Female;Drama|War;Shake Hands with the Devil;14075
+Male;Comedy;Trading Places;6471
+Male;Comedy|Drama|Romance;Gentleman Jim;6922
+Male;Western;Big Jake;12813
+Male;Crime|Drama;Once in the Life;9132
+Female;Drama;Rolling;14472
+Male;(no genres listed);Dancers;3169
+Male;Comedy|Horror;Chillerama;6698
+Female;Drama;Different from the Others (Anders als die Andern);1694
+Female;Comedy|Musical;Just Around the Corner;9065
+Female;Crime|Horror|Thriller;Black Room, The;1337
+Male;Drama;Simon Birch;6695
+Male;Comedy|Horror;Boy Eats Girl;12713
+Male;Adventure|Animation|Comedy|Fantasy|IMAX;Puss in Boots;2940
+Female;Crime|Thriller;Kinjite: Forbidden Subjects;7119
+Male;Drama;Picnic;15474
+Male;Comedy|Crime;Nine to Five (a.k.a. 9 to 5);9971
+Male;Drama;That Night's Wife;5260
+Male;Drama;Tsatsiki, Morsan och Polisen;5334
+Female;Comedy;Our Hospitality;11683
+Male;Comedy;Kiss Me, Guido;13930
+Female;Drama|Romance;Kiss Me Again;6856
+Female;Musical;Opera Jawa;15229
+Male;Drama;Carpetbaggers, The;7709
+Male;(no genres listed);Ten Minutes Older;7231
+Male;Horror;13 Ghosts;3666
+Male;Thriller;Straw Dogs;10896
+Male;Documentary;You've Been Trumped;9677
+Female;Documentary|Musical;Crossing the Bridge: The Sound of Istanbul;12170
+Male;Comedy;Love Stinks;7003
+Female;Drama;Return;8949
+Male;Drama|Sci-Fi|Thriller;Thirteenth Floor, The;14672
+Male;Drama;Clean and Sober;14579
+Female;Drama;Right Stuff, The;5535
+Male;Crime|Documentary;Bus 174 (Ônibus 174);2460
+Female;Comedy|Crime;Blood and Concrete (Blood & Concrete: A Love Story);8620
+Male;Comedy;Open Season;5454
+Male;Horror;Demons (Dèmoni);2489
+Male;Crime|Drama;Serpico;5621
+Female;Comedy|Drama;Who Is Harry Kellerman and Why Is He Saying Those Terrible Things About Me?;12223
+Female;Drama|Western;Great Silence, The (Grande silenzio, Il);2852
+Female;Comedy|Musical|Romance;Merry Widow, The;4087
+Female;(no genres listed);Alla älskar Alice;13191
+Female;Drama;Dog Pound;6870
+Female;Adventure|Children|Drama|Fantasy|IMAX;Where the Wild Things Are;15686
+Male;Drama;Pursuit of Happyness, The;14102
+Male;Drama;Léon Morin, Priest (Léon Morin, prêtre);6695
+Male;Drama;No One Writes to the Colonel (El coronel no tiene quien le escriba);13017
+Male;Action|Thriller;12 Rounds;9384
+Female;Drama|Romance;The Dancer;1185
+Male;Documentary;Night Will Fall;11040
+Male;Documentary;Male Domination;3689
+Female;Drama|Musical;Graffiti Bridge;14111
+Male;Comedy;The Little Death;4472
+Female;Action|Thriller;Chappie;4597
+Male;Animation|Comedy|Drama|Fantasy;Mount Head (Atama yama);5592
+Male;Comedy|Drama;Barnacle Bill;9282
+Male;Horror;Demon Wind;1549
+Female;Drama;Human Comedy, The;6414
+Male;Drama;At First Sight (Entre Nous) (Coup de foudre);15629
+Female;Documentary;Terry Pratchett: Choosing to Die;4340
+Female;Adventure|Animation|Children|Comedy;Adventures in Zambezia;12851
+Male;Drama|Romance;Circle of Friends;11868
+Male;Documentary;Koko, a Talking Gorilla;3038
+Female;Drama;How She Move;6832
+Male;Drama;Children's Hour, The;4761
+Male;Comedy;Russell Brand: Messiah Complex;5077
+Male;(no genres listed);Safety Patrol;14189
+Female;Drama;Karate Kid, The;1240
+Female;Crime|Drama|Thriller;Beyond the Law (Lain ulkopuolella);5900
+Male;Horror|Mystery|Thriller;5 Dolls for an August Moon (5 bambole per la luna d'agosto);8763
+Female;Romance|Western;The Virginian;2304
+Female;Adventure|Comedy|Fantasy|Romance;Santos;8376
+Male;Action|Comedy;Rush Hour 2;12538
+Female;Crime|Drama|Thriller;Judas Kiss;5715
+Male;Comedy|Romance;Move Over, Darling;4945
+Male;Comedy|Horror|Thriller;Lost Boys: The Tribe;12463
+Female;Action|Comedy;Man on High Heels;10281
+Female;Drama;Month in the Country, A;6230
+Female;War;Prisoner of the Mountains (Kavkazsky plennik);15824
+Female;Action|Thriller;Derailed;11417
+Female;Comedy|War;Babette Goes to War;12804
+Male;Documentary;Samsara;11035
+Male;Comedy|Drama;Sixty Six;15163
+Male;Western;My Darling Clementine;14869
+Female;Animation;Claymation Comedy of Horrors;2159
+Male;Comedy;Finding Joy;15995
+Male;Drama;Songcatcher;10268
+Female;Drama;You Ain't Seen Nothin' Yet (Vous n'avez encore rien vu);10255
